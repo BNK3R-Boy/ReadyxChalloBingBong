@@ -40,8 +40,8 @@ Global InfoArray := {Instagram: ({TITLE: "Instagram: " . ((ONLINE) ? "Loading...
 			, HURL: 0
 			, BHTITLE: ""
 			, HTITLE: "Initialisation..."
-			, RSS: "https://imginn.com/yvraldis"
-			, CURL: "https://www.instagram.com/yvraldis/"
+			, RSS: "https://imginn.com/USERNAME"
+			, CURL: "https://www.instagram.com/USERNAME/"
 			, STATE: 0
 			, NewPost: 0})
 			, Twitch: ({TITLE: "Twitch: " . ((ONLINE) ? "Loading..." : "Disconnected"), URL: -1, HURL: 0, BHTITLE: "", HTITLE: "Initialisation...", RSS: "https://www.twitch.tv/readyx", CURL: "https://www.twitch.tv/readyx", STATE: 1, NewPost: 0}) ; https://twitchrss.appspot.com/vod/yvraldis
