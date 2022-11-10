@@ -5,7 +5,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20220817193015"
+Global AppVersion := "20221110212828"
 Global COMHOME := "Readyx Webseite"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
@@ -16,7 +16,7 @@ Global ICO2 := TF . "n" . ICOFileName
 Global PathToSplashImage := TF . "splash.png"
 SetTemp()
 Global SplashPIC_widget_h := 200
-Global SplashPIC_widget_w := 600
+Global SplashPIC_widget_w := 463
 Global fnCheck4Updates := Func("Check4Updates")
 Global fnOpenLink := Func("OpenLink")
 Global fnRefreshMenu := Func("RefreshMenu")
