@@ -6,7 +6,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221110212828"
+Global AppVersion := "20221114163035"
 Global COMHOME := "Readyx Webseite"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
@@ -82,7 +82,7 @@ AddMenuStatic(ROSSUB, UntagNewPost, "UntagNewPost")
 AddMenuStatic("Tray", "Exit", "Exit")
 BuildStaticMenu()
 ;Menu, Tray, Icon, %COMHOME%, %TF%bluedot-16icon.png,, 0
-Menu, Tray, Icon, %SUBMENUNAME%, %TF%ReadyxChalloBingBong-16icon.png,, 0
+Menu, Tray, Icon, %SUBMENUNAME%, %ICO%,, 0
 ;Menu, Tray, Default, %COMHOME%
 RefreshMenu(1)
 Check4Updates()
@@ -126,7 +126,7 @@ BuildDynamicMenu() {
 			AddMenu("webportals", platform)
 			i := TF . platform . "-16icon.png"
             Menu, Tray, Icon, %t%, %i%,, 0
-            Menu, webportals, Icon, %platform%, %TF%%platform%-16icon.png,, 0
+            Menu, webportals, Icon, %platform%, %i%,, 0
 		}
 	}
 }
@@ -483,11 +483,10 @@ SetAutoStart() {
 SetTemp() {
     If !FileExist(TF)
 		FileCreateDir, %TF%
-	If !FileExist(ICO)
-		FileInstall, ReadyxChalloBingBong-16icon.png, %ICO%, 1
 	If !FileExist(PathToSplashImage)
 		FileInstall, splash.png, %PathToSplashImage%, 1
-	iconArray := ["Instagram", "nInstagram", "Tiktok", "nTiktok", "Twitch", "nTwitch", "Twitter", "nTwitter", "YouTube", "nYouTube", "BlueDot", "nBlueDot", "ReadyxChalloBingBong-16icon", "nReadyxChalloBingBong-16icon"]
+
+	iconArray := ["Instagram", "nInstagram", "Tiktok", "nTiktok", "Twitch", "nTwitch", "Twitter", "nTwitter", "YouTube", "nYouTube", "BlueDot", "nBlueDot", "ReadyxChalloBingBong", "nReadyxChalloBingBong"]
 	Loop, % iconArray.length() {
 		filename := iconArray[A_Index]
 		pathto := TF . iconArray[A_Index] . "-16icon.png"
@@ -517,9 +516,9 @@ SetTemp() {
 						FileInstall, BlueDot-16icon.png, %pathto%, 1
 				Case "nBlueDot":
 						FileInstall, nBlueDot-16icon.png, %pathto%, 1
-				Case "ReadyxChalloBingBong-16icon":
+				Case "ReadyxChalloBingBong":
 						FileInstall, ReadyxChalloBingBong-16icon.png, %pathto%, 1
-				Case "nReadyxChalloBingBong-16icon":
+				Case "nReadyxChalloBingBong":
 						FileInstall, nReadyxChalloBingBong-16icon.png, %pathto%, 1
 			}
 		}
