@@ -7,7 +7,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221117023547"
+Global AppVersion := "20221117025053"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName
 Global DEV := !A_Iscompiled
@@ -47,7 +47,6 @@ Main_Process(1)
 
 SetTimer, %MainProcess%, 900000
 
-f8::Main_Process()
 ; ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
