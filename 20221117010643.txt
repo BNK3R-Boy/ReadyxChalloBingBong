@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+
+>
+    <channel>
+        <title>
+<![CDATA[Readyx (@readyx_) TikTok | Watch Readyx's Newest TikTok Videos]]>
+</title>
+        <link>https://www.tiktok.com/@readyx_</link>
+        <atom:link href="https://rsshub.app/tiktok/user/@readyx_" rel="self" type="application/rss+xml"/>
+        <description>
+<![CDATA[Readyx (@readyx_) on TikTok | 3.6K Likes. 680 Followers. Folge mir auf Twitch. Täglich ab 19:00Uhr Live! ?? Readyx ?? - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]>
+</description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>en</language>
+        
+        <image>
+            <url>https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/44bb1539cbf4e2eba6d07a1d01efabd0~c5_720x720.jpeg?x-expires=1668812400&#38;x-signature=PZ3XoWjUEbNgL0liznr0cO2Swzk%3D</url>
+            <title>
+<![CDATA[Readyx (@readyx_) TikTok | Watch Readyx's Newest TikTok Videos]]>
+</title>
+            <link>https://www.tiktok.com/@readyx_</link>
+        </image>
+        
+        <lastBuildDate>Wed, 16 Nov 2022 23:59:03 GMT</lastBuildDate>
+        <ttl>120</ttl>
+        
+        <item>
+            <title>
+<![CDATA[Mcdonalds Duschgel & Lippenstift? ?? #twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #fyp #funnyvideos #funny]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/0217b3ca8835468387f4eb270b1f6cff?x-expires=1668661200&amp;x-signature=fkFHxe0g1nwiqrxjxHqTpmzERz8%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/a5c10a0dca0301382ce43bac7c2976ab/6375cdd3/video/tos/useast2a/tos-useast2a-ve-0068c003/f12c2141438c4d01b3e1c72d016b6af7/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1208&amp;bt=604&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=MzplZDw2ZDNkZGdpO2loaUBpMzh4dWU6ZnI3ZjMzNzczM0AzLWNgXzMtXzUxMGBhNDMuYSNhcTUwcjRncGxgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Sun, 25 Sep 2022 12:50:15 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7147298922661235974</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7147298922661235974</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#fyp</category>
+                
+                <category>#funnyvideos</category>
+                
+                <category>#funny</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Kochen mit Readyx? ?? #twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #twitchclipsgermany #deadbydaylight #funny #streamer...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/eb25720c1a344477b450110255c6836b?x-expires=1668661200&amp;x-signature=rvh5JqeWOxcd7nGnvTxfR1NG0XY%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/eb93e62178461f1ceffe457e63921bd8/6375cdc2/video/tos/useast2a/tos-useast2a-pve-0068/180352ceabba40529442c056973e44cc/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1802&amp;bt=901&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=M2RoODM0Zjs0aDo1ZWhnaUBpajhwbDk6ZjNuZjMzNzczM0BeNDFgNjMyXl4xLjMyLi40YSNiYW0zcjRnZWFgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Fri, 09 Sep 2022 14:07:21 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7141381436455603461</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7141381436455603461</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#twitchclipsgermany</category>
+                
+                <category>#deadbydaylight</category>
+                
+                <category>#funny</category>
+                
+                <category>#streamer</category>
+                
+                <category>#funnyvideos</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Akdhajezdhahdg ?? #twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #twitchclipsgermany #clip #deadbydaylightclips #dbdtikto...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/e09172900005468f9940d17231cf6c0c?x-expires=1668661200&amp;x-signature=LEhXCBj1FQmOAjKNEu%2FnEwsj5u4%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/649f99e3ec5f43c67672804bd04b786d/6375cdb3/video/tos/useast2a/tos-useast2a-pve-0068/52051dbcb7814d76bd3b87426184cc45/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=2108&amp;bt=1054&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=aTplZ2hmZ2g6NWlnZDU1OkBpajloNGk6Zjx3ZjMzNzczM0AzNjMwMF8yNmAxLmEyMGAuYSNqZGlkcjQwXmBgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Thu, 08 Sep 2022 11:42:37 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7140973050626886918</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7140973050626886918</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#twitchclipsgermany</category>
+                
+                <category>#clip</category>
+                
+                <category>#deadbydaylightclips</category>
+                
+                <category>#dbdtiktok</category>
+                
+                <category>#funnymemes</category>
+                
+                <category>#viral</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Gaming Room! #twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #gamingsetup #setup #gamingroom]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/724b02143c0948db921f36266b343afa?x-expires=1668661200&amp;x-signature=uAPlGvOB4GB2KqM1MUKYB%2FuQbT8%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/f45b4c787b44595d06cde189caa916d2/6375cdad/video/tos/useast2a/tos-useast2a-ve-0068c004/19833436972a4b79bb62234a820aa28c/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1700&amp;bt=850&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=ZmQ2MztlNzczNWhpOmU8Z0BpM2k8ajQ6Znd0ZjMzNzczM0BgLmAvMGNhXmIxLzBgLmNeYSNtNC1wcjRfcl5gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Mon, 05 Sep 2022 08:12:57 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7139805725861137669</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7139805725861137669</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#gamingsetup</category>
+                
+                <category>#setup</category>
+                
+                <category>#gamingroom</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Manchmal kann ich auch gut.. ??#twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #fyp #deadbydaylight #deadbydaylightclips #...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/19b6a27a74ab4d67b46d024809d0db32?x-expires=1668661200&amp;x-signature=LnXJHjDhV70MlxpHLJIv4HyOVqU%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/58ea301697e94eec43d27f8bf0b8a1a1/6375cdb3/video/tos/useast2a/tos-useast2a-ve-0068c004/4766412e652a468b9046ee1afcfa7def/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=780&amp;bt=390&amp;cs=0&amp;ds=1&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=aDk6M2RoODw5Zzk6aDtoaEBpanlmazg6ZnFtZjMzNzczM0AtXzJjLS5iNTAxMy0zYDQwYSNsZDFpcjRvXi1gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Sat, 20 Aug 2022 19:26:44 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7134042041788550405</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7134042041788550405</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#fyp</category>
+                
+                <category>#deadbydaylight</category>
+                
+                <category>#deadbydaylightclips</category>
+                
+                <category>#dbdtiktok</category>
+                
+                <category>#twitchgamer</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Wenn der TTS mal wieder abused wird.. ??#twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #fyp #twitchclipsgermany #clip #de...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/0f2236b306c34c1e9df5bcbc6daa41f5?x-expires=1668661200&amp;x-signature=S7atcMmmqJTroQ9wXeixxRSIo8A%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/a5bf405abc8a6f555a7381113476b486/6375cdb3/video/tos/useast2a/tos-useast2a-ve-0068c001/28be97a40042475f9c16ddc442836e61/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1714&amp;bt=857&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=NGk4MzY4OmQ7ODgzPGY4NEBpM3dzdjo6ZjM8ZTMzNzczM0AvNV9eMGEyNTExYl9gX2M2YSNlYGMycjRvcmVgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Thu, 28 Jul 2022 14:37:08 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7125432451370962182</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7125432451370962182</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchclipsgermany</category>
+                
+                <category>#clip</category>
+                
+                <category>#deadbydaylight</category>
+                
+                <category>#deadbydaylightclips</category>
+                
+                <category>#dbdtiktok</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Ähm… UwU? ??#twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #fyp #twitchclipsgermany #funny]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/85cc85dfe2b045db904b7127dd6ce4fc?x-expires=1668661200&amp;x-signature=bMN3mNKcBsm43beQq5o85HPPk0A%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/e2797b476a8e5bbdebce75918310cd0f/6375cdbb/video/tos/useast2a/tos-useast2a-pve-0068/acd0b455993d4f9b83cf83c52e5ff79f/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1654&amp;bt=827&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=ZDs2aTM0OGk8ZWg4ZmlpO0BpanM3Ojo6ZmV0ZTMzNzczM0A1NTQvM18yNjUxYjZeM2JgYSMya3NrcjQwczFgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Sat, 09 Jul 2022 16:41:31 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7118413890307886341</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7118413890307886341</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchclipsgermany</category>
+                
+                <category>#funny</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Folgt mir für mehr Schminktipps ??#twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #fyp #twitchclipsgermany #funnyvideos #...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/405ea39f692948e096b99967f53d0a87?x-expires=1668661200&amp;x-signature=nk%2BTZAm3cic%2FStoixsSBswHLur4%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/bc7d40175e7e226a02e7449710fa7a51/6375cdb2/video/tos/useast2a/tos-useast2a-pve-0068/845b541f614e4e8daf020d98344468b9/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1196&amp;bt=598&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=Nzc5OWg0aDM8PDlnZjg1PEBpajVwNDk6ZjU5ZTMzNzczM0AwLmJhXzQuX18xYWEyNTIzYSNzbHItcjQwcjFgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Fri, 08 Jul 2022 17:53:27 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7118061339045547270</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7118061339045547270</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchclipsgermany</category>
+                
+                <category>#funnyvideos</category>
+                
+                <category>#clip</category>
+                
+                <category>#schminken</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[SPORT MIT READY ??#twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #fyp #twitchclipsgermany #funnyvideos #streamer]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/65a53976321647cbb3d3f950b4f1840d_1657285069?x-expires=1668661200&amp;x-signature=6AKJwPDXulCKZVlB%2FtKleWvm1yA%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/6300d39ba4d0ef3434dd3ab03f7873a5/6375cdc7/video/tos/useast2a/tos-useast2a-pve-0068/33524d676eb74f8283f8a8984c9c1181/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1046&amp;bt=523&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=aDs2ZWQ4NTk2Zzc3OTVkO0Bpamx0ajc6Zjw1ZTMzNzczM0A1Yi5gNmBeXjYxL2M0YzIwYSM0amBrcjRvZzFgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Fri, 08 Jul 2022 12:57:46 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7117985145826577670</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7117985145826577670</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchclipsgermany</category>
+                
+                <category>#funnyvideos</category>
+                
+                <category>#streamer</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[360 & verkauft ?? #twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #fy #foryou #fyp #twitchclipsgermany #deadbydaylight #deadbydaylight...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/d1c5d23b6f4d408cb33ed1be4c5d8d32?x-expires=1668661200&amp;x-signature=TUqIuDpv2cB0t%2BX1cXLB7eUSylc%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/fe6537ab56a34e7997abc79e61a1330f/6375cdbb/video/tos/useast2a/tos-useast2a-ve-0068c001/53b28685650643139daaed8b769963e4/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=2366&amp;bt=1183&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=aTg1NGU4Zzs3OjRnOTk8Z0BpM3ZrN2k6ZmhmZTMzNzczM0AtYF40L2NeNTAxMS0zMC0tYSNuZTBycjRnYTBgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Thu, 07 Jul 2022 11:43:17 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7117594855924141318</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7117594855924141318</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchclipsgermany</category>
+                
+                <category>#deadbydaylight</category>
+                
+                <category>#deadbydaylightclips</category>
+                
+                <category>#dbdtiktok</category>
+                
+                <category>#dbd</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Natürlich mach ich euch die Flöte ??#twitch #twitchstreamer #twitchtv #twitchclips #twitchpartner #funny #fy #foryou #fyp #twitchclips]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/66eec0988d3c4aaf87ca11256c63f645?x-expires=1668661200&amp;x-signature=5lK9KXDpwX2yRc9jKQH0XgII3Qk%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/ed9102d98e289bc674766bf19525d7fb/6375cdab/video/tos/useast2a/tos-useast2a-ve-0068c001/oMc1Ix9HXxghCc84gAUIlEiNusUoPfIzPqkAsj/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1290&amp;bt=645&amp;cs=0&amp;ds=2&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=ZTQ5Ozk5ZThoZTVoaGg5OkBpMzhscjc6ZnE6ZDMzNzczM0BfMzJjLWE0XmMxNi4wYi9eYSNqaTIwcjQwL3JgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Wed, 29 Jun 2022 15:36:10 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7114686201767955717</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7114686201767955717</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#funny</category>
+                
+                <category>#fy</category>
+                
+                <category>#foryou</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchclips</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Hätte wohl doch die Marzipan-Torte genommen. ????............#twitch #twitchstreamer #twitchtv #twitchclips #twitchclipsgermany #streamer #twitch...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/117b50a9cb2542acad813127ce961dad?x-expires=1668661200&amp;x-signature=hhRfA%2B85IEaea2Cx5Yk83b6aBsA%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/38103eee5e3cbf550dc1d608e3388fdf/6375cdaa/video/tos/maliva/tos-maliva-ve-0068c800-us/988f476fafa04c109149e404f7ef579c/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1166&amp;bt=583&amp;cs=0&amp;ds=2&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=ZGc6N2VmOTk8ZjxkZDc1ZEBpajpudmQ6ZjhmZDMzNzczM0AuNGMuYDJjXzIxMmEwMTRjYSNlcF9fcjRvaW5gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Thu, 23 Jun 2022 20:18:41 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7112532492413865222</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7112532492413865222</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchtv</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#twitchclipsgermany</category>
+                
+                <category>#streamer</category>
+                
+                <category>#twitchgamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#clip</category>
+                
+                <category>#funny</category>
+                
+                <category>#funnyvideos</category>
+                
+                <category>#funnymemes</category>
+                
+                <category>#funnymeme</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#twitchcommunity</category>
+                
+                <category>#twitchstreaming</category>
+                
+                <category>#fy</category>
+                
+                <category>#fyp</category>
+                
+                <category>#foryou</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Bitte mit Humor nehmen! ??????#twitchstreamer #twitchpartner #twitchde #fyp? #fy #fyp #twitchdeutschland #followmeontwitch #deadbydaylight #vir...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/a856385fef724fbaa944e0f7cd29d346?x-expires=1668661200&amp;x-signature=%2FXg3VVAuspeIgaiUuMmB4Wvc1jg%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/f55d62179807ce9ebbccb5955e1258fb/6375cdc1/video/tos/maliva/tos-maliva-ve-0068c800-us/3407d26dac8c49958d83d84d85acde26/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=2124&amp;bt=1062&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=aWU5ZTg2NmlnOTZnNWU1ZkBpamc2MzY6Zms7ZDMzNzczM0A0YzRjMF8tXi8xYC5gYGAwYSNgc3AwcjQwYWRgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Wed, 08 Jun 2022 11:23:58 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7106828416543886598</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7106828416543886598</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#deadbydaylight</category>
+                
+                <category>#viral</category>
+                
+                <category>#foryou</category>
+                
+                <category>#streamerlife</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Verkaufen? Kann ich ?? #twitchstreamer #twitchpartner #twitchde #fyp? #fy #fyp #twitchdeutschland #followmeontwitch #dbdtiktok #dbdclips #deadbyday...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/8faa85df7796488bb050b23586c161d3?x-expires=1668661200&amp;x-signature=XLqdyIPEA1NV4MtkpQcBsAhmHJc%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/10726a93c1ec669c39e91abeadc31d2e/6375cdb9/video/tos/maliva/tos-maliva-ve-0068c800-us/d46bb372aa264209b6589a114d5ed8ed/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1392&amp;bt=696&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=NWc7aGk2OzM2NGY0NmQ8aUBpMzY0cTk6Zjg8ZDMzNzczM0AwMC8zY2JfXzExMzE0YWMvYSNvXi1mcjRvXmBgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Thu, 02 Jun 2022 10:46:58 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7104592355390508294</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7104592355390508294</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#dbdtiktok</category>
+                
+                <category>#dbdclips</category>
+                
+                <category>#deadbydaylight</category>
+                
+                <category>#deadbydaylightclips</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Digga die tropft.. ?? #twitchstreamer #twitchpartner #twitchde #fyp? #fy #fyp #twitchdeutschland #streamer #viral #goviral #livestream #followmeont...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/31674bec2f534a17a0a0c1edb716b8b5?x-expires=1668661200&amp;x-signature=wY6B5gKYJelba04J5e2RXA39wug%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/97b4ba576968a6703c5d499fc952d9d0/6375cdba/video/tos/maliva/tos-maliva-ve-0068c800-us/ab18c33ce018406cb78b358ccf26e0da/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1136&amp;bt=568&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=OzRlaDszOWY6OTZnPDc7aEBpM3NnZjc6ZnBkZDMzNzczM0BhX15fMTJhXy8xMWEwYS4vYSNiXnBicjRfZV5gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Mon, 30 May 2022 11:22:12 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7103488195437923590</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7103488195437923590</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#streamer</category>
+                
+                <category>#viral</category>
+                
+                <category>#goviral</category>
+                
+                <category>#livestream</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#streamerlife</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[Schau doch gerne mal vorbei Twitch: Readyx #twitchstreamer #twitchpartner #twitchde #fyp? #fy #fyp #twitchdeutschland #streamer #viral #goviral #twit...]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/783dec12c5ab420b8306cb090b778821?x-expires=1668661200&amp;x-signature=3Riu77SvvGTD%2BcSuu98kpOyex20%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/7b1b760e7b6d8e4708db6e538eb19454/6375cdb2/video/tos/maliva/tos-maliva-ve-0068c800-us/8af05fe06dc04baea2b974a08b3829f2/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1364&amp;bt=682&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=NzxkOWdlODtkNDw1ZzU7aUBpajRtcjM6Zms5PDMzNzczM0BgXi9gMWIwXi4xL2E1YDMtYSNfL2NvcjQwMXFgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Tue, 10 May 2022 13:02:08 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7096092251075480837</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7096092251075480837</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#fyp</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#streamer</category>
+                
+                <category>#viral</category>
+                
+                <category>#goviral</category>
+                
+                <category>#twitch</category>
+                
+                <category>#livestream</category>
+                
+                <category>#foryou</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitchstreamer #twitchpartner #twitchde #fyp? #fy #twitchdeutschland #fyp #streamer #followmeontwitch #viral #goviral #deadbydaylight #gamer]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/92a2602006ae4acfa5e82ad84deef2b4?x-expires=1668661200&amp;x-signature=JnWRqc41BaizGSOI40zbWAjnfrI%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/dbee08d54fcd13a3de5668067152a6a7/6375cda2/video/tos/maliva/tos-maliva-ve-0068c800-us/38dd15016b304ae889e856bb80edf2a0/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1168&amp;bt=584&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=ZDtlO2Y5ZGhpZTZmaTpkNEBpanhoZzo6Zjo5PDMzNzczM0BhNWAvMWE0NTIxNi1fMjBeYSNvMWpxcjQwX29gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Sat, 07 May 2022 12:27:12 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7094969990411062534</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7094969990411062534</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#fyp</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#viral</category>
+                
+                <category>#goviral</category>
+                
+                <category>#deadbydaylight</category>
+                
+                <category>#gamer</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitchstreamer #twitchpartner #twitchde #twitchdeutschland #fyp? #fy #fyp #streamer #followmeontwitch #streamerlife #livestream #twitch]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/f8a187da6f5b45f0ba0df918b772c291?x-expires=1668661200&amp;x-signature=wOTo1p5Juu%2FlpvfwBk2Gl4Tc5aM%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/5afb3ca7e5c4c8847bcd981dcb76b34b/6375cdab/video/tos/maliva/tos-maliva-ve-0068c800-us/593efbfd81c84efd9042d931cdb5a2f4/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=670&amp;bt=335&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=OjZkZzdlPDg3ZGg5ZThnaUBpamhrOTo6ZmpwPDMzNzczM0A1L2IwLWNfXzIxLTJgX2JgYSNrZGFlcjRfLm5gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Fri, 06 May 2022 17:54:16 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7094683191742663941</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7094683191742663941</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#fyp</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#streamerlife</category>
+                
+                <category>#livestream</category>
+                
+                <category>#twitch</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitchstreamer #twitchpartner #twitchde #twitchdeutschland #fyp? #fy #fyp #streamer #gamerboy #followmeontwitch #streamerlife]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/d9dce35688f74533910ff90c361eca6a?x-expires=1668661200&amp;x-signature=GnIRJecXm5ZkNKENIS7BobBA8jI%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/058c0338394eaeed77fb124e50d6492a/6375cdab/video/tos/maliva/tos-maliva-ve-0068c800-us/7be3b273ef82476e84de05af45578689/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1950&amp;bt=975&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=ZWVmNDc3M2U4ODc3ZzdkOEBpank3cDk6ZnZ3PDMzNzczM0AwY2BeMjUtNV4xNTJgL15fYSMuM15ocjRnb21gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Thu, 05 May 2022 14:23:52 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7094257884078411013</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7094257884078411013</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#fyp</category>
+                
+                <category>#streamer</category>
+                
+                <category>#gamerboy</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#streamerlife</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitchstreamer #twitchpartner #twitchde #twitchdeutschland #fyp? #fy #fyp #deadbydaylight #deadbydaylightclips]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/8f7d6e43e5a240d8a18bc710203a7c6d?x-expires=1668661200&amp;x-signature=U8IkYu%2B%2FgblCcIf6og5BLWW6VSg%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/c79f2dd1f8c0a22cae5d80c593307837/6375cdbb/video/tos/maliva/tos-maliva-ve-0068c800-us/c1f848f4e07d4880841e8569afc8285e/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=376&amp;bt=188&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=Njo3aGc3PGY2Ozk1PGc1O0Bpam4zbDg6ZmptPDMzNzczM0BfMDZhXy80NjExNmNhXzIzYSMzMS5ocjRfX2pgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Sat, 30 Apr 2022 13:12:40 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7092384115604917509</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7092384115604917509</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#fyp</category>
+                
+                <category>#deadbydaylight</category>
+                
+                <category>#deadbydaylightclips</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitchstreamer #twitchpartner #twitchde #twitchdeutschland #fyp? #fy #streamer #livestream #deadbydaylightclips]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/d3a031d73a644f259e1addb56f1670f2?x-expires=1668661200&amp;x-signature=%2B04vYXUT5ASQbjySWgxVlH6n2sI%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/4388bb7d1da32b56b6fe6aab4f33a94c/6375cda5/video/tos/maliva/tos-maliva-ve-0068c800-us/fded22706a3c49e0b57ab58b9b544f5c/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=778&amp;bt=389&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=OjU1Mzk3aTtlO2czOmg5ZUBpMzRkO2c6ZmZvPDMzNzczM0BiXmEuMF9iNTMxMGJfNDEvYSNsbWFqcjQwbGRgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Thu, 21 Apr 2022 13:29:25 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7089048663527345414</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7089048663527345414</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#twitchde</category>
+                
+                <category>#twitchdeutschland</category>
+                
+                <category>#fyp?</category>
+                
+                <category>#fy</category>
+                
+                <category>#streamer</category>
+                
+                <category>#livestream</category>
+                
+                <category>#deadbydaylightclips</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitch #twitchstreamer #streamer #twitchpartner #streamerlife #setup #gamer #gamerboy #gameroom #streaming #austrianboy]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/34966673be96465aa21c171aa96dfde5?x-expires=1668661200&amp;x-signature=AHNspFvG3E%2FGSOCZlt7vYC34aYs%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/a463f7d634946d28f2d19e5cb09c28b9/6375cda8/video/tos/maliva/tos-maliva-ve-0068c800-us/fca96719802f407bb89bd4446f69438e/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1010&amp;bt=505&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=M2Y7OjY6PDk5NGVpOzk7O0Bpamd4dWU6ZjxmOjMzNzczM0A1LWI1LWEuNjExLi1gXzVfYSNfNmVmcjRfYmFgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Sun, 09 Jan 2022 11:29:45 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7051167138773519621</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7051167138773519621</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#streamer</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#streamerlife</category>
+                
+                <category>#setup</category>
+                
+                <category>#gamer</category>
+                
+                <category>#gamerboy</category>
+                
+                <category>#gameroom</category>
+                
+                <category>#streaming</category>
+                
+                <category>#austrianboy</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitch #twitchstreamer #twitchclips #ttv #streamer #followmeontwitch #twitchpartner #streamerlife #streamers #pandaemoji]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/5d9030d084cd470d976ee5b58620c86f?x-expires=1668661200&amp;x-signature=kRfyFcDz6Ml6eGwbtxV3U2mBbeM%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/79178b2849530af2c8b7e8812119a883/6375cda9/video/tos/maliva/tos-maliva-ve-0068c800-us/1d0302c5813a4c48813c5196b9b173ca/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=506&amp;bt=253&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=OmlnPGhkOGU8Z2U5ODQ5aEBpMzR0NmQ6ZnRlOjMzNzczM0BjYmAvYTMwNjUxXzNiYWJjYSNrZmdzcjQwYzRgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Fri, 31 Dec 2021 07:57:31 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7047772675820752134</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7047772675820752134</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#ttv</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#streamerlife</category>
+                
+                <category>#streamers</category>
+                
+                <category>#pandaemoji</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[??#twitch #twitchstreamer #foryoupage #twitchclips #ttv #streamer #followmeontwitch #twitchpartner #clips #phasmophobia #streamerlife #]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/7eaec7d232224726a3e492d2233db51a?x-expires=1668661200&amp;x-signature=CPQA3UYgWkWLrx6is6PBuHefEbc%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/c07901411f67faf620a5f290f0129c31/6375cdac/video/tos/maliva/tos-maliva-ve-0068c800-us/dfe55f90780a46a08fd838dca58e817d/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=552&amp;bt=276&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=NjMzZzg6NDQ4NjM8ZjhkNUBpaml1djQ6Znk6OjMzNzczM0BgNWJgLzUxNjAxLzVhLy4xYSMyNG1zcjRfMS1gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Mon, 20 Dec 2021 12:09:38 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7043755710869474566</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7043755710869474566</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#foryoupage</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#ttv</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#clips</category>
+                
+                <category>#phasmophobia</category>
+                
+                <category>#streamerlife</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitch #twitchstreamer #foryoupage #twitchclips #ttv #streamer #followmeontwitch #twitchpartner #clips #dbdclips #deadbydaylightmoments]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/b026746a2419440e93685115a02b5ddf?x-expires=1668661200&amp;x-signature=ljLfSbtOoeHtwpeop6Eu7LLhAz0%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/a835a6da5b406393ae2c9e91f7dbb67a/6375cda5/video/tos/maliva/tos-maliva-ve-0068c800-us/776199ad2dd04d62926e98e6a8ec2349/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=3726&amp;bt=1863&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=NDRpODVoaWQ4Ozk2NWk3OUBpajk5O2Q6Zmc5OTMzNzczM0BeNi4uNV80NWMxNGNjNTFeYSNwaTJvcjRfNDZgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Mon, 15 Nov 2021 13:42:17 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7030791607087680773</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7030791607087680773</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#foryoupage</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#ttv</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#clips</category>
+                
+                <category>#dbdclips</category>
+                
+                <category>#deadbydaylightmoments</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#twitch #twitchstreamer #foryoupage #twitchclips #ttv #streamer #followmeontwitch #twitchpartner #streamers #clips]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/5a3249a318834964af3641946ceb22a5?x-expires=1668661200&amp;x-signature=fpCWwXQYs%2F0tnNop3eZ7jJ6JuYA%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/ccb93eb7359be37407fdeb1f12f38cc6/6375cdab/video/tos/maliva/tos-maliva-ve-0068c800-us/f00fdfd335074a77a5c7162fa6ca6d60/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1322&amp;bt=661&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=NWk7ODs1PGY2Ozo0MzZnOkBpajx3bWQ6ZnJsOTMzNzczM0BfXi9fNV4xXjAxYTEyLjIyYSNmczZecjRnLzVgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Sun, 14 Nov 2021 14:47:05 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7030437223694634246</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7030437223694634246</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#twitch</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#foryoupage</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#ttv</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#twitchpartner</category>
+                
+                <category>#streamers</category>
+                
+                <category>#clips</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#fyp? #twitchstreamer #foryoupage #twitchclips #ttv #streamer #followmeontwitch #streamers #dbdtiktok #streamerlife #dbd #deadbydaylightmoments]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/bc46e0ffe7f749dd9586cd9db6a76570?x-expires=1668661200&amp;x-signature=llRss3AOOgqJSkTSHkOjyuMoYug%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/e95ad758841748328432a7949eaf08e1/6375cda6/video/tos/maliva/tos-maliva-ve-0068c800-us/47d77c8721854a6db60b253c9e13e89e/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1470&amp;bt=735&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=NjhpaDQ5ZzllZWZlZjo7OEBpajY6eDk6Zm1sODMzNzczM0AzYmFgNmIvNWIxXjE0NS8xYSMxNC82cjQwXjJgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Wed, 22 Sep 2021 12:45:03 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7010738259932368133</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7010738259932368133</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#fyp?</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#foryoupage</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#ttv</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#streamers</category>
+                
+                <category>#dbdtiktok</category>
+                
+                <category>#streamerlife</category>
+                
+                <category>#dbd</category>
+                
+                <category>#deadbydaylightmoments</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#fyp? #twitchstreamer #foryoupage #twitchclips #ttv #streamer #followmeontwitch #streamers #dbdtiktok #streamerlife #dbd #clips #twitch]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/e1b968ca9db54618b655c3e763fa7b02?x-expires=1668661200&amp;x-signature=pNH%2Fnku%2F%2Fi1B0Ei9CL%2BAtHYYQDw%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/607a99b0f573822db1bd8c1d52929966/6375cda6/video/tos/maliva/tos-maliva-ve-0068c800-us/709791c0390d40c7901726a364608a0a/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C1%7C0&amp;cv=1&amp;br=1692&amp;bt=846&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=ZDpmOGU3OmY7OTkzNWlkNkBpM2ZpNmc6ZnQzODMzNzczM0AxMl4vMy5eNV4xLWNeYzBgYSNlZ2YucjRfZi5gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Wed, 15 Sep 2021 14:55:40 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7008174324943260933</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7008174324943260933</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#fyp?</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#foryoupage</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#ttv</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#streamers</category>
+                
+                <category>#dbdtiktok</category>
+                
+                <category>#streamerlife</category>
+                
+                <category>#dbd</category>
+                
+                <category>#clips</category>
+                
+                <category>#twitch</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#fyp? #twitchstreamer #foryoupage #twitchclips #ttv #streamer #followmeontwitch #streamers #dbdtiktok #dbdclips #dbdsurvivor #deadbydaylightmoments]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/51aca0c126834f01ae2e88c72987ef83?x-expires=1668661200&amp;x-signature=i27HDBimu%2BMsDS9o7rW4X7hXCwA%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/f6c195064173ffec2c563603a1212909/6375cda9/video/tos/maliva/tos-maliva-ve-0068c800-us/c0ae7f238e4245098aca2969c3ef93dd/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1452&amp;bt=726&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=ZDM2OTRlPDg1OTRlOmg4ZEBpanM6eDU6ZnA1NzMzNzczM0A2YS4vXzJeNV8xYmIwMy1gYSM1ajUucjRvXm9gLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Mon, 06 Sep 2021 14:27:46 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7004827368166673670</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7004827368166673670</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#fyp?</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#foryoupage</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#ttv</category>
+                
+                <category>#streamer</category>
+                
+                <category>#followmeontwitch</category>
+                
+                <category>#streamers</category>
+                
+                <category>#dbdtiktok</category>
+                
+                <category>#dbdclips</category>
+                
+                <category>#dbdsurvivor</category>
+                
+                <category>#deadbydaylightmoments</category>
+                
+            
+            
+        </item>
+        
+        <item>
+            <title>
+<![CDATA[#fyp? #foryoupage #twitchstreamer #twitchclips #ttv #streamer #streamerlife #streamers #followmeontwitch]]>
+</title>
+            <description>
+<![CDATA[<video controls="" loop="" poster="https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/9188536752f94d5dabea96c716aac36a?x-expires=1668661200&amp;x-signature=imNI5FZJjngbYloDBQyfQhbVsFM%3D" preload="none">
+<source src="https://v16m-webapp.tiktokcdn-us.com/f283acf43275c8d556c94d8576eef61b/6375cda7/video/tos/maliva/tos-maliva-ve-0068c800-us/04bcda6407c14291969497389f1e57a2/?a=1988&amp;ch=0&amp;cr=0&amp;dr=0&amp;lr=tiktok_m&amp;cd=0%7C0%7C0%7C0&amp;br=1962&amp;bt=981&amp;cs=0&amp;ds=3&amp;ft=ebtHKH-qMyq8Z.O9mhe2NbA7fl7Gb&amp;mime_type=video_mp4&amp;qs=0&amp;rc=Nzg8NzNlOWY4Z2lpOjY3O0BpMzxubTU6ZjxqNzMzNzczM0AzNDFjYS8uXzQxMDMwMWE0YSNnZHA1cjRnbWtgLS1kMTZzcw%3D%3D&amp;l=20221116235855D9D2EBFEF26CCF18F31C">
+</video>]]>
+</description>
+            <pubDate>Wed, 01 Sep 2021 05:16:24 GMT</pubDate>
+            <guid isPermaLink="false">https://www.tiktok.com/@readyx_/video/7002829852000668933</guid>
+            <link>https://www.tiktok.com/@readyx_/video/7002829852000668933</link>
+            
+            
+            
+            <author>
+<![CDATA[Readyx]]>
+</author>
+            
+                
+                <category>#fyp?</category>
+                
+                <category>#foryoupage</category>
+                
+                <category>#twitchstreamer</category>
+                
+                <category>#twitchclips</category>
+                
+                <category>#ttv</category>
+                
+                <category>#streamer</category>
+                
+                <category>#streamerlife</category>
+                
+                <category>#streamers</category>
+                
+                <category>#followmeontwitch</category>
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>

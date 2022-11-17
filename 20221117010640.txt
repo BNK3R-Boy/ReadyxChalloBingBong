@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>twitter:1287773674209251329</id>
+  <title>Readyx_ on Twitter</title>
+  <icon>https://abs.twimg.com/favicons/favicon.ico</icon>
+  <link href="https://rssbox.us-west-2.elasticbeanstalk.com/twitter/1287773674209251329/Readyx_?include_rts=0&amp;exclude_replies=1" rel="self"/>
+  <link href="https://twitter.com/Readyx_" rel="alternate"/>
+  <updated>2022-11-16T23:29:33Z</updated>
+
+  <entry>
+    <id>twitter:tweet:1592124735025922048</id>
+    <title>Subathon startet am 19.11.2022 - Wird der krasseste Stream den es je gegeben hat auf meinem Kanal. Einschalten lohnt sich aufjeden!</title>
+    <link href="https://twitter.com/Readyx_/status/1592124735025922048"/>
+    <updated>2022-11-14T11:58:11Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Subathon startet am 19.11.2022 - Wird der krasseste Stream den es je gegeben hat auf meinem Kanal. Einschalten lohnt sich aufjeden!&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1589268955641761792</id>
+    <title>Der Subathon kommt immer näher. Bin echt krass aufgeregt…</title>
+    <link href="https://twitter.com/Readyx_/status/1589268955641761792"/>
+    <updated>2022-11-06T14:50:20Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Der Subathon kommt immer näher. Bin echt krass aufgeregt…&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1587420082405314562</id>
+    <title>Gestern einfach mal spontan ne Nintendo Switch verlost. Danke an Marcel für das krasse Sponsoring… ??</title>
+    <link href="https://twitter.com/Readyx_/status/1587420082405314562"/>
+    <updated>2022-11-01T12:23:35Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Gestern einfach mal spontan ne Nintendo Switch verlost. Danke an Marcel für das krasse Sponsoring… ??&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1586522662129790976</id>
+    <title>Wie sehr ich Menschen verachte, die sich Onstream komplett die Birne wegsaufen… ich werde einfach nie verstehen, wieso man sich sowas anguckt… ??</title>
+    <link href="https://twitter.com/Readyx_/status/1586522662129790976"/>
+    <updated>2022-10-30T00:57:33Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Wie sehr ich Menschen verachte, die sich Onstream komplett die Birne wegsaufen… ich werde einfach nie verstehen, wieso man sich sowas anguckt… ??&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1577638449015922690</id>
+    <title>Die Streams momentan einfach erste Sahne. Danke dass ihr mich so Unterstützt! ?? #happyme</title>
+    <link href="https://twitter.com/Readyx_/status/1577638449015922690"/>
+    <updated>2022-10-05T12:34:52Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Die Streams momentan einfach erste Sahne. Danke dass ihr mich so Unterstützt! ?? #happyme&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1574389772973645825</id>
+    <title>Streamplan für die aktuelle Woche. Freue mich über jeden der reinschaut. Liebe!?? [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1574389772973645825"/>
+    <updated>2022-09-26T13:25:47Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Streamplan für die aktuelle Woche. Freue mich über jeden der reinschaut. Liebe!?? &lt;a href='https://twitter.com/Readyx_/status/1574389772973645825/photo/1' title='https://twitter.com/Readyx_/status/1574389772973645825/photo/1' rel='noreferrer'>https://twitter.com/Readyx_/status/1574389772973645825/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FdlbJw4X0AA0hqu.jpg:large' title='https://pbs.twimg.com/media/FdlbJw4X0AA0hqu.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FdlbJw4X0AA0hqu.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FdlbJw4X0AA0hqu.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1574223209603502080</id>
+    <title>Hab übrigens übel Gefallen an Reactions gefunden. Sofern die Community am jeweiligen Abend bock hat, werden wir das jetzt öfter machen! ??</title>
+    <link href="https://twitter.com/Readyx_/status/1574223209603502080"/>
+    <updated>2022-09-26T02:23:55Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Hab übrigens übel Gefallen an Reactions gefunden. Sofern die Community am jeweiligen Abend bock hat, werden wir das jetzt öfter machen! ??&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1561373287774670848</id>
+    <title>Heute 19:00Uhr Stream. Autogramm/Postkarten &amp; Schlüsselanhänger Giveaway. Freue mich auf euch! Twitch: Readyx [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1561373287774670848"/>
+    <updated>2022-08-21T15:22:55Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute 19:00Uhr Stream.&lt;/p>
+&lt;p>Autogramm/Postkarten &amp; Schlüsselanhänger Giveaway. Freue mich auf euch!&lt;/p>
+&lt;p>Twitch: Readyx &lt;a href='https://twitter.com/ReadyxTv/status/1561373287774670848/photo/1' title='https://twitter.com/ReadyxTv/status/1561373287774670848/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1561373287774670848/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FascuinXEAYdRlK.jpg:large' title='https://pbs.twimg.com/media/FascuinXEAYdRlK.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FascuinXEAYdRlK.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FascuinXEAYdRlK.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1552973137331077131</id>
+    <title>Heute 19:00uhr Livestream mit Readyx Sticker Giveaways ?? #TwitchDE #TwitchPartner</title>
+    <link href="https://twitter.com/Readyx_/status/1552973137331077131"/>
+    <updated>2022-07-29T11:03:43Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute 19:00uhr Livestream mit Readyx Sticker Giveaways ?? #TwitchDE #TwitchPartner&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1549401396943929355</id>
+    <title>19:00uhr testen wir das neue DBD Update. Bin mal gespannt.. RIP Deadhard.. ?? #TwitchPartner #twitchdeutschland #twitchde</title>
+    <link href="https://twitter.com/Readyx_/status/1549401396943929355"/>
+    <updated>2022-07-19T14:30:54Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>19:00uhr testen wir das neue DBD Update. Bin mal gespannt.. RIP Deadhard.. ?? #TwitchPartner #twitchdeutschland #twitchde&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1540281018690805761</id>
+    <title>Samstag sehen wir uns endlich wieder.. vermiss euch schon ihr kleinen yxör. ??</title>
+    <link href="https://twitter.com/Readyx_/status/1540281018690805761"/>
+    <updated>2022-06-24T10:29:46Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Samstag sehen wir uns endlich wieder.. vermiss euch schon ihr kleinen yxör. ??&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1537389914756636676</id>
+    <title>? SPECIALSTREAM ? Am 03.07 feiern wir unser 3 Jähriges Jubiläum auf Twitch mit einem 12h+ Stream. In diesem Stream wird es verschiedene Games, Giveaways sowie Challenges und eine Sub verlängerung geben. Würde mich freuen wenn ihr dabei seid und einschaltet. ????#TwitchDE [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1537389914756636676"/>
+    <updated>2022-06-16T11:01:33Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>? SPECIALSTREAM ?&lt;/p>
+&lt;p>Am 03.07 feiern wir unser 3 Jähriges Jubiläum auf Twitch mit einem 12h+ Stream.&lt;/p>
+&lt;p>In diesem Stream wird es verschiedene Games, Giveaways sowie Challenges und eine Sub verlängerung geben. Würde mich freuen wenn ihr dabei seid und einschaltet. ????#TwitchDE &lt;a href='https://twitter.com/ReadyxTv/status/1537389914756636676/photo/1' title='https://twitter.com/ReadyxTv/status/1537389914756636676/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1537389914756636676/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FVXn-nSWUAAQqOb.jpg:large' title='https://pbs.twimg.com/media/FVXn-nSWUAAQqOb.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FVXn-nSWUAAQqOb.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FVXn-nSWUAAQqOb.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1536345309277741056</id>
+    <title>heute abend gibts nochmal 2x Codes für Wildcards für die Gamescom zu gewinnen! Diese müssen allerdings bis HEUTE 23:59uhr eingelöst werden. ?? Streamstart: 19:00Uhr  #Gamescom #twitchstreamer #twitchdeutschland #TwitchPartner #Twitch #TwitchDE</title>
+    <link href="https://twitter.com/Readyx_/status/1536345309277741056"/>
+    <updated>2022-06-13T13:50:40Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>heute abend gibts nochmal 2x Codes für Wildcards für die Gamescom zu gewinnen! Diese müssen allerdings bis HEUTE 23:59uhr eingelöst werden. ??&lt;/p>
+&lt;p>Streamstart: 19:00Uhr&lt;/p>
+&lt;p>#Gamescom #twitchstreamer #twitchdeutschland #TwitchPartner #Twitch #TwitchDE&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1535984159809740800</id>
+    <title>heute Abend im Stream verlosen wir 2 Codes für Wildcards (Gamescom). Durch den Code ist für 59€ dann auf der Homepage der Gamescom die Wildcard erhältlich. #twitchstreamer #TwitchStreamers #TwitchDE #TwitchPartner #Gamescom #gc2022 [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1535984159809740800"/>
+    <updated>2022-06-12T13:55:35Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>heute Abend im Stream verlosen wir 2 Codes für Wildcards (Gamescom). Durch den Code ist für 59€ dann auf der Homepage der Gamescom die Wildcard erhältlich. #twitchstreamer #TwitchStreamers #TwitchDE #TwitchPartner #Gamescom #gc2022 &lt;a href='https://twitter.com/ReadyxTv/status/1535984159809740800/photo/1' title='https://twitter.com/ReadyxTv/status/1535984159809740800/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1535984159809740800/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FVDpcyjWAAAzXhd.jpg:large' title='https://pbs.twimg.com/media/FVDpcyjWAAAzXhd.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FVDpcyjWAAAzXhd.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FVDpcyjWAAAzXhd.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1535633909333082116</id>
+    <title>Um 19:00uhr gehts wieder ab. Livestream auf Twitch! Schau doch mal rein, du wirst es nicht bereuen! ?? #twitchstreamer #TwitchStreamers #twitchdeutschland #TwitchPartner [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1535633909333082116"/>
+    <updated>2022-06-11T14:43:49Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Um 19:00uhr gehts wieder ab. Livestream auf Twitch! Schau doch mal rein, du wirst es nicht bereuen! ??&lt;/p>
+&lt;p>#twitchstreamer #TwitchStreamers #twitchdeutschland #TwitchPartner &lt;a href='https://twitter.com/ReadyxTv/status/1535633909333082116/photo/1' title='https://twitter.com/ReadyxTv/status/1535633909333082116/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1535633909333082116/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FU-q5mzWYAAXP9K.jpg:large' title='https://pbs.twimg.com/media/FU-q5mzWYAAXP9K.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FU-q5mzWYAAXP9K.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FU-q5mzWYAAXP9K.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1534179237191614464</id>
+    <title>Heute 18:30 wieder Live auf Twitch mit dem neuen DLC als Giveaway ?? Twitch: Readyx #Livestream #DeadbyDaylight #TwitchStreamers #TwitchPartner [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1534179237191614464"/>
+    <updated>2022-06-07T14:23:28Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute 18:30 wieder Live auf Twitch mit dem neuen DLC als Giveaway ??&lt;/p>
+&lt;p>Twitch: Readyx #Livestream #DeadbyDaylight #TwitchStreamers #TwitchPartner &lt;a href='https://twitter.com/ReadyxTv/status/1534179237191614464/photo/1' title='https://twitter.com/ReadyxTv/status/1534179237191614464/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1534179237191614464/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FUp_4kSWYAIALND.jpg:large' title='https://pbs.twimg.com/media/FUp_4kSWYAIALND.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FUp_4kSWYAIALND.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FUp_4kSWYAIALND.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1532557674830864387</id>
+    <title>Danke für diesen überaus krassen Stream… ihr seid der Wahnsinn! Ich Liebe euch! ???? #twitch #TwitchDE #TwitchPartner #streamer [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1532557674830864387"/>
+    <updated>2022-06-03T02:59:57Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Danke für diesen überaus krassen Stream… ihr seid der Wahnsinn! Ich Liebe euch! ???? #twitch #TwitchDE #TwitchPartner #streamer &lt;a href='https://twitter.com/ReadyxTv/status/1532557674830864387/photo/1' title='https://twitter.com/ReadyxTv/status/1532557674830864387/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1532557674830864387/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FUS9FP3XoAoBYBp.jpg:large' title='https://pbs.twimg.com/media/FUS9FP3XoAoBYBp.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FUS9FP3XoAoBYBp.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FUS9FP3XoAoBYBp.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1527758749229801476</id>
+    <title>1 jahr fulltime Streamer… wie die Zeit vergeht.. Wir feiern das natürlich mit einem Special Stream!?? #TwitchStreamers #twitchde #TwitchPartner #streamer [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1527758749229801476"/>
+    <updated>2022-05-20T21:10:44Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>1 jahr fulltime Streamer… wie die Zeit vergeht.. Wir feiern das natürlich mit einem Special Stream!?? #TwitchStreamers #twitchde #TwitchPartner #streamer &lt;a href='https://twitter.com/ReadyxTv/status/1527758749229801476/photo/1' title='https://twitter.com/ReadyxTv/status/1527758749229801476/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1527758749229801476/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FTOwe92WQAAnB_h.jpg:large' title='https://pbs.twimg.com/media/FTOwe92WQAAnB_h.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FTOwe92WQAAnB_h.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FTOwe92WQAAnB_h.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1523256922547363840</id>
+    <title>Ich wünsche allen Mami‘s da draußen einen wundervollen Muttertag! ??????</title>
+    <link href="https://twitter.com/Readyx_/status/1523256922547363840"/>
+    <updated>2022-05-08T11:02:05Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Ich wünsche allen Mami‘s da draußen einen wundervollen Muttertag! ??????&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1522917114444754944</id>
+    <title>Heute Abend im Stream (19:00Uhr) verlosen wir eine von 3 LIMITIERTEN Readyx Boxen. Schau doch gerne mal vorbei ???? #TwitchDE #TwitchStreamers #twitchstreamer #TwitchPartner #Giveaway #twitchgamer [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1522917114444754944"/>
+    <updated>2022-05-07T12:31:49Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute Abend im Stream (19:00Uhr) verlosen wir eine von 3 LIMITIERTEN Readyx Boxen. Schau doch gerne mal vorbei ???? #TwitchDE #TwitchStreamers #twitchstreamer #TwitchPartner #Giveaway #twitchgamer &lt;a href='https://twitter.com/ReadyxTv/status/1522917114444754944/photo/1' title='https://twitter.com/ReadyxTv/status/1522917114444754944/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1522917114444754944/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FSJ9Cw9WUAAQGxN.jpg:large' title='https://pbs.twimg.com/media/FSJ9Cw9WUAAQGxN.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FSJ9Cw9WUAAQGxN.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FSJ9Cw9WUAAQGxN.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1515705634901090305</id>
+    <title>19:00uhr wieder Livestream auf Twitch mit Dead by Daylight. Freue mich euch zu sehen/lesen! #Twitch #TwitchPartner #TwitchDE [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1515705634901090305"/>
+    <updated>2022-04-17T14:55:58Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>19:00uhr wieder Livestream auf Twitch mit Dead by Daylight. Freue mich euch zu sehen/lesen! #Twitch #TwitchPartner #TwitchDE &lt;a href='https://twitter.com/ReadyxTv/status/1515705634901090305/photo/1' title='https://twitter.com/ReadyxTv/status/1515705634901090305/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1515705634901090305/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FQjePUkXoAgNakj.jpg:large' title='https://pbs.twimg.com/media/FQjePUkXoAgNakj.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FQjePUkXoAgNakj.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FQjePUkXoAgNakj.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1511183366917402630</id>
+    <title>Heute Abend gibt es einen SPECIAL STREAM wo wir 50 verschiedene Süssigkeiten/ Getränke aus aller Welt testen. Dazu noch eine HOT BOX. Ich freu mich auf euch! 19:00 Start. #TwitchDE #TwitchPartner #JustChatting #streamer [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1511183366917402630"/>
+    <updated>2022-04-05T03:26:05Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute Abend gibt es einen SPECIAL STREAM wo wir 50 verschiedene Süssigkeiten/ Getränke aus aller Welt testen. Dazu noch eine HOT BOX. Ich freu mich auf euch! 19:00 Start.&lt;/p>
+&lt;p>#TwitchDE #TwitchPartner #JustChatting #streamer &lt;a href='https://twitter.com/ReadyxTv/status/1511183366917402630/photo/1' title='https://twitter.com/ReadyxTv/status/1511183366917402630/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1511183366917402630/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FPjNQdlWUAgUndi.jpg:large' title='https://pbs.twimg.com/media/FPjNQdlWUAgUndi.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FPjNQdlWUAgUndi.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FPjNQdlWUAgUndi.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1508087861710577667</id>
+    <title>Endlich wurde das „_TV“ von meinem Namen entfernt. Kann es kaum erwarten heute Abend Live zu gehen und euch die Neuigkeiten zu berichten. 19:00 EINSCHALTEN, lohnt sich.  [twitch.tv] #TwitchStreamers  #StreamerCommunity #TwitchDE #TwitchPartner</title>
+    <link href="https://twitter.com/Readyx_/status/1508087861710577667"/>
+    <updated>2022-03-27T14:25:39Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Endlich wurde das „_TV“ von meinem Namen entfernt. Kann es kaum erwarten heute Abend Live zu gehen und euch die Neuigkeiten zu berichten. 19:00 EINSCHALTEN, lohnt sich.&lt;/p>
+&lt;p>&lt;a href='http://www.Twitch.tv/readyx' title='http://www.Twitch.tv/readyx' rel='noreferrer'>http://www.Twitch.tv/readyx&lt;/a>&lt;/p>
+&lt;p>#TwitchStreamers  #StreamerCommunity #TwitchDE #TwitchPartner&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1501126941688176641</id>
+    <title>Heute wieder ab 19:00Uhr Live mit #DeadbyDaylgiht wir verlosen mehrmals das neue DLC. Freue mich auf euch! #TwitchDE #TwitchPartner [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1501126941688176641"/>
+    <updated>2022-03-08T09:25:27Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute wieder ab 19:00Uhr Live mit #DeadbyDaylgiht wir verlosen mehrmals das neue DLC. Freue mich auf euch! #TwitchDE #TwitchPartner &lt;a href='https://twitter.com/ReadyxTv/status/1501126941688176641/photo/1' title='https://twitter.com/ReadyxTv/status/1501126941688176641/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1501126941688176641/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FNUS_1wXoAI_bDk.jpg:large' title='https://pbs.twimg.com/media/FNUS_1wXoAI_bDk.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FNUS_1wXoAI_bDk.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FNUS_1wXoAI_bDk.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1480137102553665538</id>
+    <title>Täglich ab 19:00Uhr Live auf Twitch. Schau doch gerne mal vorbei!  #TwitchDE #twitchstreamer #TwitchPartner #ttv #dbd [twitter.com] [video.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1480137102553665538"/>
+    <updated>2022-01-09T11:19:19Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Täglich ab 19:00Uhr Live auf Twitch.&lt;/p>
+&lt;p>Schau doch gerne mal vorbei!&lt;/p>
+&lt;p>#TwitchDE #twitchstreamer #TwitchPartner #ttv #dbd &lt;a href='https://twitter.com/ReadyxTv/status/1480137102553665538/video/1' title='https://twitter.com/ReadyxTv/status/1480137102553665538/video/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1480137102553665538/video/1&lt;/a> &lt;a href='https://video.twimg.com/ext_tw_video/1480137057116868609/pu/vid/1280x720/FB-aScVKA8Dt3Rvs.mp4?tag=12' title='https://video.twimg.com/ext_tw_video/1480137057116868609/pu/vid/1280x720/FB-aScVKA8Dt3Rvs.mp4?tag=12' rel='noreferrer'>https://video.twimg.com/ext_tw_video/1480137057116868609/pu/vid/1280x720/FB-aScVKA8Dt3Rvs.mp4?tag=12&lt;/a>&lt;/p>
+&lt;p>&lt;video width='1280' height='720' controls='controls'>&lt;source type='video/mp4' src='https://video.twimg.com/ext_tw_video/1480137057116868609/pu/vid/1280x720/FB-aScVKA8Dt3Rvs.mp4?tag=12'>&lt;/video>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1477487444555702272</id>
+    <title>Danke auch für die wundervollen animierten Emotes! @nanagadesign absolut nice!?? [twitter.com] [video.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1477487444555702272"/>
+    <updated>2022-01-02T03:50:31Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Danke auch für die wundervollen animierten Emotes! @nanagadesign absolut nice!?? &lt;a href='https://twitter.com/ReadyxTv/status/1477487444555702272/video/1' title='https://twitter.com/ReadyxTv/status/1477487444555702272/video/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1477487444555702272/video/1&lt;/a> &lt;a href='https://video.twimg.com/ext_tw_video/1477487421172457475/pu/vid/888x574/ydY6QwvzEfMFmC2z.mp4?tag=12' title='https://video.twimg.com/ext_tw_video/1477487421172457475/pu/vid/888x574/ydY6QwvzEfMFmC2z.mp4?tag=12' rel='noreferrer'>https://video.twimg.com/ext_tw_video/1477487421172457475/pu/vid/888x574/ydY6QwvzEfMFmC2z.mp4?tag=12&lt;/a>&lt;/p>
+&lt;p>&lt;video width='888' height='574' controls='controls'>&lt;source type='video/mp4' src='https://video.twimg.com/ext_tw_video/1477487421172457475/pu/vid/888x574/ydY6QwvzEfMFmC2z.mp4?tag=12'>&lt;/video>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1477317526044487685</id>
+    <title>19:00uhr Livestream! Lasst uns zusammen ins neue Jahr starten. ?? [twitter.com] [video.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1477317526044487685"/>
+    <updated>2022-01-01T16:35:20Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>19:00uhr Livestream! Lasst uns zusammen ins neue Jahr starten. ?? &lt;a href='https://twitter.com/ReadyxTv/status/1477317526044487685/video/1' title='https://twitter.com/ReadyxTv/status/1477317526044487685/video/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1477317526044487685/video/1&lt;/a> &lt;a href='https://video.twimg.com/ext_tw_video/1477317458767884291/pu/vid/720x1280/MCZR6TWnQ4ksBwUE.mp4?tag=12' title='https://video.twimg.com/ext_tw_video/1477317458767884291/pu/vid/720x1280/MCZR6TWnQ4ksBwUE.mp4?tag=12' rel='noreferrer'>https://video.twimg.com/ext_tw_video/1477317458767884291/pu/vid/720x1280/MCZR6TWnQ4ksBwUE.mp4?tag=12&lt;/a>&lt;/p>
+&lt;p>&lt;video width='720' height='1280' controls='controls'>&lt;source type='video/mp4' src='https://video.twimg.com/ext_tw_video/1477317458767884291/pu/vid/720x1280/MCZR6TWnQ4ksBwUE.mp4?tag=12'>&lt;/video>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1476823853439590402</id>
+    <title>Die neuen Emotes sind da! ?? Vielen lieben dank für die tolle Zusammenarbeit @nanagadesign [twitter.com] [video.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1476823853439590402"/>
+    <updated>2021-12-31T07:53:39Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Die neuen Emotes sind da! ?? Vielen lieben dank für die tolle Zusammenarbeit @nanagadesign &lt;a href='https://twitter.com/ReadyxTv/status/1476823853439590402/photo/1' title='https://twitter.com/ReadyxTv/status/1476823853439590402/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1476823853439590402/photo/1&lt;/a> &lt;a href='https://video.twimg.com/tweet_video/FH67b3fX0AcAwpN.mp4#w=900&amp;amp;h=800' title='https://video.twimg.com/tweet_video/FH67b3fX0AcAwpN.mp4#w=900&amp;amp;h=800' rel='noreferrer'>https://video.twimg.com/tweet_video/FH67b3fX0AcAwpN.mp4#w=900&amp;amp;h=800&lt;/a>&lt;/p>
+&lt;p>&lt;video width='900' height='800' controls='controls'>&lt;source type='video/mp4' src='https://video.twimg.com/tweet_video/FH67b3fX0AcAwpN.mp4#w=900&amp;h=800'>&lt;/video>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1460965249046167559</id>
+    <title>Samstag 20.11.2021 - 14:00 Uhr. 12h SPECIAL STREAM mit DBD, Phasmo, Just Chatting &amp; Giveaways. Ich freu mich auf euch ihr geilen Menschen!?? #TwitchStreamers #TwitchPartner #twitchde #DeadbyDaylight #Phasmophobia #JustChatting #Giveaways #StreamerCommunity</title>
+    <link href="https://twitter.com/Readyx_/status/1460965249046167559"/>
+    <updated>2021-11-17T13:37:13Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Samstag 20.11.2021 - 14:00 Uhr.&lt;/p>
+&lt;p>12h SPECIAL STREAM mit DBD, Phasmo, Just Chatting &amp; Giveaways. Ich freu mich auf euch ihr geilen Menschen!?? #TwitchStreamers #TwitchPartner #twitchde #DeadbyDaylight #Phasmophobia #JustChatting #Giveaways #StreamerCommunity&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1460243073334710278</id>
+    <title>Am 03.12.2021 um 14:00 Uhr startet unser PARTNER SPECIAL SUBATHON. Unser erster Subathon! Es wird verschiedene Games, Just Chatting &amp; Giveaways geben. Dazu natürlich immer die Good Vibes! Tragt es in euren Kalender ein. Ich freu mich auf euch! ?????? #TwitchStreamers #TwitchDE [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1460243073334710278"/>
+    <updated>2021-11-15T13:47:33Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Am 03.12.2021 um 14:00 Uhr startet unser PARTNER SPECIAL SUBATHON. Unser erster Subathon! Es wird verschiedene Games, Just Chatting &amp; Giveaways geben. Dazu natürlich immer die Good Vibes! Tragt es in euren Kalender ein. Ich freu mich auf euch! ?????? #TwitchStreamers #TwitchDE &lt;a href='https://twitter.com/ReadyxTv/status/1460243073334710278/photo/1' title='https://twitter.com/ReadyxTv/status/1460243073334710278/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1460243073334710278/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FEPTVZQXEAMTvGQ.jpg:large' title='https://pbs.twimg.com/media/FEPTVZQXEAMTvGQ.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FEPTVZQXEAMTvGQ.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FEPTVZQXEAMTvGQ.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1459147460866101253</id>
+    <title>[twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1459147460866101253"/>
+    <updated>2021-11-12T13:13:58Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>&lt;a href='https://twitter.com/ReadyxTv/status/1459147460866101253/photo/1' title='https://twitter.com/ReadyxTv/status/1459147460866101253/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1459147460866101253/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FD_u4W5XoAMvL4s.jpg:large' title='https://pbs.twimg.com/media/FD_u4W5XoAMvL4s.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FD_u4W5XoAMvL4s.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FD_u4W5XoAMvL4s.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1448599423689314308</id>
+    <title>Am Freitag den 15.10 um 19:00Uhr startet mein „STREAM INTO BIRTHDAY“. Freue mich auf jeden der Einschaltet und mit mir reinfeiert. ?? [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1448599423689314308"/>
+    <updated>2021-10-14T10:39:50Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Am Freitag den 15.10 um 19:00Uhr startet mein „STREAM INTO BIRTHDAY“. Freue mich auf jeden der Einschaltet und mit mir reinfeiert. ?? &lt;a href='https://twitter.com/ReadyxTv/status/1448599423689314308/photo/1' title='https://twitter.com/ReadyxTv/status/1448599423689314308/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1448599423689314308/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/FBp1fxcX0AMuBIY.jpg:large' title='https://pbs.twimg.com/media/FBp1fxcX0AMuBIY.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/FBp1fxcX0AMuBIY.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/FBp1fxcX0AMuBIY.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1443216085411639301</id>
+    <title>Diese Woche gibts nen „HIDDEN GIVEAWAY Stream“ - bedeutet, das wird ein Specialstream ohne Call wo ich Merch, Gutscheine und Codes für Steam/PSN/XBOX raushaue. Der passiert spontan. Warum? Um Leuten was zurück zu geben die immer am Start sind. NICHT VERPASSEN ??</title>
+    <link href="https://twitter.com/Readyx_/status/1443216085411639301"/>
+    <updated>2021-09-29T14:08:23Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Diese Woche gibts nen „HIDDEN GIVEAWAY Stream“ - bedeutet, das wird ein Specialstream ohne Call wo ich Merch, Gutscheine und Codes für Steam/PSN/XBOX raushaue. Der passiert spontan. Warum? Um Leuten was zurück zu geben die immer am Start sind. NICHT VERPASSEN ??&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1435198487088582660</id>
+    <title>12.09.2021 - 14:00uhr - 12h SPEZIALSTREAM. Freu mich auf euch! Kuss ??</title>
+    <link href="https://twitter.com/Readyx_/status/1435198487088582660"/>
+    <updated>2021-09-07T11:09:18Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>12.09.2021 - 14:00uhr - 12h SPEZIALSTREAM. Freu mich auf euch! Kuss ??&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1429067751956615174</id>
+    <title>Heute Abend um 19:00uhr gibt es einen Giveaway Stream. Wie verlosen ein paar Amazon Gutscheine, DLCs für DbD &amp; das Spiel für Steam. [twitch.tv]</title>
+    <link href="https://twitter.com/Readyx_/status/1429067751956615174"/>
+    <updated>2021-08-21T13:07:57Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute Abend um 19:00uhr gibt es einen Giveaway Stream. Wie verlosen ein paar Amazon Gutscheine, DLCs für DbD &amp; das Spiel für Steam. &lt;a href='http://Twitch.tv/readyx_tv' title='http://Twitch.tv/readyx_tv' rel='noreferrer'>http://Twitch.tv/readyx_tv&lt;/a>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1421804697057366021</id>
+    <title>Heute 18:00uhr Live mit nem „kleinen“ Giveaway. Ich verlose mein altes Mikrofon.</title>
+    <link href="https://twitter.com/Readyx_/status/1421804697057366021"/>
+    <updated>2021-08-01T12:07:10Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute 18:00uhr Live mit nem „kleinen“ Giveaway. Ich verlose mein altes Mikrofon.&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1394981912440197125</id>
+    <title>[twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1394981912440197125"/>
+    <updated>2021-05-19T11:43:00Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>&lt;a href='https://twitter.com/ReadyxTv/status/1394981912440197125/photo/1' title='https://twitter.com/ReadyxTv/status/1394981912440197125/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1394981912440197125/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/E1v4pufXIA0Vybc.jpg:large' title='https://pbs.twimg.com/media/E1v4pufXIA0Vybc.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/E1v4pufXIA0Vybc.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/E1v4pufXIA0Vybc.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1390240574847000576</id>
+    <title>Mein neues YouTube Video ist Online! Viel Spaß beim anschauen. &lt;3 [youtube.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1390240574847000576"/>
+    <updated>2021-05-06T09:42:37Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Mein neues YouTube Video ist Online!&lt;/p>
+&lt;p>Viel Spaß beim anschauen. &lt;3&lt;/p>
+&lt;p>&lt;a href='https://www.youtube.com/watch?v=LxIQHZ5HZIs&amp;amp;t=2s' title='https://www.youtube.com/watch?v=LxIQHZ5HZIs&amp;amp;t=2s' rel='noreferrer'>https://www.youtube.com/watch?v=LxIQHZ5HZIs&amp;amp;t=2s&lt;/a>&lt;/p>
+&lt;p>&lt;iframe width='640' height='360' src='https://www.youtube.com/embed/LxIQHZ5HZIs?rel=0&amp;start=2' frameborder='0' scrolling='no' allowfullscreen referrerpolicy='no-referrer'>&lt;/iframe>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1386664362681720842</id>
+    <title>Streamplan für die aktuelle Woche. Twitch: Readyx_TV Gespielt wird Dead by Daylight. #streamer #TwitchDE #twitchstreamer #twitch [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1386664362681720842"/>
+    <updated>2021-04-26T12:52:01Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Streamplan für die aktuelle Woche.&lt;/p>
+&lt;p>Twitch: Readyx_TV&lt;/p>
+&lt;p>Gespielt wird Dead by Daylight.&lt;/p>
+&lt;p>#streamer #TwitchDE #twitchstreamer #twitch &lt;a href='https://twitter.com/ReadyxTv/status/1386664362681720842/photo/1' title='https://twitter.com/ReadyxTv/status/1386664362681720842/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1386664362681720842/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/Ez5r4leXEAA0dk3.jpg:large' title='https://pbs.twimg.com/media/Ez5r4leXEAA0dk3.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/Ez5r4leXEAA0dk3.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/Ez5r4leXEAA0dk3.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1385892032548311047</id>
+    <title>DANKE FÜR ALLES! Danke dass ihr mir all das ermöglicht. Ich bin so unglaublich Stolz auf das, was wir in den letzten knapp 2 Jahren erreicht haben. ?? Ich versprech euch, ich werde immer 150% für euch geben. #Readyfam  #twitch #TwitchStreamers #twitchaffiliate #streamer [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1385892032548311047"/>
+    <updated>2021-04-24T09:43:03Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>DANKE FÜR ALLES! Danke dass ihr mir all das ermöglicht. Ich bin so unglaublich Stolz auf das, was wir in den letzten knapp 2 Jahren erreicht haben. ?? Ich versprech euch, ich werde immer 150% für euch geben. #Readyfam&lt;/p>
+&lt;p>#twitch #TwitchStreamers #twitchaffiliate #streamer &lt;a href='https://twitter.com/ReadyxTv/status/1385892032548311047/photo/1' title='https://twitter.com/ReadyxTv/status/1385892032548311047/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1385892032548311047/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/EzutdGDWEAMowjk.jpg:large' title='https://pbs.twimg.com/media/EzutdGDWEAMowjk.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/EzutdGDWEAMowjk.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/EzutdGDWEAMowjk.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1382303842931503111</id>
+    <title>Wir sind heute wieder ab 19:00uhr Live.  [twitch.tv]</title>
+    <link href="https://twitter.com/Readyx_/status/1382303842931503111"/>
+    <updated>2021-04-14T12:04:52Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Wir sind heute wieder ab 19:00uhr Live.&lt;/p>
+&lt;p>&lt;a href='http://Twitch.tv/readyx_tv' title='http://Twitch.tv/readyx_tv' rel='noreferrer'>http://Twitch.tv/readyx_tv&lt;/a>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1377599758265638912</id>
+    <title>Heute 19:00uhr Live aut Twitch ???? Readyx_TV????  4x DLC GIVEAWAY ?? #DeadbyDaylight #twitchstream #twitch #TwitchDE #streamer #StreamerNetwork #Livestream #giveaway [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1377599758265638912"/>
+    <updated>2021-04-01T12:32:31Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute 19:00uhr Live aut Twitch&lt;/p>
+&lt;p>???? Readyx_TV????&lt;/p>
+&lt;p>4x DLC GIVEAWAY ??&lt;/p>
+&lt;p>#DeadbyDaylight #twitchstream #twitch #TwitchDE #streamer #StreamerNetwork #Livestream #giveaway &lt;a href='https://twitter.com/ReadyxTv/status/1377599758265638912/photo/1' title='https://twitter.com/ReadyxTv/status/1377599758265638912/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1377599758265638912/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/Ex43rLpXEAQHIGb.jpg:large' title='https://pbs.twimg.com/media/Ex43rLpXEAQHIGb.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/Ex43rLpXEAQHIGb.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/Ex43rLpXEAQHIGb.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1376202981650075655</id>
+    <title>Heute 19:00uhr wieder Live auf Twitch mit Dead by Daylight und guter Laune. Schaut doch gerne mal vorbei! ?? ???? [m.twitch.tv] ????</title>
+    <link href="https://twitter.com/Readyx_/status/1376202981650075655"/>
+    <updated>2021-03-28T16:02:14Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Heute 19:00uhr wieder Live auf Twitch mit Dead by Daylight und guter Laune.&lt;/p>
+&lt;p>Schaut doch gerne mal vorbei! ??&lt;/p>
+&lt;p>???? &lt;a href='https://m.twitch.tv/readyx_tv' title='https://m.twitch.tv/readyx_tv' rel='noreferrer'>https://m.twitch.tv/readyx_tv&lt;/a> ????&lt;/p>
+    </content>
+  </entry>
+
+  <entry>
+    <id>twitter:tweet:1289870709146099718</id>
+    <title>Täglich 19:00uhr Live auf Twitch! #streamer #TwitchStreamers #twitch #ttv #follow [twitter.com] [pbs.twimg.com]</title>
+    <link href="https://twitter.com/Readyx_/status/1289870709146099718"/>
+    <updated>2020-08-02T10:28:36Z</updated>
+    <author>
+<name>Readyx_</name>
+</author>
+    <content type="html">
+&lt;p>Täglich 19:00uhr Live auf Twitch!&lt;/p>
+&lt;p>#streamer #TwitchStreamers #twitch #ttv #follow &lt;a href='https://twitter.com/ReadyxTv/status/1289870709146099718/photo/1' title='https://twitter.com/ReadyxTv/status/1289870709146099718/photo/1' rel='noreferrer'>https://twitter.com/ReadyxTv/status/1289870709146099718/photo/1&lt;/a> &lt;a href='https://pbs.twimg.com/media/EeaKkIoXkAAb7ev.jpg:large' title='https://pbs.twimg.com/media/EeaKkIoXkAAb7ev.jpg:large' rel='noreferrer'>https://pbs.twimg.com/media/EeaKkIoXkAAb7ev.jpg:large&lt;/a>&lt;/p>
+&lt;p>&lt;img src='https://pbs.twimg.com/media/EeaKkIoXkAAb7ev.jpg:large' referrerpolicy='no-referrer'>&lt;/p>
+    </content>
+  </entry>
+</feed>
