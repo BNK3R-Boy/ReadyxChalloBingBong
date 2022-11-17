@@ -7,7 +7,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221117191950"
+Global AppVersion := "20221117193208"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -400,8 +400,10 @@ Menu_UpdateMenuCheckmarks() {
 Menu_VoiceSetup() {
 	If FileExist(TF . "voicetoken") {
         App_Voice("Voicetoken wird entfernt. Ich bin nun Still.")
+		Voice := False
         FileDelete, %tf%voicetoken
 	} Else {
+		Voice := True
         App_Voice("Voicetoken wird gesetzt. Challo Bing Bong.")
         FileAppend, I can't dance but talk, %tf%voicetoken
 	}
