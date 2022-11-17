@@ -7,7 +7,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221117025053"
+Global AppVersion := "20221117032530"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName
 Global DEV := !A_Iscompiled
@@ -93,7 +93,7 @@ Main_Process(OnFirstLoad = 0) {
 			}
 			Sources[Spot]["currenttitle"] := NewRSSdata["TITLE"]
 			Sources[Spot]["currenturl"] := NewRSSdata["URL"]
-			NewShortButtonTitle := GetShortMenuTitle(Sources[Spot]["currenttitle"])
+			NewShortButtonTitle := Sources[Spot]["platform"] . ": " . GetShortMenuTitle(Sources[Spot]["currenttitle"])
 			Menu, Tray, Rename, % Sources[Spot]["currentbuttontitle"], %NewShortButtonTitle%
 			Sources[Spot]["currentbuttontitle"] := NewShortButtonTitle
 			Tray_CheckNewPostings()
