@@ -7,7 +7,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221117040839"
+Global AppVersion := "20221117042647"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -284,20 +284,18 @@ GetWebData(url) {
 
 App_CheckUpdate(m = 0) {
 	uurl := "https://raw.githubusercontent.com/BNK3R-Boy/" . AppName . "/main/version"
-    nv := "|||"
-	If FileExist(TF . "version")
-		FileRead, nv, %TF%version
-	If (nv == "|||")
-		Loop, 3 {
-			Try nv := GetWebData(uurl)
-			If nv
-				Break
-		}
+	Loop, 3 {
+		Try nv := GetWebData(uurl)
+		If nv
+			Break
+	}
 
 	If (InStr(nv, "Not Found")) {
+		Gui, Splash: destroy
 		MsgBox,, %AppName% - Prüfung auf Update gescheitert, %nv%
 		Return
 	} Else If nv && (nv > AppVersion) {
+		Gui, Splash: destroy
         MsgBox, 4, %AppName% - Ein neues Update ist verfügbar, %AppVersion% aktuelle Version`n%nv% neue Version`n`nDownload auf Github anzeigen?
 		IfMsgBox Yes
 		    Menu_OpenLink("", "", "", "https://github.com/BNK3R-Boy/" . AppName)
