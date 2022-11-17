@@ -7,9 +7,9 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221117040246"
+Global AppVersion := "20221117040839"
 Global AppTooltip := AppName
-Global TF := A_Temp . "\" . AppName
+Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
 Global ICOFileName := AppName . ".png"
 Global ICO := TF . ICOFileName
