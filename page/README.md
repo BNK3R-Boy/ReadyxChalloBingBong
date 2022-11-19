@@ -19,7 +19,7 @@ Keine weitere Installation nötig. Nach dem Download braucht Ihr es einfach nur 
 ### Autostart Option
 Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speicherort der ReadyxChalloBingBong.exe verändern, müsst Ihr ReadyxChalloBingBong.exe einmal manuell neu starten und die Autostart Option deaktivieren und erneut aktivieren. Damit wird Eurem System mit dem neuen Speicherort aktualisiert und der Autostart läuft wieder wie gewünscht.
 
-#### Abschließende Worte
+### Abschließende Worte
 Huhu! Ich habe keinerlei finanzielles Interesse an diesem Projekt und versuche zeitnah Updates zu liefern, wenn sie notwendig sind.
 Natürlich kann ich Euch aber nicht davon abhalten, Readyx mit einem Geschenkabo zu unterstützen.
 
