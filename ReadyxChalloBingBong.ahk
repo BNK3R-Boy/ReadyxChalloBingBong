@@ -7,7 +7,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221117193208"
+Global AppVersion := "20221119122227"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -421,7 +421,8 @@ Str_ExtHTMLcodeInstagram(html, platform) {
 }
 
 Str_ExtHTMLcodeTwitch(html, channel) {
-	wt := Str_FoundFirstPos(html, "<meta property=""og:description"" content=""", """/>")
+	wt := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
+	(!wt) ?	wt := Str_FoundFirstPos(html, "<meta property=""og:description"" content=""", """/>")
     wt := StrReplace(StrReplace(wt, "[", "<"), "]", ">")
 	wt := RegExReplace(wt, "i)[^0-9a-zA-Z!.<>: &;]")
     wt := StrReplace(wt, "&amp;", "&")
