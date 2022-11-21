@@ -38,10 +38,10 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 
 
 
-### Bekannte Fehler  
+### Bekannte Fehler (nicht verifiziert)  
 Seit: 20221121010056  
-- Sprachausgabe liest den neuen Titel nicht vor  
-- Titel erscheint nicht im Windows Info-Center  
+
+- Twitch Titel Änderung erscheint nicht im Windows Info-Center  
 
 
 
