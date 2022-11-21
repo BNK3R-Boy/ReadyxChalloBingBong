@@ -37,6 +37,16 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 
 
 
+
+### Bekannte Fehler  
+Seit: 20221121010056  
+- Sprachausgabe liest den neuen Titel noch nicht vor  
+- Titel erscheint noch im Windows Info-Center  
+
+
+
+
+
 ### Abschließende Worte
 Huhu! Ich habe keinerlei finanzielles Interesse an diesem Projekt und versuche zeitnah Updates zu liefern, wenn sie notwendig sind.
 Natürlich kann ich Euch aber nicht davon abhalten, Readyx mit einem Geschenkabo zu unterstützen.
