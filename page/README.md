@@ -38,9 +38,14 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 
 
 
-### Bekannte Fehler (nicht verifiziert)  
-Seit: 20221121010056  
+### Bekannte Fehler 
+Zzt. keine bekannt.  
 
+
+
+
+### Behobene Fehler  
+Seit: 20221121062958  
 - Twitch Titel Änderung erscheint nicht im Windows Info-Center  
 
 
