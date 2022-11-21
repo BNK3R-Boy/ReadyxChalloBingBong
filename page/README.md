@@ -12,8 +12,8 @@ Mit einem weiteren Klick auf ein Titel öffnet Ihr den entsprechenden Link in Eu
 Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag.  
 
 
-## Download
-ReadyxChalloBingBong.exe - Version: 20221121065732 (RC-1.4)
+## Download  
+ReadyxChalloBingBong.exe - Version: 20221121065732 (RC-1.4)  
 
 [[Virus Total Prüfergebnis](https://www.virustotal.com/gui/url/2f8660f49b11201aeb0e3bb22d7048b18e3fb1b67b9e8e2aae1a4c229c3085cf?nocache=1)][[Download](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe)]
 
@@ -21,16 +21,15 @@ ReadyxChalloBingBong.exe - Version: 20221121065732 (RC-1.4)
 
 
 
-### Installation
-Keine weitere Installation nötig.
-
-Nach dem Download braucht Ihr es einfach nur mit einem Doppelklick auf die ReadyxChalloBingBong.exe ausführen.
-
+### Installation  
+Keine weitere Installation nötig.  
+Nach dem Download braucht Ihr es einfach nur mit einem Doppelklick auf die ReadyxChalloBingBong.exe ausführen.  
 
 
 
 
-### Autostart Option
+
+### Autostart Option  
 Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speicherort der ReadyxChalloBingBong.exe verändern, müsst Ihr ReadyxChalloBingBong.exe einmal manuell neu starten und die Autostart Option deaktivieren und erneut aktivieren. Damit wird Eurem System mit dem neuen Speicherort aktualisiert und der Autostart läuft wieder wie gewünscht.
 
 
@@ -38,7 +37,7 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 
 
 
-### Bekannte Fehler
+### Bekannte Fehler  
 Zzt. keine bekannt.  
 
 
@@ -55,6 +54,8 @@ Seit: 20221121062958
 ### Abschließende Worte
 Huhu! Ich habe keinerlei finanzielles Interesse an diesem Projekt und versuche zeitnah Updates zu liefern, wenn sie notwendig sind.
 Natürlich kann ich Euch aber nicht davon abhalten, Readyx mit einem Geschenkabo zu unterstützen.
+
+
 
 
 ![1](https://user-images.githubusercontent.com/17516608/202868410-67296f61-9936-454f-913a-fcefd0a92b33.png)![1](https://user-images.githubusercontent.com/17516608/202868431-b2ffc3e0-7ca6-40c7-962a-d288b73a5f51.png)
