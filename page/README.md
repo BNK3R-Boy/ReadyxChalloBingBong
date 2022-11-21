@@ -40,8 +40,8 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 
 ### Bekannte Fehler  
 Seit: 20221121010056  
-- Sprachausgabe liest den neuen Titel noch nicht vor  
-- Titel erscheint noch im Windows Info-Center  
+- Sprachausgabe liest den neuen Titel nicht vor  
+- Titel erscheint nicht im Windows Info-Center  
 
 
 
