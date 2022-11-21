@@ -3,7 +3,7 @@
 Ihr bekommt nicht genug von unserem Lieblingstiroler und/oder habt Angst etwas zu verpassen?
 
 
-Challo Bing Bong prüft alle Readyx Kanäle auf neue Beiträge auf Twitter, Instagram, YouTube und TikTok, sowie den aktuellen Titel auf Twitch und meldet diese neben Eurer Systemuhr. ![Tray](https://user-images.githubusercontent.com/17516608/202866230-92366e19-7f94-40fe-accb-19784f4cc94b.png)  
+ReadyxChalloBingBong prüft alle Readyx Kanäle auf neue Beiträge auf Twitter, Instagram, YouTube und TikTok, sowie den aktuellen Titel auf Twitch und meldet diese neben Eurer Systemuhr. ![Tray](https://user-images.githubusercontent.com/17516608/202866230-92366e19-7f94-40fe-accb-19784f4cc94b.png)  
 Durch einen Rechtsklick öffnet sich ein kleines Menü mit allen Plattform und aktuellen Titel der Beiträge.  
   
 ![Menu](https://user-images.githubusercontent.com/17516608/202866333-2767a21e-003d-44eb-9bd0-449844c58ab3.png)  
