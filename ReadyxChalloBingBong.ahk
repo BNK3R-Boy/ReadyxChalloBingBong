@@ -7,7 +7,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221119122227"
+Global AppVersion := "20221121062958"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -17,6 +17,7 @@ Global nICO := TF . "n" . ICOFileName
 Global PathToSplashImage := TF . "splash.png"
 Global SplashPIC_widget_h := 200
 Global SplashPIC_widget_w := 463
+Global fnSplashTimeout := Func("App_SplashTimeout")
 
 Global fnOpenLink := Func("Menu_OpenLink")
 
@@ -76,14 +77,16 @@ App_MainProcess(Opt = 0) {
 
 			NewRSSdata["sTITLE"] := Menu_GetShortMenuTitle(NewRSSdata["TITLE"])
 			ExistInHistory := History_IsIn(NewRSSdata["URL"], NewRSSdata["sTITLE"])
-	        If (!ExistInHistory) || (Opt = 1) || (OptRem && !Opt) {
+			If (!ExistInHistory) || (Opt = 1) || (OptRem && !Opt) {
 				(!Opt && OptRem && Spot = Sources.Count()) ? OptRem := False
-	            If (!ExistInHistory) {
+				If (!ExistInHistory) {
 					History_Add(NewRSSdata["URL"], NewRSSdata["sTITLE"])
 					Sources[Spot]["new"] := 1
-	                Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%n%platform%.png,, 0
-	            	TrayTip, %AppName%: %platform%, % NewRSSdata["TITLE"], 20
-	            	App_Voice(NewRSSdata["sTITLE"])
+					App_SplashTimeout()
+                    Menu, Tray, Icon
+					Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%n%platform%.png,, 0
+					TrayTip, %AppName%: %platform%, % Menu_GetShortMenuTitle(NewRSSdata["TITLE"]), 20
+					App_Voice(platform . ": " . Menu_GetShortMenuTitle(NewRSSdata["TITLE"], Floor(MBL*1.5)))
 				}
 				Sources[Spot]["currenttitle"] := NewRSSdata["TITLE"]
 				Sources[Spot]["currenturl"] := NewRSSdata["URL"]
@@ -137,19 +140,22 @@ App_CheckUpdate(m = 0) {
 			Break
 	}
 
+
 	If (InStr(nv, "Not Found")) {
-		Gui, Splash: destroy
+		App_SplashTimeout()
 		MsgBox,, %AppName% - Prüfung auf Update gescheitert, %nv%
 		Return
 	} Else If nv && (nv > AppVersion) {
-		Gui, Splash: destroy
+		App_SplashTimeout()
         MsgBox, 4, %AppName% - Ein neues Update ist verfügbar, %AppVersion% aktuelle Version`n%nv% neue Version`n`nDownload auf Github anzeigen?
 		IfMsgBox Yes
 		    Menu_OpenLink("", "", "", "https://github.com/BNK3R-Boy/" . AppName)
 		Return
 	}
-	If (m)
+	If (m) {
+		App_SplashTimeout()
         MsgBox,, %AppName% - Prüfung auf Update Abgeschlossen, Kein Update verfügbar.
+	}
 }
 
 App_Inizial() {
@@ -169,7 +175,7 @@ App_Inizial() {
 	Tray_CheckNewPostings()
 	App_MainProcess(1)
 	Menu, Tray, Icon
-	Gui, Splash: destroy
+	App_SplashTimeout()
 }
 
 App_IsOnline() {
@@ -181,8 +187,14 @@ App_SplashScreen() {
   	Gui, Splash: Color, 1a2b3c
 	Gui, Splash: +HwndSplashwdHwnd +LastFound +AlwaysOnTop -Caption +ToolWindow
 	Gui, Splash: Add, Picture, x0 y0, %PathToSplashImage%
-	Gui, Splash: Show, w%SplashPIC_widget_w% h%SplashPIC_widget_h% NA, Power Reminder Splash Screen
+	Gui, Splash: Show, w%SplashPIC_widget_w% h%SplashPIC_widget_h% NA, %APPNAME% Screen
 	WinSet, TransColor, 1a2b3c, ahk_id %SplashwdHwnd%
+	SetTimer, %fnSplashTimeout%, -5000
+}
+
+App_SplashTimeout() {
+	Gui, Splash: destroy
+	SetTimer, %fnSplashTimeout%, Off
 }
 
 App_TempSetup() {
@@ -266,12 +278,13 @@ Menu_AutoStartSetup() {
 	Menu_UpdateMenuCheckmarks()
 }
 
-Menu_GetShortMenuTitle(t) {
+Menu_GetShortMenuTitle(t, l = "") {
+	cl := (!l) ? MBL : l
 	t := StrReplace(t, t . ": ", "")
 	sarray := StrSplit(t," ")
-    If (sarray.length() >= MBL) {
+    If (sarray.length() >= cl) {
 		str := ""
-		Loop, %MBL%
+		Loop, %cl%
 			str .= sarray[A_Index] . " "
 		t := trim(str) . "..."
 	}
