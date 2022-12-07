@@ -5,9 +5,23 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+InfoText =
+(
+
+   writte by
+
+   ██████╗ ███╗   ██╗██╗  ██╗██████╗ ██████╗ ██████╗  ██████╗ ██╗   ██╗
+   ██╔══██╗████╗  ██║██║ ██╔╝╚════██╗██╔══██╗██╔══██╗██╔═══██╗╚██╗ ██╔╝
+   ██████╔╝██╔██╗ ██║█████╔╝  █████╔╝██████╔╝██████╔╝██║   ██║ ╚████╔╝
+   ██╔══██╗██║╚██╗██║██╔═██╗  ╚═══██╗██╔══██╗██╔══██╗██║   ██║  ╚██╔╝
+   ██████╔╝██║ ╚████║██║  ██╗██████╔╝██║  ██║██████╔╝╚██████╔╝   ██║
+   ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═════╝  ╚═════╝    ╚═╝
+
+   on November 2👽22                                                 
+)
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221203124737"
+Global AppVersion := "20221207191330"
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -85,7 +99,7 @@ App_MainProcess(Opt = 0) {
 					App_SplashTimeout()
                     Menu, Tray, Icon
 					Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%n%platform%.png,, 0
-					TrayTip, %AppName%: %platform%, % Menu_GetShortMenuTitle(NewRSSdata["TITLE"]), 20
+					TrayTip, %platform%, % Menu_GetShortMenuTitle(NewRSSdata["TITLE"]), 20
 					App_Voice(platform . ": " . Menu_GetShortMenuTitle(NewRSSdata["TITLE"], Floor(MBL*1.5)))
 				}
 				Sources[Spot]["currenttitle"] := NewRSSdata["TITLE"]
