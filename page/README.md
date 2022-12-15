@@ -16,7 +16,7 @@ Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag
 
 
 ## Download  
-ReadyxChalloBingBong.exe - Version: 20221215153451 (RC-1.7)  
+ReadyxChalloBingBong.exe - Version: 20221215184417 (RC-1.8)  
 
 [[Virus Total Prüfergebnis](https://www.virustotal.com/gui/url/2f8660f49b11201aeb0e3bb22d7048b18e3fb1b67b9e8e2aae1a4c229c3085cf?nocache=1)][[Download](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe)]  
 
@@ -48,6 +48,8 @@ seit: 20221215153451
 
 
 ### Behobene Fehler  
+seit: 20221215184417  
+- TikTok nur noch im Kanäle Menü, TikTok blockiert das externe auslesen  
 seit: 20221203124737  
 - Instagram Link wird nicht gefunden  
 

@@ -21,7 +21,9 @@ InfoText =
 )
 
 Global AppName := "ReadyxChalloBingBong"
-Global AppVersion := "20221215153451"
+Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
+Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
+Global AppVersion := 20221215184417
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -69,6 +71,8 @@ App_MainProcess(Opt = 0) {
 	            Continue
 
 			platform := Sources[Spot]["platform"]
+	        If (platform == "TikTok")
+	            Continue
 
 			Try NewHTMLSource := Str_GetWebData(Sources[Spot]["rss"])
 			version := round(trim(Str_FoundFirstPos(NewHTMLSource, "version=""", """")),0)
@@ -82,6 +86,7 @@ App_MainProcess(Opt = 0) {
 				FileAppend, %hf% , %f%
 			}
 			;msgbox, %platform%`n%version%`n%html%
+			NewRSSdata := Array()
 			Switch version {
 				Case "1":							NewRSSdata := Str_ExtHTMLcodeXML1(NewHTMLSource, platform)
 				Case "2":   						NewRSSdata := Str_ExtHTMLcodeXML2(NewHTMLSource, platform)
@@ -161,9 +166,9 @@ App_CheckUpdate(m = 0) {
 		Return
 	} Else If nv && (nv > AppVersion) {
 		App_SplashTimeout()
-        MsgBox, 4, %AppName% - Ein neues Update ist verfügbar, %AppVersion% aktuelle Version`n%nv% neue Version`n`nDownload auf Github anzeigen?
+        MsgBox, 4, %AppName% - Ein neues Update ist verfügbar, %AppVersion% aktuelle Version`n%nv% neue Version`n`nVon Github donwloaded?
 		IfMsgBox Yes
-		    Menu_OpenLink("", "", "", "https://github.com/BNK3R-Boy/" . AppName)
+		    Menu_OpenLink("", "", "", dlGitHub)
 		Return
 	}
 	If (m) {
@@ -181,7 +186,7 @@ App_Inizial() {
 	App_AddSource("Readyx", "Twitch", "https://www.twitch.tv/readyx")
 	App_AddSource("Readyx", "Twitter", "https://twitter.com/Readyx_", "https://rssbox.us-west-2.elasticbeanstalk.com/twitter/1287773674209251329/Readyx_?include_rts=0&exclude_replies=1")
 	App_AddSource("Readyx", "Instagram", "https://www.instagram.com/readyx_ttv/", "https://imginn.com/readyx_ttv")
-	; App_AddSource("Readyx", "TikTok", "https://www.tiktok.com/@readyx_", "https://rsshub.app/tiktok/user/@readyx_")
+	App_AddSource("Readyx", "TikTok", "https://www.tiktok.com/@readyx_", "https://rsshub.app/tiktok/user/@readyx_")
 	App_AddSource("Readyx", "YouTube", "https://www.youtube.com/channel/UC_MyqSeBuocTop61oQTSXyw")
 
 	Menu_Setup()
@@ -325,7 +330,7 @@ Menu_OpenLink(bt, bno, sm, url="") {
 	}
 
 	If (bt = AppName . " - GitHub")
-		url := "https://bnk3r-boy.github.io/" . AppName
+		url := pgGitHub
 
 	If (bt = RUNONSTARTUP) {
 		Menu_AutoStartSetup()
@@ -372,15 +377,20 @@ Menu_Setup() {
 	Menu, Tray, Tip, %AppTooltip%
     Loop, % Sources.Count() {
 		Spot := A_Index
+		
         If !Sources[Spot]["status"]
             Continue
+            
 		platform := Sources[Spot]["platform"]
         channelno := Sources[Spot]["streamer"] . " - " . platform
-        Menu, Tray, Add, % Sources[Spot]["currentbuttontitle"], %fnOpenLink%
-		Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%%platform%.png,, 0
         Menu, portals, Add, %channelno%, %fnOpenLink%
 		Menu, portals, Icon, %channelno%, %TF%%platform%.png,, 0
-
+		
+	    If (platform == "TikTok")
+            Continue
+	    
+        Menu, Tray, Add, % Sources[Spot]["currentbuttontitle"], %fnOpenLink%
+		Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%%platform%.png,, 0
 	}
 	Menu, menu, Add, %AppName% - GitHub, %fnOpenLink%
 	Menu, menu, Add, %UPDATEBUTTONTITLE%, App_CheckUpdate
