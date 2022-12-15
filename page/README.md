@@ -38,7 +38,8 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 
 
 ### Bekannte Fehler  
-Zzt. keine bekannt.  
+seit: 20221215153451
+- TikTok blockiert das externe auslesen  
 
 
 
