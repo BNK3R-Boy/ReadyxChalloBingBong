@@ -23,7 +23,9 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20221215184417
+Global PARTNERIG := "Instant-Gaming"
+Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
+Global AppVersion := 20221216223602
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -44,6 +46,7 @@ Global Voice
 Global ToolTipToken := true
 
 Global SUBMENUNAME := "Kanäle"
+global PARTNERMENUNAME := "Partner"
 Global ROSSUB := "Menü"
 Global VOICEMENU := "Sprachausgabe"
 Global RUNONSTARTUP := "Autostart"
@@ -222,7 +225,7 @@ App_TempSetup() {
 	If !FileExist(PathToSplashImage)
 		FileInstall, splash.png, %PathToSplashImage%, 1
 
-	iconArray := ["Instagram", "nInstagram", "Tiktok", "nTiktok", "Twitch", "nTwitch", "Twitter", "nTwitter", "YouTube", "nYouTube", AppName, "n" . AppName]
+	iconArray := ["Instagram", "nInstagram", "Tiktok", "nTiktok", "Twitch", "nTwitch", "Twitter", "nTwitter", "YouTube", "nYouTube", AppName, "n" . AppName, "IG"]
 	Loop, % iconArray.length() {
 		filename := iconArray[A_Index]
 		pathto := TF . iconArray[A_Index] . ".png"
@@ -252,13 +255,15 @@ App_TempSetup() {
 						FileInstall, AppName.png, %pathto%, 1
 				Case "n" . AppName:
 						FileInstall, nAppName.png, %pathto%, 1
+				Case "IG":
+						FileInstall, IG.png, %pathto%, 1
 			}
 		}
 	}
 }
 
 App_Voice(msg) {
-	If (Voice)
+	If (Voice && msg)
 		ComObjCreate("SAPI.SpVoice").Speak(msg)
 	Else If ToolTipToken {
 		ToolTip, ReadyxChalloBingBong: %msg%
@@ -328,6 +333,9 @@ Menu_OpenLink(bt, bno, sm, url="") {
 			Break
 		}
 	}
+
+	If (bt = PARTNERIG)
+		url := PartnerLinkInstantGaming	
 
 	If (bt = AppName . " - GitHub")
 		url := pgGitHub
@@ -399,8 +407,11 @@ Menu_Setup() {
     Menu, menu, Add, %VOICEMENU%, %fnOpenLink%
 	Menu, menu, Add, %REFRESHDATAMENU%, %fnOpenLink%
 	Menu, menu, Add, %UNTAGNEWPOST%, Menu_UntagNewPost
+	Menu, partner, Add, %PARTNERIG%, %fnOpenLink%
+	Menu, partner, Icon, %PARTNERIG%, %TF%IG.png,, 0
 	Menu, Tray, Add
 	Menu, Tray, Add, %SUBMENUNAME%, :portals
+	Menu, Tray, Add, %PARTNERMENUNAME%, :partner
 	Menu, Tray, Add
 	Menu, Tray, Add, %ROSSUB%, :menu
     Menu, Tray, Add, Exit, %fnOpenLink%
