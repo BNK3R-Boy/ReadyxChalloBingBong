@@ -27,7 +27,7 @@ Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
 Global PARTNERJL := "Just Legends"
 Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
-Global AppVersion := 20221217152229
+Global AppVersion := 20221217225638
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -35,6 +35,7 @@ Global ICOFileName := AppName . ".png"
 Global ICO := TF . ICOFileName
 Global nICO := TF . "n" . ICOFileName
 Global PathToSplashImage := TF . "splash.png"
+Global HistoryFile := TF . "history.txt"
 Global SplashPIC_widget_h := 200
 Global SplashPIC_widget_w := 463
 Global fnSplashTimeout := Func("App_SplashTimeout")
@@ -68,7 +69,7 @@ Return
 App_MainProcess(Opt = 0) {
 	Static a, OptRem
 	ONLINE := App_IsOnline()
-
+	
 	If ONLINE {
 	    Loop, % Sources.Count() {
 			Spot := A_Index
@@ -99,17 +100,18 @@ App_MainProcess(Opt = 0) {
 					Case "Twitch":						NewRSSdata := Str_ExtHTMLcodeTwitch(NewHTMLSource, Sources[Spot]["channel"])
 					Case "Instagram", "Instagram2": 	NewRSSdata := Str_ExtHTMLcodeInstagram(NewHTMLSource, platform)
 				}
-				If !NewRSSdata["TITLE"] OR !NewRSSdata["URL"]
-					 Throw Exception("error", -1)
+				If !NewRSSdata["TITLE"] OR !NewRSSdata["URL"] OR (NewRSSdata["TITLE"] == "Titel konnte nicht geladen werden.") {
+					Throw Exception("error", -1)
+				}
 			} Catch e 
 				Continue
-				
+
 			NewRSSdata["sTITLE"] := Menu_GetShortMenuTitle(NewRSSdata["TITLE"])
-			ExistInHistory := History_IsIn(NewRSSdata["URL"], NewRSSdata["sTITLE"])
+			ExistInHistory := History_IsIn(NewRSSdata["URL"], platform, NewRSSdata["sTITLE"])
 			If (!ExistInHistory) || (Opt = 1) || (OptRem && !Opt) {
 				(!Opt && OptRem && Spot = Sources.Count()) ? OptRem := False
 				If (!ExistInHistory) {
-					History_Add(NewRSSdata["URL"], NewRSSdata["sTITLE"])
+					History_Add(NewRSSdata["URL"], platform, NewRSSdata["sTITLE"])
 					Sources[Spot]["new"] := 1
 					App_SplashTimeout()
                     Menu, Tray, Icon
@@ -126,18 +128,19 @@ App_MainProcess(Opt = 0) {
 			}
 		}
 		If !a {
-	       	App_Voice("Online")
+	       	;App_Voice("Online")
 			SetTimer, %fnMainProcess%, 300000
 			a := True
 		}
 	}
 
-	If !ONLINE && (a || (Opt = 1)) {
+	If (!ONLINE AND (a OR (Opt = 1))) OR (e.Message = "error") {
 		SetTimer, %fnMainProcess%, 5000
-       	App_Voice("Offline")
+       	;App_Voice("Offline")
 		a := False
 		(Opt = 1) ? OptRem := True
 	}
+	History_Cleanup()
 	(Opt = 2) ? (!ONLINE && a) ? App_Voice("Offline") : App_Voice("Fertig")
 }
 
@@ -281,23 +284,85 @@ App_Voice(msg) {
 	}
 }
 
-History_Add(URL, Title = "") {
-	(URL == "https://www.twitch.tv/readyx") ? URL := URL . " " . Title
-    FileAppend, %URL%`n, %tf%history.txt
+Arr_RemoveDuplicate(arr) {
+	narr := []
+	Loop % arr.Length()
+	{
+		value := arr.RemoveAt(1) ; otherwise Object.Pop() a little faster, but would not keep the original order
+		Loop % narr.Length()
+			If (value = narr[A_Index])
+	    		Continue 2 ; jump to the top of the outer loop, we found a duplicate, discard it and move on
+		narr.Push(value)
+	}
+	Return narr
 }
 
-History_IsIn(URL, Title = "") {
-	If !FileExist(tf . "history.txt")
+History_Add(URL, platform, Title = "") {
+	URL := platform . "|||" . URL . "|||" . Title . "`n"
+	FileRead, Contents, %HistoryFile%
+    FileDelete, %HistoryFile%
+ 	URL .= Contents
+    FileAppend, %URL%, %HistoryFile%
+}
+
+History_Cleanup() {
+	parray := []
+	If !FileExist(HistoryFile)
 		Return False
-	(InStr(URL, "www.twitch.tv")) ? URL := URL . " " . Title
-    Loop, Read, %tf%history.txt
+    Loop, Read, %HistoryFile%
+	{
+    	Loop, Parse, A_LoopReadLine, %A_Tab%
+	    {
+			l := StrSplit(A_LoopReadLine, "|||")
+			hplatform := l[1]
+			hURL := l[2]
+			hTitle := l[3]
+			C%hplatform%++
+			parray.Push(hplatform)
+		}
+	}
+	parray := Arr_RemoveDuplicate(parray)
+	NewHistoryLine := ""
+	Loop, Read, %HistoryFile%
+	{
+		Loop, Parse, A_LoopReadLine, %A_Tab%
+		{
+			l := StrSplit(A_LoopReadLine, "|||")
+			hplatform := l[1]
+			hCn%hplatform%++
+			hCn := hCn%hplatform%
+			If (hCn <= 3)
+				NewHistoryLine .= A_LoopReadLine . "`n"
+		}
+	}
+    FileDelete, %HistoryFile%
+    FileAppend, %NewHistoryLine%, %HistoryFile%
+}
+
+History_IsIn(URL, platform, Title = "") {
+	If !FileExist(HistoryFile)
+		Return False
+    Loop, Read, %HistoryFile%
 	{
 	    Loop, Parse, A_LoopReadLine, %A_Tab%
 	    {
-	        If (InStr(URL, A_LoopField)) {
-				; msgbox, yes %URL% %A_LoopField%
-				Return True
+	    	hplatform := ""
+	    	hURL := ""
+	    	hTitle := ""
+	    	hdata := StrSplit(A_LoopReadLine, "|||")
+	    	hplatform := hdata[1]
+	    	hURL := hdata[2]
+	    	hTitle := hdata[3]
+
+			;Msgbox, %A_LoopReadLine%`n`nURL:`t%URL%`nhURL:`t%hURL%`n`nplatform:`t`t%platform%`nhPlatform:`t%hplatform%`n`nTitle:`t%Title%`nhTitle:`t%Title%
+			If (URL = hURL) AND (platform = hplatform) {
+				If (platform = "Twitch") {
+					If (Title = hTitle)
+						Return True
+				} Else
+					Return True
 			}
+
 	    }
 	}
 	Return False
