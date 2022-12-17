@@ -27,7 +27,7 @@ Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
 Global PARTNERJL := "Just Legends"
 Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
-Global AppVersion := 20221217225638
+Global AppVersion := 20221217231208
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -313,12 +313,14 @@ History_Cleanup() {
 	{
     	Loop, Parse, A_LoopReadLine, %A_Tab%
 	    {
-			l := StrSplit(A_LoopReadLine, "|||")
-			hplatform := l[1]
-			hURL := l[2]
-			hTitle := l[3]
-			C%hplatform%++
-			parray.Push(hplatform)
+	    	If InStr(A_LoopReadLine, "|||") {
+				l := StrSplit(A_LoopReadLine, "|||")
+				hplatform := l[1]
+				hURL := l[2]
+				hTitle := l[3]
+				C%hplatform%++
+				parray.Push(hplatform)
+			}
 		}
 	}
 	parray := Arr_RemoveDuplicate(parray)
@@ -327,12 +329,14 @@ History_Cleanup() {
 	{
 		Loop, Parse, A_LoopReadLine, %A_Tab%
 		{
-			l := StrSplit(A_LoopReadLine, "|||")
-			hplatform := l[1]
-			hCn%hplatform%++
-			hCn := hCn%hplatform%
-			If (hCn <= 3)
-				NewHistoryLine .= A_LoopReadLine . "`n"
+	    	If InStr(A_LoopReadLine, "|||") {
+				l := StrSplit(A_LoopReadLine, "|||")
+				hplatform := l[1]
+				hCn%hplatform%++
+				hCn := hCn%hplatform%
+				If (hCn <= 3)
+					NewHistoryLine .= A_LoopReadLine . "`n"
+			}
 		}
 	}
     FileDelete, %HistoryFile%
