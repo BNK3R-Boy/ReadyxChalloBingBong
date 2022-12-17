@@ -25,7 +25,7 @@ Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
 Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
-Global AppVersion := 20221216223602
+Global AppVersion := 20221217030844
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -424,6 +424,8 @@ Menu_UntagNewPost() {
         If !Sources[Spot]["status"]
             Continue
 		platform := Sources[Spot]["platform"]
+	    If (platform == "TikTok")
+            Continue
         Sources[Spot]["new"] := 0
         Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%%platform%.png,, 0
 	}
