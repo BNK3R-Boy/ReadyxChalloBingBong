@@ -50,21 +50,23 @@ seit: 20221215153451
 ### Behobene Fehler  
 seit: 20221217030844  
 - Fehler beim TikTok "neue Beiträge Markierung entfernen" behoben.  
+  
 seit: 20221215184417  
 - TikTok nur noch im Kanäle Menü, TikTok blockiert das externe auslesen  
+  
 seit: 20221203124737  
 - Instagram Link wird nicht gefunden  
-
+  
 seit: 20221203122933  
 - Instagram Titel wird nicht gefunden  
-
+  
 seit: 20221121062958  
 - Twitch Titel Änderung erscheint nicht im Windows Info-Center  
-
-
-
-
-
+  
+  
+  
+  
+  
 ### Abschließende Worte  
 Huhu! Ich habe keinerlei finanzielles Interesse an diesem Projekt und versuche zeitnah Updates zu liefern, wenn sie notwendig sind.  
 Natürlich kann ich Euch aber nicht davon abhalten, Readyx mit einem Geschenkabo zu unterstützen.  
