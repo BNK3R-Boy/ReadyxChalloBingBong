@@ -25,7 +25,7 @@ Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
 Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
-Global AppVersion := 20221217030844
+Global AppVersion := 20221217051342
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -76,27 +76,32 @@ App_MainProcess(Opt = 0) {
 			platform := Sources[Spot]["platform"]
 	        If (platform == "TikTok")
 	            Continue
-
-			Try NewHTMLSource := Str_GetWebData(Sources[Spot]["rss"])
-			version := round(trim(Str_FoundFirstPos(NewHTMLSource, "version=""", """")),0)
-			(!version) || (platform = "Twitch") ? version := platform
-
-			If (platform = 1) {
-				;msgbox, %platform% - %version%`n%html%
-				FormatTime, timestamp, , yyyyMMddHHmmss
-				f := timestamp . platform . ".txt"
-				hf := StrReplace(NewHTMLSource, "><", ">`n<")
-				FileAppend, %hf% , %f%
-			}
-			;msgbox, %platform%`n%version%`n%html%
-			NewRSSdata := Array()
-			Switch version {
-				Case "1":							NewRSSdata := Str_ExtHTMLcodeXML1(NewHTMLSource, platform)
-				Case "2":   						NewRSSdata := Str_ExtHTMLcodeXML2(NewHTMLSource, platform)
-				Case "Twitch":						NewRSSdata := Str_ExtHTMLcodeTwitch(NewHTMLSource, Sources[Spot]["channel"])
-				Case "Instagram", "Instagram2": 	NewRSSdata := Str_ExtHTMLcodeInstagram(NewHTMLSource, platform)
-			}
-
+	            
+			Try {
+				NewHTMLSource := Str_GetWebData(Sources[Spot]["rss"])
+				version := round(trim(Str_FoundFirstPos(NewHTMLSource, "version=""", """")),0)
+				(!version) || (platform = "Twitch") ? version := platform
+	
+				If (platform = 1) {
+					;msgbox, %platform% - %version%`n%html%
+					FormatTime, timestamp, , yyyyMMddHHmmss
+					f := timestamp . platform . ".txt"
+					hf := StrReplace(NewHTMLSource, "><", ">`n<")
+					FileAppend, %hf% , %f%
+				}
+				;msgbox, %platform%`n%version%`n%html%
+				NewRSSdata := Array()
+				Switch version {
+					Case "1":							NewRSSdata := Str_ExtHTMLcodeXML1(NewHTMLSource, platform)
+					Case "2":   						NewRSSdata := Str_ExtHTMLcodeXML2(NewHTMLSource, platform)
+					Case "Twitch":						NewRSSdata := Str_ExtHTMLcodeTwitch(NewHTMLSource, Sources[Spot]["channel"])
+					Case "Instagram", "Instagram2": 	NewRSSdata := Str_ExtHTMLcodeInstagram(NewHTMLSource, platform)
+				}
+				If !NewRSSdata["TITLE"] OR !NewRSSdata["URL"]
+					 Throw Exception("error", -1)
+			} Catch e 
+				Continue
+				
 			NewRSSdata["sTITLE"] := Menu_GetShortMenuTitle(NewRSSdata["TITLE"])
 			ExistInHistory := History_IsIn(NewRSSdata["URL"], NewRSSdata["sTITLE"])
 			If (!ExistInHistory) || (Opt = 1) || (OptRem && !Opt) {
