@@ -48,6 +48,8 @@ seit: 20221215153451
 
 
 ### Behobene Fehler  
+seit: 20221217030844  
+- Fehler beim TikTok "neue Beiträge Markierung entfernen" behoben.  
 seit: 20221215184417  
 - TikTok nur noch im Kanäle Menü, TikTok blockiert das externe auslesen  
 seit: 20221203124737  
