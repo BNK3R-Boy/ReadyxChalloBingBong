@@ -9,7 +9,7 @@ TikTok blockiert leider das externe auslesen und ich Arbeite an einer Lösung.
   
    
   
-![Menu](https://user-images.githubusercontent.com/17516608/202866333-2767a21e-003d-44eb-9bd0-449844c58ab3.png)  
+![Menu](https://raw.githubusercontent.com/BNK3R-Boy/ReadyxChalloBingBong/main/page/Menu.png)  
   
 Mit einem weiteren Klick auf ein Titel öffnet Ihr den entsprechenden Link in Eurem Browser.  
 Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag.  
