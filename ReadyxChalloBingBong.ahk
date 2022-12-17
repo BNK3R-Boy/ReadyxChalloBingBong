@@ -25,7 +25,9 @@ Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
 Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
-Global AppVersion := 20221217051342
+Global PARTNERJL := "Just Legends"
+Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
+Global AppVersion := 20221217152229
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -45,8 +47,8 @@ Global Sources := Array()
 Global Voice
 Global ToolTipToken := true
 
-Global SUBMENUNAME := "Kanäle"
-global PARTNERMENUNAME := "Partner"
+Global MENUTITELNAMEchannels := "Kanäle"
+global MENUTITELNAMEnews := "Neueste Beiträge"
 Global ROSSUB := "Menü"
 Global VOICEMENU := "Sprachausgabe"
 Global RUNONSTARTUP := "Autostart"
@@ -192,9 +194,9 @@ App_Inizial() {
 
 	; App_AddSource(streamer, platform, channel, rss)
 	App_AddSource("Readyx", "Twitch", "https://www.twitch.tv/readyx")
+	App_AddSource("Readyx", "TikTok", "https://www.tiktok.com/@readyx_", "https://rsshub.app/tiktok/user/@readyx_")
 	App_AddSource("Readyx", "Twitter", "https://twitter.com/Readyx_", "https://rssbox.us-west-2.elasticbeanstalk.com/twitter/1287773674209251329/Readyx_?include_rts=0&exclude_replies=1")
 	App_AddSource("Readyx", "Instagram", "https://www.instagram.com/readyx_ttv/", "https://imginn.com/readyx_ttv")
-	App_AddSource("Readyx", "TikTok", "https://www.tiktok.com/@readyx_", "https://rsshub.app/tiktok/user/@readyx_")
 	App_AddSource("Readyx", "YouTube", "https://www.youtube.com/channel/UC_MyqSeBuocTop61oQTSXyw")
 
 	Menu_Setup()
@@ -230,7 +232,7 @@ App_TempSetup() {
 	If !FileExist(PathToSplashImage)
 		FileInstall, splash.png, %PathToSplashImage%, 1
 
-	iconArray := ["Instagram", "nInstagram", "Tiktok", "nTiktok", "Twitch", "nTwitch", "Twitter", "nTwitter", "YouTube", "nYouTube", AppName, "n" . AppName, "IG"]
+	iconArray := ["Instagram", "nInstagram", "Tiktok", "nTiktok", "Twitch", "nTwitch", "Twitter", "nTwitter", "YouTube", "nYouTube", AppName, "n" . AppName, "IG", "JL"]
 	Loop, % iconArray.length() {
 		filename := iconArray[A_Index]
 		pathto := TF . iconArray[A_Index] . ".png"
@@ -262,6 +264,8 @@ App_TempSetup() {
 						FileInstall, nAppName.png, %pathto%, 1
 				Case "IG":
 						FileInstall, IG.png, %pathto%, 1
+				Case "JL":
+						FileInstall, JL.png, %pathto%, 1
 			}
 		}
 	}
@@ -341,6 +345,9 @@ Menu_OpenLink(bt, bno, sm, url="") {
 
 	If (bt = PARTNERIG)
 		url := PartnerLinkInstantGaming	
+		
+	If (bt = PARTNERJL)
+		url := PartnerLinkJustLegends	
 
 	If (bt = AppName . " - GitHub")
 		url := pgGitHub
@@ -365,7 +372,7 @@ Menu_OpenLink(bt, bno, sm, url="") {
 		Return
 	}
 
-	If (bt = REFRESHDATAMENU) {
+	If (bt = REFRESHDATAMENU) OR (bt = MENUTITELNAMEnews) {
         App_MainProcess(2)
 	}
 
@@ -388,22 +395,43 @@ Menu_Setup() {
 	Menu, Tray, NoStandard
 	Menu, Tray, Icon, %ICO%, 0
 	Menu, Tray, Tip, %AppTooltip%
-    Loop, % Sources.Count() {
+	Menu, Tray, Add, %PARTNERJL%, %fnOpenLink%
+	Menu, Tray, Icon, %PARTNERJL%, %TF%JL.png,, 0
+	Menu, Tray, Add, %PARTNERIG%, %fnOpenLink%
+	Menu, Tray, Icon, %PARTNERIG%, %TF%IG.png,, 0
+	Menu, Tray, Add
+	Menu, Tray, Add, %MENUTITELNAMEnews%, %fnOpenLink%
+	Menu, Tray, Icon, %MENUTITELNAMEnews%, %nICO%,, 0
+	Loop, % Sources.Count() {
 		Spot := A_Index
 		
         If !Sources[Spot]["status"]
             Continue
-            
+        
 		platform := Sources[Spot]["platform"]
         channelno := Sources[Spot]["streamer"] . " - " . platform
-        Menu, portals, Add, %channelno%, %fnOpenLink%
-		Menu, portals, Icon, %channelno%, %TF%%platform%.png,, 0
-		
+
 	    If (platform == "TikTok")
             Continue
 	    
         Menu, Tray, Add, % Sources[Spot]["currentbuttontitle"], %fnOpenLink%
 		Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%%platform%.png,, 0
+	}
+	Menu, Tray, Add
+	Menu, Tray, Add, Kanäle, %fnOpenLink%
+	Menu, Tray, Icon, Kanäle, %ICO%,, 0
+	Loop, % Sources.Count() {
+		Spot := A_Index
+		
+        If !Sources[Spot]["status"]
+            Continue
+        
+		platform := Sources[Spot]["platform"]
+        channelno := Sources[Spot]["streamer"] . " - " . platform
+		If (platform != "Twitch") {
+	        Menu, Tray, Add, %channelno%, %fnOpenLink%
+			Menu, Tray, Icon, %channelno%, %TF%%platform%.png,, 0
+		}
 	}
 	Menu, menu, Add, %AppName% - GitHub, %fnOpenLink%
 	Menu, menu, Add, %UPDATEBUTTONTITLE%, App_CheckUpdate
@@ -412,11 +440,8 @@ Menu_Setup() {
     Menu, menu, Add, %VOICEMENU%, %fnOpenLink%
 	Menu, menu, Add, %REFRESHDATAMENU%, %fnOpenLink%
 	Menu, menu, Add, %UNTAGNEWPOST%, Menu_UntagNewPost
-	Menu, partner, Add, %PARTNERIG%, %fnOpenLink%
-	Menu, partner, Icon, %PARTNERIG%, %TF%IG.png,, 0
-	Menu, Tray, Add
-	Menu, Tray, Add, %SUBMENUNAME%, :portals
-	Menu, Tray, Add, %PARTNERMENUNAME%, :partner
+;	Menu, Tray, Add, %SUBMENUNAME%, :portals
+;	Menu, Tray, Add, %PARTNERMENUNAME%, :partner
 	Menu, Tray, Add
 	Menu, Tray, Add, %ROSSUB%, :menu
     Menu, Tray, Add, Exit, %fnOpenLink%
