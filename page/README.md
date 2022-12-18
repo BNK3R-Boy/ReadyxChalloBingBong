@@ -16,7 +16,7 @@ Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag
 
 
 ## Download  
-ReadyxChalloBingBong.exe - Version: 20221218134300 (RC-2.5)  
+ReadyxChalloBingBong.exe - Version: 20221218213722 (RC-2.6)  
 
 [[Virus Total Prüfergebnis](https://www.virustotal.com/gui/url/2f8660f49b11201aeb0e3bb22d7048b18e3fb1b67b9e8e2aae1a4c229c3085cf?nocache=1)][[Download](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe)]  
 
@@ -41,12 +41,10 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 
 
 ### Bekannte Fehler  
-seit: 20221215153451
+seit: 20221215153451  
 - TikTok blockiert das externe auslesen  
-
-
-
-
+  
+  
 ### Behobene Fehler  
 seit: 20221218134300  
 - Fehler beim öffnen der Kanäle behoben.  

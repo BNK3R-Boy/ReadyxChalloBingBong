@@ -27,7 +27,7 @@ Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
 Global PARTNERJL := "Just Legends"
 Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
-Global AppVersion := 20221218134300
+Global AppVersion := 20221218213722
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -60,9 +60,12 @@ Global REFRESHDATAMENU := "Auf neue Beiträge prüfen"
 Global MBL := 5
 Global fnMainProcess := Func("App_MainProcess")
 
-
 App_Inizial()
 Return
+
+
+
+
 
 ; ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -573,6 +576,22 @@ Str_ExtHTMLcodeInstagram(html, platform) {
 }
 
 Str_ExtHTMLcodeTwitch(html, channel) {
+	str := Str_FoundFirstPos(html, "<script type=""application/ld+json"">[{", "}]</script>")
+	Array := StrSplit(str, ",")
+	title := StrSplit(Array[3], ":")
+	wt := title[2]
+	wt := StrReplace(wt,"â¬", "€")
+	wt := RegExReplace(wt, "i)[^0-9a-zA-Z!.<>: &;€]")
+    wt := StrReplace(wt, "&amp;", "&")
+	wt := StrReplace(StrReplace(wt, ">", "]"), "<", " [")
+	wt := StrReplace(StrReplace(wt, "  ", " "), "  ", " ")
+	lk := channel
+	online := StrSplit(StrReplace(Array[13], "}"), ":")
+	online := (online[2]) ? "On Air!" : "Offline."
+	wt := online . " " . wt
+	(!wt) ? wt := "Titel konnte nicht geladen werden."
+	
+	/* OLD
 	wt := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
 	(!wt) ?	wt := Str_FoundFirstPos(html, "<meta property=""og:description"" content=""", """/>")
 	(!wt) ?	wt := Str_FoundFirstPos(html, "<meta content=""", """ name=/>")
@@ -584,6 +603,7 @@ Str_ExtHTMLcodeTwitch(html, channel) {
 	lk := Str_FoundFirstPos(html, "<link rel=""alternate"" hreflang=""x-default"" href=""", """/>")
 	(!wt) ? wt := "Titel konnte nicht geladen werden."
 	(!lk) ? lk := channel
+	*/
 	Return {TITLE: (wt), URL: (lk)}
 
 }
@@ -628,8 +648,7 @@ Str_FoundFirstPos(Page, beforeString1, afterString1) {
 
 Str_GetWebData(url) {
 	Page := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-	Page.Open("GET", url, true)
-	Page.Send()
+	Page.Open("GET", url, true), Page.Send()
 	Page.WaitForResponse()
 	Return Page.ResponseText
 }
