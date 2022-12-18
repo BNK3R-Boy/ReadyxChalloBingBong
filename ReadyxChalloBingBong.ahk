@@ -27,7 +27,7 @@ Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
 Global PARTNERJL := "Just Legends"
 Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
-Global AppVersion := 20221218213722
+Global AppVersion := 20221218222438
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -587,9 +587,8 @@ Str_ExtHTMLcodeTwitch(html, channel) {
 	wt := StrReplace(StrReplace(wt, "  ", " "), "  ", " ")
 	lk := channel
 	online := StrSplit(StrReplace(Array[13], "}"), ":")
-	online := (online[2]) ? "On Air!" : "Offline."
-	wt := online . " " . wt
-	(!wt) ? wt := "Titel konnte nicht geladen werden."
+	online := (online[2]) ? "On Stream!" : "Offline"
+	wt := (wt) ? online . " " . wt : "Titel konnte nicht geladen werden."
 	
 	/* OLD
 	wt := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
