@@ -27,7 +27,7 @@ Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
 Global PARTNERJL := "Just Legends"
 Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
-Global AppVersion := 20221217231208
+Global AppVersion := 20221218134300
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -409,7 +409,7 @@ Menu_OpenLink(bt, bno, sm, url="") {
 			Sources[Spot]["new"] := 0
 			Break
 		}
-		If (sm = "portals") && (Sources[Spot]["streamer"] . " - " . platform == bt) {
+		If (sm = "Tray") && (Sources[Spot]["streamer"] . " - " . platform == bt) {
 			url := Sources[Spot]["channel"]
 			Break
 		}
