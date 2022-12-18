@@ -27,7 +27,7 @@ Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
 Global PARTNERJL := "Just Legends"
 Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
-Global AppVersion := 20221218222438
+Global AppVersion := 20221218225803
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -367,7 +367,7 @@ History_IsIn(URL, platform, Title = "") {
 			;Msgbox, %A_LoopReadLine%`n`nURL:`t%URL%`nhURL:`t%hURL%`n`nplatform:`t`t%platform%`nhPlatform:`t%hplatform%`n`nTitle:`t%Title%`nhTitle:`t%Title%
 			If (URL = hURL) AND (platform = hplatform) {
 				If (platform = "Twitch") {
-					If (Title = hTitle)
+					If (InStr(hTitle, Title))
 						Return True
 				} Else
 					Return True
