@@ -27,7 +27,7 @@ Global PARTNERIG := "Instant-Gaming"
 Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
 Global PARTNERJL := "Just Legends"
 Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
-Global AppVersion := 20221218225803
+Global AppVersion := 20221219144020
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -80,8 +80,6 @@ App_MainProcess(Opt = 0) {
 	            Continue
 
 			platform := Sources[Spot]["platform"]
-	        If (platform == "TikTok")
-	            Continue
 	            
 			Try {
 				NewHTMLSource := Str_GetWebData(Sources[Spot]["rss"])
@@ -485,9 +483,6 @@ Menu_Setup() {
         
 		platform := Sources[Spot]["platform"]
         channelno := Sources[Spot]["streamer"] . " - " . platform
-
-	    If (platform == "TikTok")
-            Continue
 	    
         Menu, Tray, Add, % Sources[Spot]["currentbuttontitle"], %fnOpenLink%
 		Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%%platform%.png,, 0
@@ -529,8 +524,6 @@ Menu_UntagNewPost() {
         If !Sources[Spot]["status"]
             Continue
 		platform := Sources[Spot]["platform"]
-	    If (platform == "TikTok")
-            Continue
         Sources[Spot]["new"] := 0
         Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%%platform%.png,, 0
 	}
@@ -566,6 +559,8 @@ Menu_VoiceSetup() {
 }
 
 Str_ExtHTMLcodeInstagram(html, platform) {
+	html2 := StrReplace(html, ">", ">`n")
+	FileAppend, %html2%, html.html
 	Item := Str_FoundFirstPos(html, "<div class=""item"">", "</div>   <div class=""item"">")
 	wt := Str_FoundFirstPos(Item, "alt=""", """")
 	lk := Str_FoundFirstPos(Item, "<a href=""", """>")
@@ -578,8 +573,15 @@ Str_ExtHTMLcodeInstagram(html, platform) {
 Str_ExtHTMLcodeTwitch(html, channel) {
 	str := Str_FoundFirstPos(html, "<script type=""application/ld+json"">[{", "}]</script>")
 	Array := StrSplit(str, ",")
-	title := StrSplit(Array[3], ":")
-	wt := title[2]
+	If !Array.Count() {
+		online[2] := false
+		wt := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
+		(!wt) ?	wt := Str_FoundFirstPos(html, "<meta property=""og:description"" content=""", """/>")
+		(!wt) ?	wt := Str_FoundFirstPos(html, "<meta content=""", """ name=/>")
+	} Else {
+		title := StrSplit(Array[3], ":")
+		wt := title[2]
+	}
 	wt := StrReplace(wt,"â¬", "€")
 	wt := RegExReplace(wt, "i)[^0-9a-zA-Z!.<>: &;€]")
     wt := StrReplace(wt, "&amp;", "&")
@@ -587,8 +589,9 @@ Str_ExtHTMLcodeTwitch(html, channel) {
 	wt := StrReplace(StrReplace(wt, "  ", " "), "  ", " ")
 	lk := channel
 	online := StrSplit(StrReplace(Array[13], "}"), ":")
-	online := (online[2]) ? "On Stream!" : "Offline"
+	online := (online[2]) ? "On Stream!" : "Offline."
 	wt := (wt) ? online . " " . wt : "Titel konnte nicht geladen werden."
+	
 	
 	/* OLD
 	wt := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
