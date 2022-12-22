@@ -16,7 +16,7 @@ Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag
 
 
 ## Download  
-ReadyxChalloBingBong.exe - Version: 20221219144020 (RC-2.9)  
+ReadyxChalloBingBong.exe - Version: 20221222045253 (RC-3.0)  
 
 [[Virus Total Prüfergebnis](https://www.virustotal.com/gui/url/2f8660f49b11201aeb0e3bb22d7048b18e3fb1b67b9e8e2aae1a4c229c3085cf?nocache=1)][[Download](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe)]  
 
@@ -49,9 +49,13 @@ seit: 20221219144020
   
   
 ### Behobene Fehler  
+seit: 20221222045253  
+- ChalloBingBong generierte eine html.html im Appverzeichnis, kann manuell und wird nun automatisch entfernt.  
+- Neue Twitch Datenquellen hinzugefügt und fallback Funktion eingerichtet.  
+ 
 seit: 20221219144020  
-- TikTok blockiert das externe auslesen  
-- Instagram blockiert das externe auslesen  
+- TikTok blockiert das externe auslesen.  
+- Instagram blockiert das externe auslesen.  
   
 seit: 20221218134300  
 - Fehler beim öffnen der Kanäle behoben.  
@@ -60,16 +64,16 @@ seit: 20221217030844
 - Fehler beim TikTok "neue Beiträge Markierung entfernen" behoben.  
   
 seit: 20221215184417  
-- TikTok nur noch im Kanäle Menü, TikTok blockiert das externe auslesen  
+- TikTok nur noch im Kanäle Menü, TikTok blockiert das externe auslesen.  
   
 seit: 20221203124737  
-- Instagram Link wird nicht gefunden  
+- Instagram Link wird nicht gefunden.  
   
 seit: 20221203122933  
-- Instagram Titel wird nicht gefunden  
+- Instagram Titel wird nicht gefunden.  
   
 seit: 20221121062958  
-- Twitch Titel Änderung erscheint nicht im Windows Info-Center  
+- Twitch Titel Änderung erscheint nicht im Windows Info-Center.  
   
   
   

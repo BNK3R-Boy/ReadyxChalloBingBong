@@ -19,15 +19,10 @@ InfoText =
 
    on November 2👽22                                                 
 )
-
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global PARTNERIG := "Instant-Gaming"
-Global PartnerLinkInstantGaming := "https://www.instant-gaming.com/?igr=Readyx"
-Global PARTNERJL := "Just Legends"
-Global PartnerLinkJustLegends := "https://justlegends.link/Readyx-Twitch-Panel"
-Global AppVersion := 20221219144020
+Global AppVersion := 20221222045253
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -39,15 +34,12 @@ Global HistoryFile := TF . "history.txt"
 Global SplashPIC_widget_h := 200
 Global SplashPIC_widget_w := 463
 Global fnSplashTimeout := Func("App_SplashTimeout")
-
 Global fnOpenLink := Func("Menu_OpenLink")
-
 Global ReadedPosting := Array()
 Global Sources := Array()
-
+Global Partner := Array()
 Global Voice
-Global ToolTipToken := true
-
+Global ToolTipToken := True
 Global MENUTITELNAMEchannels := "Kanäle"
 global MENUTITELNAMEnews := "Neueste Beiträge"
 Global ROSSUB := "Menü"
@@ -56,109 +48,37 @@ Global RUNONSTARTUP := "Autostart"
 Global UNTAGNEWPOST := "neue Beiträge Markierung entfernen"
 Global UPDATEBUTTONTITLE := "Auf App Update prüfen"
 Global REFRESHDATAMENU := "Auf neue Beiträge prüfen"
-
 Global MBL := 5
+Global TWITCHADD := 2
+Global HISTORYLENGTH := 1
 Global fnMainProcess := Func("App_MainProcess")
 
 App_Inizial()
 Return
 
-
-
-
-
-; ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-App_MainProcess(Opt = 0) {
-	Static a, OptRem
-	ONLINE := App_IsOnline()
-	
-	If ONLINE {
-	    Loop, % Sources.Count() {
-			Spot := A_Index
-	        If !Sources[Spot]["status"]
-	            Continue
-
-			platform := Sources[Spot]["platform"]
-	            
-			Try {
-				NewHTMLSource := Str_GetWebData(Sources[Spot]["rss"])
-				version := round(trim(Str_FoundFirstPos(NewHTMLSource, "version=""", """")),0)
-				(!version) || (platform = "Twitch") ? version := platform
-	
-				If (platform = 1) {
-					;msgbox, %platform% - %version%`n%html%
-					FormatTime, timestamp, , yyyyMMddHHmmss
-					f := timestamp . platform . ".txt"
-					hf := StrReplace(NewHTMLSource, "><", ">`n<")
-					FileAppend, %hf% , %f%
-				}
-				;msgbox, %platform%`n%version%`n%html%
-				NewRSSdata := Array()
-				Switch version {
-					Case "1":							NewRSSdata := Str_ExtHTMLcodeXML1(NewHTMLSource, platform)
-					Case "2":   						NewRSSdata := Str_ExtHTMLcodeXML2(NewHTMLSource, platform)
-					Case "Twitch":						NewRSSdata := Str_ExtHTMLcodeTwitch(NewHTMLSource, Sources[Spot]["channel"])
-					Case "Instagram", "Instagram2": 	NewRSSdata := Str_ExtHTMLcodeInstagram(NewHTMLSource, platform)
-				}
-				If !NewRSSdata["TITLE"] OR !NewRSSdata["URL"] OR (NewRSSdata["TITLE"] == "Titel konnte nicht geladen werden.") {
-					Throw Exception("error", -1)
-				}
-			} Catch e 
-				Continue
-
-			NewRSSdata["sTITLE"] := Menu_GetShortMenuTitle(NewRSSdata["TITLE"])
-			ExistInHistory := History_IsIn(NewRSSdata["URL"], platform, NewRSSdata["sTITLE"])
-			If (!ExistInHistory) || (Opt = 1) || (OptRem && !Opt) {
-				(!Opt && OptRem && Spot = Sources.Count()) ? OptRem := False
-				If (!ExistInHistory) {
-					History_Add(NewRSSdata["URL"], platform, NewRSSdata["sTITLE"])
-					Sources[Spot]["new"] := 1
-					App_SplashTimeout()
-                    Menu, Tray, Icon
-					Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%n%platform%.png,, 0
-					TrayTip, %platform%, % Menu_GetShortMenuTitle(NewRSSdata["TITLE"]), 20
-					App_Voice(platform . ": " . Menu_GetShortMenuTitle(NewRSSdata["TITLE"], Floor(MBL*1.5)))
-				}
-				Sources[Spot]["currenttitle"] := NewRSSdata["TITLE"]
-				Sources[Spot]["currenturl"] := NewRSSdata["URL"]
-				NewShortButtonTitle := Sources[Spot]["platform"] . ": " . Menu_GetShortMenuTitle(Sources[Spot]["currenttitle"])
-				Menu, Tray, Rename, % Sources[Spot]["currentbuttontitle"], %NewShortButtonTitle%
-				Sources[Spot]["currentbuttontitle"] := NewShortButtonTitle
-				Tray_CheckNewPostings()
-			}
-		}
-		If !a {
-	       	;App_Voice("Online")
-			SetTimer, %fnMainProcess%, 300000
-			a := True
-		}
-	}
-
-	If (!ONLINE AND (a OR (Opt = 1))) OR (e.Message = "error") {
-		SetTimer, %fnMainProcess%, 5000
-       	;App_Voice("Offline")
-		a := False
-		(Opt = 1) ? OptRem := True
-	}
-	History_Cleanup()
-	(Opt = 2) ? (!ONLINE && a) ? App_Voice("Offline") : App_Voice("Fertig")
+App_AddPartner(pStr, url, ico, stat = True) {
+	Static p
+	p++
+	Partner[p] := []
+	Partner[p]["partner"] := pStr
+	Partner[p]["url"] := url
+	Partner[p]["ico"] := ico
+	Partner[p]["status"] := stat
 }
 
-App_AddSource(streamer, platform, channel, rss = false) {
+App_AddSource(streamer, platform, channel, rss = False, stat = True) {
 	Static s
 	s++
 	Sources[s] := []
 	Sources[s]["streamer"] := streamer
 	Sources[s]["platform"] := platform
 	Sources[s]["channel"] := channel
-	Sources[s]["rss"] := ((platform = "Twitch") && InStr(channel, "https://www.twitch.tv/") && !rss) ? channel : rss
-	Sources[s]["currentbuttontitle"] := s . ": Initialisierung..."
+	Sources[s]["rss"] := (InStr(channel, "https://www.twitch.tv/") && !rss) ? "https://twitchtracker.com/" . StrReplace(channel, "https://www.twitch.tv/")  : rss
+	Sources[s]["currentbuttontitle"] := platform . ": Initialisierung..."
 	Sources[s]["currenttitle"] := ""
 	Sources[s]["currenturl"] := ""
 	Sources[s]["new"] := -1
-	Sources[s]["status"] := 1
-
+	Sources[s]["status"] := stat
 	If (platform = "YouTube" && InStr(channel, "https://www.youtube.com/channel/")) && !rss {
 		cid := StrReplace(channel, "https://www.youtube.com/channel/")
 		Sources[s]["rss"] := "https://www.youtube.com/feeds/videos.xml?channel_id=" . cid
@@ -172,8 +92,6 @@ App_CheckUpdate(m = 0) {
 		If nv
 			Break
 	}
-
-
 	If (InStr(nv, "Not Found")) {
 		App_SplashTimeout()
 		MsgBox,, %AppName% - Prüfung auf Update gescheitert, %nv%
@@ -198,25 +116,107 @@ App_Inizial() {
 	App_TempSetup()
 	App_SplashScreen()
 	App_CheckUpdate()
-
-	; App_AddSource(streamer, platform, channel, rss)
-	App_AddSource("Readyx", "Twitch", "https://www.twitch.tv/readyx")
-	App_AddSource("Readyx", "TikTok", "https://www.tiktok.com/@readyx_", "https://rsshub.app/tiktok/user/@readyx_")
-	App_AddSource("Readyx", "Twitter", "https://twitter.com/Readyx_", "https://rssbox.us-west-2.elasticbeanstalk.com/twitter/1287773674209251329/Readyx_?include_rts=0&exclude_replies=1")
-	App_AddSource("Readyx", "Instagram", "https://www.instagram.com/readyx_ttv/", "https://imginn.com/readyx_ttv")
-	App_AddSource("Readyx", "YouTube", "https://www.youtube.com/channel/UC_MyqSeBuocTop61oQTSXyw")
-
+	; App_AddPartner(p, url, status)
+	App_AddPartner("Instant-Gaming", "https://www.instant-gaming.com/?igr=Readyx", "IG.png", True)
+	FileInstall, IG.png, %TF%IG.png, 1
+	App_AddPartner("Just Legends", "https://justlegends.link/Readyx-Twitch-Panel", "JL.png", True)
+	FileInstall, JL.png, %TF%JL.png, 1
+	App_AddPartner("ReadyX - StreamerMerch", "https://www.streamermerch.de/readyx", "ST.png", True)
+	FileInstall, ST.png, %TF%ST.png, 1
+	; App_AddSource(streamer, platform, channel, rss, status)
+	App_AddSource("Readyx", "Twitch", "https://www.twitch.tv/readyx",, True)
+	FileInstall, Twitch.png, %TF%Twitch.png, 1
+	FileInstall, nTwitch.png, %TF%nTwitch.png, 1
+	App_AddSource("Readyx", "YouTube", "https://www.youtube.com/channel/UC_MyqSeBuocTop61oQTSXyw",, True)
+	FileInstall, YouTube.png, %TF%YouTube.png, 1
+	FileInstall, nYouTube.png, %TF%nYouTube.png, 1
+	App_AddSource("Readyx", "Instagram", "https://www.instagram.com/readyx_ttv/", "https://imginn.com/readyx_ttv", True)
+	FileInstall, Instagram.png, %TF%Instagram.png, 1
+	FileInstall, nInstagram.png, %TF%nInstagram.png, 1
+	App_AddSource("Readyx", "Twitter", "https://twitter.com/Readyx_", "https://rssbox.us-west-2.elasticbeanstalk.com/twitter/1287773674209251329/Readyx_?include_rts=0&exclude_replies=1", True)
+	FileInstall, Twitter.png, %TF%Twitter.png, 1
+	FileInstall, nTwitter.png, %TF%nTwitter.png, 1
+	App_AddSource("Readyx", "TikTok", "https://www.tiktok.com/@readyx_", "https://rsshub.app/tiktok/user/@readyx_", True)
+	FileInstall, Tiktok.png, %TF%Tiktok.png, 1
+	FileInstall, nTiktok.png, %TF%nTiktok.png, 1
 	Menu_Setup()
 	Menu_UpdateMenuCheckmarks()
 	Tray_CheckNewPostings()
 	App_MainProcess(1)
 	Menu, Tray, Icon
 	App_SplashTimeout()
+	
+	If FileExist("html.html")
+		FileDelete, html.html
 }
 
 App_IsOnline() {
 	RunWait, %ComSpec% /c ping -n 1 1.1.1.1 ,, Hide UseErrorLevel
 	Return !ErrorLevel
+}
+
+App_MainProcess(Opt = 0) {
+	Static a, OptRem
+	ONLINE := App_IsOnline()
+	If ONLINE {
+	    Loop, % Sources.Count() {
+			Spot := A_Index
+	        If !Sources[Spot]["status"]
+	            Continue
+			platform := Sources[Spot]["platform"]
+			Try {
+				NewHTMLSource := Str_GetWebData(Sources[Spot]["rss"])
+				If !NewHTMLSource AND (platform = "Twitch") {
+					NewHTMLSource := Str_GetWebData(Sources[Spot]["channel"]) ; fallback twitch.tv
+				}
+				version := Round(Trim(Str_FoundFirstPos(NewHTMLSource, "version=""", """")),0)
+				(!version) || (platform = "Twitch") ? version := platform
+				NewRSSdata := Array()
+				Switch version {
+					Case "1":							NewRSSdata := Str_ExtHTMLcodeXML1(NewHTMLSource, platform)
+					Case "2":   						NewRSSdata := Str_ExtHTMLcodeXML2(NewHTMLSource, platform)
+					Case "Twitch":						NewRSSdata := Str_ExtHTMLcodeTwitch(NewHTMLSource, Sources[Spot]["channel"])
+					Case "Instagram", "Instagram2": 	NewRSSdata := Str_ExtHTMLcodeInstagram(NewHTMLSource, platform)
+				}
+				If !NewRSSdata["TITLE"] OR !NewRSSdata["URL"] OR (NewRSSdata["TITLE"] == "Titel konnte nicht geladen werden.") {
+					Throw Exception("error", -1)
+				}
+			} Catch e 
+				Continue
+			tMBL := (platform == "Twitch") ? MBL + TWITCHADD : MBL
+			NewRSSdata["sTITLE"] := Menu_GetShortMenuTitle(NewRSSdata["TITLE"])
+			ExistInHistory := History_IsIn(NewRSSdata["URL"], platform, NewRSSdata["sTITLE"])
+			If (!ExistInHistory) || (Opt = 1) || (OptRem && !Opt) {
+				(!Opt && OptRem && Spot = Sources.Count()) ? OptRem := False
+				If (!ExistInHistory) {
+					History_Add(NewRSSdata["URL"], platform, NewRSSdata["sTITLE"])
+					Sources[Spot]["new"] := 1
+					App_SplashTimeout()
+                    Menu, Tray, Icon
+					Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%n%platform%.png,, 0
+					TrayTip, %platform%, % NewRSSdata["TITLE"], 20
+					App_Voice(platform . ": " . Menu_GetShortMenuTitle(NewRSSdata["TITLE"], Floor(MBL*1.5)))
+				}
+				Sources[Spot]["currenttitle"] := NewRSSdata["TITLE"]
+				Sources[Spot]["currenturl"] := NewRSSdata["URL"]
+				NewShortButtonTitle := Sources[Spot]["platform"] . ": " . Menu_GetShortMenuTitle(Sources[Spot]["currenttitle"], tMBL)
+				Menu, Tray, Rename, % Sources[Spot]["currentbuttontitle"], %NewShortButtonTitle%
+				Sources[Spot]["currentbuttontitle"] := NewShortButtonTitle
+				Tray_CheckNewPostings()
+			}
+		}
+		If !a {
+			SetTimer, %fnMainProcess%, 300000
+			a := True
+		}
+	}
+	If (!ONLINE AND (a OR (Opt = 1))) OR (e.Message = "error") {
+		SetTimer, %fnMainProcess%, 5000
+		a := False
+		(Opt = 1) ? OptRem := True
+	}
+	History_Cleanup()
+	(Opt = 2) ? (!ONLINE && a) ? App_Voice("Offline") : App_Voice("Fertig")
 }
 
 App_SplashScreen() {
@@ -234,48 +234,11 @@ App_SplashTimeout() {
 }
 
 App_TempSetup() {
-    If !FileExist(TF)
+    If !FileExist(TF) 
 		FileCreateDir, %TF%
-	If !FileExist(PathToSplashImage)
-		FileInstall, splash.png, %PathToSplashImage%, 1
-
-	iconArray := ["Instagram", "nInstagram", "Tiktok", "nTiktok", "Twitch", "nTwitch", "Twitter", "nTwitter", "YouTube", "nYouTube", AppName, "n" . AppName, "IG", "JL"]
-	Loop, % iconArray.length() {
-		filename := iconArray[A_Index]
-		pathto := TF . iconArray[A_Index] . ".png"
-		If !FileExist(pathto) {
-			Switch filename {
-				Case "Instagram":
-						FileInstall, Instagram.png, %pathto%, 1
-				Case "nInstagram":
-						FileInstall, nInstagram.png, %pathto%, 1
-				Case "Tiktok":
-						FileInstall, Tiktok.png, %pathto%, 1
-				Case "nTiktok":
-						FileInstall, nTiktok.png, %pathto%, 1
-				Case "Twitch":
-						FileInstall, Twitch.png, %pathto%, 1
-				Case "nTwitch":
-						FileInstall, nTwitch.png, %pathto%, 1
-				Case "Twitter":
-						FileInstall, Twitter.png, %pathto%, 1
-				Case "nTwitter":
-						FileInstall, nTwitter.png, %pathto%, 1
-				Case "YouTube":
-						FileInstall, YouTube.png, %pathto%, 1
-				Case "nYouTube":
-						FileInstall, nYouTube.png, %pathto%, 1
-				Case AppName:
-						FileInstall, AppName.png, %pathto%, 1
-				Case "n" . AppName:
-						FileInstall, nAppName.png, %pathto%, 1
-				Case "IG":
-						FileInstall, IG.png, %pathto%, 1
-				Case "JL":
-						FileInstall, JL.png, %pathto%, 1
-			}
-		}
-	}
+	FileInstall, splash.png, %PathToSplashImage%, 1
+	FileInstall, ReadyxChalloBingBong.png, %TF%%AppName%.png, 1
+	FileInstall, nReadyxChalloBingBong.png, %TF%n%AppName%.png, 1
 }
 
 App_Voice(msg) {
@@ -338,7 +301,7 @@ History_Cleanup() {
 				hplatform := l[1]
 				hCn%hplatform%++
 				hCn := hCn%hplatform%
-				If (hCn <= 3)
+				If (hCn <= HISTORYLENGTH)
 					NewHistoryLine .= A_LoopReadLine . "`n"
 			}
 		}
@@ -354,15 +317,9 @@ History_IsIn(URL, platform, Title = "") {
 	{
 	    Loop, Parse, A_LoopReadLine, %A_Tab%
 	    {
-	    	hplatform := ""
-	    	hURL := ""
-	    	hTitle := ""
+	    	hplatform := "", hURL := "", hTitle := ""
 	    	hdata := StrSplit(A_LoopReadLine, "|||")
-	    	hplatform := hdata[1]
-	    	hURL := hdata[2]
-	    	hTitle := hdata[3]
-
-			;Msgbox, %A_LoopReadLine%`n`nURL:`t%URL%`nhURL:`t%hURL%`n`nplatform:`t`t%platform%`nhPlatform:`t%hplatform%`n`nTitle:`t%Title%`nhTitle:`t%Title%
+	    	hplatform := hdata[1], hURL := hdata[2], hTitle := hdata[3]
 			If (URL = hURL) AND (platform = hplatform) {
 				If (platform = "Twitch") {
 					If (InStr(hTitle, Title))
@@ -370,7 +327,6 @@ History_IsIn(URL, platform, Title = "") {
 				} Else
 					Return True
 			}
-
 	    }
 	}
 	Return False
@@ -402,7 +358,6 @@ Menu_OpenLink(bt, bno, sm, url="") {
 		Spot := A_Index
         If !Sources[Spot]["status"]
             Continue
-
 		platform := Sources[Spot]["platform"]
 		If  (sm = "Tray") && (Sources[Spot]["currentbuttontitle"] == bt) {
             Menu, Tray, Icon, %bt%, %TF%%platform%.png,, 0
@@ -415,50 +370,34 @@ Menu_OpenLink(bt, bno, sm, url="") {
 			Break
 		}
 	}
-
-	If (bt = PARTNERIG)
-		url := PartnerLinkInstantGaming	
+	Loop, % Partner.Count() {
+		Spot := A_Index
+        If !Partner[Spot]["status"]
+            Continue
 		
-	If (bt = PARTNERJL)
-		url := PartnerLinkJustLegends	
-
-	If (bt = AppName . " - GitHub")
-		url := pgGitHub
-
-	If (bt = RUNONSTARTUP) {
-		Menu_AutoStartSetup()
-		Return
+		If (bt = Partner[Spot]["partner"]) {
+			url := Partner[Spot]["url"]
+			Break
+		}
 	}
-
-	If (bt = UPDATEBUTTONTITLE) {
-		App_CheckUpdate(1)
-		Return
+	Switch bt {
+		Case AppName . " - GitHub":
+			url := pgGitHub
+		Case RUNONSTARTUP:
+			Menu_AutoStartSetup()
+		Case UPDATEBUTTONTITLE:
+			App_CheckUpdate(1)
+		Case UNTAGNEWPOST:
+		    Menu_UntagNewPost()
+		Case VOICEMENU:
+		    Menu_VoiceSetup()
+		Case REFRESHDATAMENU, MENUTITELNAMEnews:
+		    App_MainProcess(2)
+		Case "Reload":
+			Reload
+		Case "Exit":
+			ExitApp
 	}
-
-	If (bt = UNTAGNEWPOST) {
-        Menu_UntagNewPost()
-		Return
-	}
-
-	If (bt = VOICEMENU) {
-        Menu_VoiceSetup()
-		Return
-	}
-
-	If (bt = REFRESHDATAMENU) OR (bt = MENUTITELNAMEnews) {
-        App_MainProcess(2)
-	}
-
-	If (bt = "Reload") {
-		Reload
-		Return
-	}
-
-	If (bt = "Exit") {
-		ExitApp
-		Return
-	}
-
 	If url
 		Run, %url%
     Tray_CheckNewPostings()
@@ -467,23 +406,24 @@ Menu_OpenLink(bt, bno, sm, url="") {
 Menu_Setup() {
 	Menu, Tray, NoStandard
 	Menu, Tray, Icon, %ICO%, 0
-	Menu, Tray, Tip, %AppTooltip%
-	Menu, Tray, Add, %PARTNERJL%, %fnOpenLink%
-	Menu, Tray, Icon, %PARTNERJL%, %TF%JL.png,, 0
-	Menu, Tray, Add, %PARTNERIG%, %fnOpenLink%
-	Menu, Tray, Icon, %PARTNERIG%, %TF%IG.png,, 0
+	Menu, Tray, Tip, %AppTooltip%	
+	Loop, % Partner.Count() {
+		Spot := A_Index
+        If !Partner[Spot]["status"]
+            Continue
+	    mico := TF . Partner[Spot]["ico"]
+        Menu, Tray, Add, % Partner[Spot]["partner"], %fnOpenLink%
+		Menu, Tray, Icon, % Partner[Spot]["partner"], %mico%,, 0
+	}
 	Menu, Tray, Add
 	Menu, Tray, Add, %MENUTITELNAMEnews%, %fnOpenLink%
 	Menu, Tray, Icon, %MENUTITELNAMEnews%, %nICO%,, 0
 	Loop, % Sources.Count() {
 		Spot := A_Index
-		
         If !Sources[Spot]["status"]
             Continue
-        
 		platform := Sources[Spot]["platform"]
         channelno := Sources[Spot]["streamer"] . " - " . platform
-	    
         Menu, Tray, Add, % Sources[Spot]["currentbuttontitle"], %fnOpenLink%
 		Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%%platform%.png,, 0
 	}
@@ -492,10 +432,8 @@ Menu_Setup() {
 	Menu, Tray, Icon, Kanäle, %ICO%,, 0
 	Loop, % Sources.Count() {
 		Spot := A_Index
-		
         If !Sources[Spot]["status"]
             Continue
-        
 		platform := Sources[Spot]["platform"]
         channelno := Sources[Spot]["streamer"] . " - " . platform
 		If (platform != "Twitch") {
@@ -535,7 +473,6 @@ Menu_UpdateMenuCheckmarks() {
 		Menu, menu, Check, %RUNONSTARTUP%
 	Else
 		Menu, menu, Uncheck, %RUNONSTARTUP%
-
 	If FileExist(TF . "voicetoken") {
 		Voice := True
 		Menu, menu, Check, %Voicemenu%
@@ -553,14 +490,13 @@ Menu_VoiceSetup() {
 	} Else {
 		Voice := True
         App_Voice("Voicetoken wird gesetzt. Challo Bing Bong.")
-        FileAppend, I can't dance but talk, %tf%voicetoken
+        FileAppend, I can`t dance but talk, %tf%voicetoken
 	}
 	Menu_UpdateMenuCheckmarks()
 }
 
 Str_ExtHTMLcodeInstagram(html, platform) {
 	html2 := StrReplace(html, ">", ">`n")
-	FileAppend, %html2%, html.html
 	Item := Str_FoundFirstPos(html, "<div class=""item"">", "</div>   <div class=""item"">")
 	wt := Str_FoundFirstPos(Item, "alt=""", """")
 	lk := Str_FoundFirstPos(Item, "<a href=""", """>")
@@ -571,43 +507,34 @@ Str_ExtHTMLcodeInstagram(html, platform) {
 }
 
 Str_ExtHTMLcodeTwitch(html, channel) {
-	str := Str_FoundFirstPos(html, "<script type=""application/ld+json"">[{", "}]</script>")
-	Array := StrSplit(str, ",")
-	If !Array.Count() {
-		online[2] := false
-		wt := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
-		(!wt) ?	wt := Str_FoundFirstPos(html, "<meta property=""og:description"" content=""", """/>")
-		(!wt) ?	wt := Str_FoundFirstPos(html, "<meta content=""", """ name=/>")
-	} Else {
+	wt := Str_FoundFirstPos(Str_FoundFirstPos(html, "<div id=""channel-streams"">", "</div>"), "title=""", """ data-toggle=")
+	wt := StrReplace(wt, "&lt;", "<")
+	online := InStr(html, "live-indicator-container") ? "LIVE!"	
+	If !wt {
+		Array := StrSplit(Str_FoundFirstPos(html, "<script type=""application/ld+json"">[{", "}]</script>"), ",")
 		title := StrSplit(Array[3], ":")
-		wt := title[2]
+		wt1 := title[2]
+		wt2 := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
+		wt3 := Str_FoundFirstPos(html, "<meta name=""twitter:description"" content=""", """/>")
+		If InStr(wt1, wt2) AND InStr(wt1, wt3) 
+			wt := wt1
+		Else If InStr(wt2, wt3)
+			wt := wt2
+		Else If InStr(wt3, wt1)
+			wt := wt3
+		Else
+			wt := ""
+		wt := StrReplace(wt,"â¬", "€")
+		wt := RegExReplace(wt, "i)[^0-9a-zA-Z!.<>: &;€]")
+		wt := StrReplace(wt, "&amp;", "&")
+		wt := StrReplace(StrReplace(wt, ">", "]"), "<", " [")
+		wt := StrReplace(StrReplace(wt, "  ", " "), "  ", " ")
+		online := StrSplit(StrReplace(Array[13], "}"), ":")
+		online := (online[2]) ? "LIVE!"
 	}
-	wt := StrReplace(wt,"â¬", "€")
-	wt := RegExReplace(wt, "i)[^0-9a-zA-Z!.<>: &;€]")
-    wt := StrReplace(wt, "&amp;", "&")
-	wt := StrReplace(StrReplace(wt, ">", "]"), "<", " [")
-	wt := StrReplace(StrReplace(wt, "  ", " "), "  ", " ")
-	lk := channel
-	online := StrSplit(StrReplace(Array[13], "}"), ":")
-	online := (online[2]) ? "On Stream!" : "Offline."
-	wt := (wt) ? online . " " . wt : "Titel konnte nicht geladen werden."
-	
-	
-	/* OLD
-	wt := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
-	(!wt) ?	wt := Str_FoundFirstPos(html, "<meta property=""og:description"" content=""", """/>")
-	(!wt) ?	wt := Str_FoundFirstPos(html, "<meta content=""", """ name=/>")
-    wt := StrReplace(StrReplace(wt, "[", "<"), "]", ">")
-	wt := RegExReplace(wt, "i)[^0-9a-zA-Z!.<>: &;]")
-    wt := StrReplace(wt, "&amp;", "&")
-	wt := StrReplace(StrReplace(wt, ">", "]"), "<", " [")
-	wt := StrReplace(StrReplace(wt, "  ", " "), "  ", " ")
-	lk := Str_FoundFirstPos(html, "<link rel=""alternate"" hreflang=""x-default"" href=""", """/>")
-	(!wt) ? wt := "Titel konnte nicht geladen werden."
-	(!lk) ? lk := channel
-	*/
-	Return {TITLE: (wt), URL: (lk)}
+	(wt) ? wt := online . " " . wt 
 
+	Return {TITLE: (wt), URL: (channel)}
 }
 
 Str_ExtHTMLcodeXML1(html, platform) { ; YT Playlist
@@ -623,13 +550,12 @@ Str_ExtHTMLcodeXML1(html, platform) { ; YT Playlist
 		wt := Str_FoundFirstPos(Entry, "<title>", "</title>")
 		lk := Str_FoundFirstPos(Entry, "href=""", """/>")
 	}
-
 	Return {TITLE: (wt), URL: (lk)}
 }
 
 Str_ExtHTMLcodeXML2(html, platform) {
 	XML := ComObjCreate("MSXML2.DOMDocument.6.0")
-	XML.Async := false
+	XML.Async := False
 	XML.LoadXML(html)
 	XMLtitle := XML.SelectSingleNode("//channel/item/title")
 	wt := XMLtitle.Text
@@ -650,7 +576,7 @@ Str_FoundFirstPos(Page, beforeString1, afterString1) {
 
 Str_GetWebData(url) {
 	Page := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-	Page.Open("GET", url, true), Page.Send()
+	Page.Open("GET", url, True), Page.Send()
 	Page.WaitForResponse()
 	Return Page.ResponseText
 }
@@ -659,7 +585,6 @@ Tray_CheckNewPostings() {
 	c := 0
     Loop, % Sources.Count()
 		(Sources[A_Index]["new"] = 1 && Sources[A_Index]["status"]) ? c++
-
 	If (c) {
 		Menu, Tray, Icon, %nICO%, 0
 		TT := (c < 2) ? " - " . c . " neuer Beitrag" : " - " . c . " neue Beiträge"
@@ -667,6 +592,5 @@ Tray_CheckNewPostings() {
 		Menu, Tray, Icon, %ICO%, 0
 		TT := "keine neue Beiträge"
 	}
-
 	Menu, Tray, Tip, %AppTooltip% %TT%
 }
