@@ -22,7 +22,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20221222045253
+Global AppVersion := 20221223125238
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -524,11 +524,13 @@ Str_ExtHTMLcodeTwitch(html, channel) {
 			wt := wt3
 		Else
 			wt := ""
+		/*
 		wt := StrReplace(wt,"â¬", "€")
 		wt := RegExReplace(wt, "i)[^0-9a-zA-Z!.<>: &;€]")
 		wt := StrReplace(wt, "&amp;", "&")
 		wt := StrReplace(StrReplace(wt, ">", "]"), "<", " [")
 		wt := StrReplace(StrReplace(wt, "  ", " "), "  ", " ")
+		*/
 		online := StrSplit(StrReplace(Array[13], "}"), ":")
 		online := (online[2]) ? "LIVE!"
 	}
@@ -575,10 +577,25 @@ Str_FoundFirstPos(Page, beforeString1, afterString1) {
 }
 
 Str_GetWebData(url) {
-	Page := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-	Page.Open("GET", url, True), Page.Send()
-	Page.WaitForResponse()
-	Return Page.ResponseText
+	If (InStr(url, "YouTube")) {
+		Page := ComObjCreate("WinHttp.WinHttpRequest.5.1")
+		Page.Open("GET", url, True), Page.Send()
+		Page.WaitForResponse()
+		Return Page.ResponseText
+	} Else {
+		
+		Page := ComObjCreate("WinHttp.WinHttpRequest.5.1")
+		Page.Open("GET", url, true)
+		Page.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
+		body := "acao=gerar_pessoa"
+		Page.Send(body)
+		Page.WaitForResponse()
+		arr := Page.responseBody
+		pData := NumGet(ComObjValue(arr) + 8 + A_PtrSize)
+		length := arr.MaxIndex() + 1
+		response := StrGet(pData, length, "utf-8")
+		Return %response%
+	}
 }
 
 Tray_CheckNewPostings() {

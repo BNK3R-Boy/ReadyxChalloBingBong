@@ -1,3 +1,8 @@
+# Vorwort  
+Ich wünsche Euch allen frohe Weihnachten und einen guten Rutsch ins neue Jahr.  
+  
+  
+  
 # ReadyxChalloBingBong  
 
 Ihr bekommt nicht genug von unserem Lieblingstiroler und/oder habt Angst etwas zu verpassen?  
@@ -16,7 +21,7 @@ Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag
 
 
 ## Download  
-ReadyxChalloBingBong.exe - Version: 20221222045253 (RC-3.0)  
+ReadyxChalloBingBong.exe - Version: 20221223125238 (RC-3.1)  
 
 [[Virus Total Prüfergebnis](https://www.virustotal.com/gui/url/2f8660f49b11201aeb0e3bb22d7048b18e3fb1b67b9e8e2aae1a4c229c3085cf?nocache=1)][[Download](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe)]  
 
@@ -25,7 +30,8 @@ ReadyxChalloBingBong.exe - Version: 20221222045253 (RC-3.0)
 
 
 ### Installation  
-Keine weitere Installation nötig.  
+Downloaden & Starten.  
+Keine Installation nötig.  
 Nach dem Download braucht Ihr es einfach nur mit einem Doppelklick auf die ReadyxChalloBingBong.exe ausführen.  
 
 
