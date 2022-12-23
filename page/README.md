@@ -1,13 +1,13 @@
-# Vorwort  
+# ReadyxChalloBingBong  
+## Vorwort  
 Ich wünsche Euch allen frohe Weihnachten und einen guten Rutsch ins neue Jahr.  
   
   
   
-# ReadyxChalloBingBong  
-
+  
 Ihr bekommt nicht genug von unserem Lieblingstiroler und/oder habt Angst etwas zu verpassen?  
-
-
+  
+  
 ReadyxChalloBingBong prüft alle Readyx Kanäle auf neue Beiträge auf Twitter, Instagram und YouTube, sowie den aktuellen Titel auf Twitch und meldet diese neben Eurer Systemuhr. ![Tray](https://user-images.githubusercontent.com/17516608/202866230-92366e19-7f94-40fe-accb-19784f4cc94b.png)  
 Durch einen Rechtsklick öffnet sich ein kleines Menü mit allen Plattform und aktuellen Titel der Beiträge.  
 TikTok blockiert leider das externe auslesen und ich Arbeite an einer Lösung.  
@@ -21,7 +21,7 @@ Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag
 
 
 ## Download  
-ReadyxChalloBingBong.exe - Version: 20221223125238 (RC-3.1)  
+ReadyxChalloBingBong.exe - Version: 20221223193204 (RC-3.2)  
 
 [[Virus Total Prüfergebnis](https://www.virustotal.com/gui/url/2f8660f49b11201aeb0e3bb22d7048b18e3fb1b67b9e8e2aae1a4c229c3085cf?nocache=1)][[Download](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe)]  
 
@@ -55,10 +55,13 @@ seit: 20221219144020
   
   
 ### Behobene Fehler  
+seit: 20221223193204  
+- Menü Schreibfehler behoben (ungewolltes amp;)  
+  
 seit: 20221222045253  
 - ChalloBingBong generierte eine html.html im Appverzeichnis, kann manuell und wird nun automatisch entfernt.  
 - Neue Twitch Datenquellen hinzugefügt und fallback Funktion eingerichtet.  
- 
+  
 seit: 20221219144020  
 - TikTok blockiert das externe auslesen.  
 - Instagram blockiert das externe auslesen.  

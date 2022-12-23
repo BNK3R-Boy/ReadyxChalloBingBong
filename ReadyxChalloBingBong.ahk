@@ -22,7 +22,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20221223125238
+Global AppVersion := 20221223193204
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -52,6 +52,7 @@ Global MBL := 5
 Global TWITCHADD := 2
 Global HISTORYLENGTH := 1
 Global fnMainProcess := Func("App_MainProcess")
+FileEncoding, UTF-8
 
 App_Inizial()
 Return
@@ -73,7 +74,7 @@ App_AddSource(streamer, platform, channel, rss = False, stat = True) {
 	Sources[s]["streamer"] := streamer
 	Sources[s]["platform"] := platform
 	Sources[s]["channel"] := channel
-	Sources[s]["rss"] := (InStr(channel, "https://www.twitch.tv/") && !rss) ? "https://twitchtracker.com/" . StrReplace(channel, "https://www.twitch.tv/")  : rss
+	Sources[s]["rss"] := (rss) ? rss : channel
 	Sources[s]["currentbuttontitle"] := platform . ": Initialisierung..."
 	Sources[s]["currenttitle"] := ""
 	Sources[s]["currenturl"] := ""
@@ -159,30 +160,41 @@ App_MainProcess(Opt = 0) {
 	Static a, OptRem
 	ONLINE := App_IsOnline()
 	If ONLINE {
+		StartTime := A_TickCount
 	    Loop, % Sources.Count() {
+			TryStartTime := A_TickCount
 			Spot := A_Index
+			r := 0
 	        If !Sources[Spot]["status"]
 	            Continue
 			platform := Sources[Spot]["platform"]
 			Try {
-				NewHTMLSource := Str_GetWebData(Sources[Spot]["rss"])
-				If !NewHTMLSource AND (platform = "Twitch") {
-					NewHTMLSource := Str_GetWebData(Sources[Spot]["channel"]) ; fallback twitch.tv
-				}
-				version := Round(Trim(Str_FoundFirstPos(NewHTMLSource, "version=""", """")),0)
-				(!version) || (platform = "Twitch") ? version := platform
-				NewRSSdata := Array()
-				Switch version {
-					Case "1":							NewRSSdata := Str_ExtHTMLcodeXML1(NewHTMLSource, platform)
-					Case "2":   						NewRSSdata := Str_ExtHTMLcodeXML2(NewHTMLSource, platform)
-					Case "Twitch":						NewRSSdata := Str_ExtHTMLcodeTwitch(NewHTMLSource, Sources[Spot]["channel"])
-					Case "Instagram", "Instagram2": 	NewRSSdata := Str_ExtHTMLcodeInstagram(NewHTMLSource, platform)
+				uURL := Sources[Spot]["rss"]
+				NewHTMLSource := Str_GetWebData(uURL)
+				Loop {
+					r++
+					If (platform = "Twitch") AND (r > 1) {
+						uURL := "https://twitchtracker.com/" . StrReplace(Sources[Spot]["channel"], "https://www.twitch.tv/")
+						NewHTMLSource := Str_GetWebData(uURL) ; fallback twitchtracker.com
+					}
+					version := Round(Trim(Str_FoundFirstPos(NewHTMLSource, "version=""", """")),0)
+					(!version) || (platform = "Twitch") ? version := platform
+					NewRSSdata := Array()
+					Switch version {
+						Case "1":							NewRSSdata := Str_ExtHTMLcodeXML1(NewHTMLSource, platform)
+						Case "2":   						NewRSSdata := Str_ExtHTMLcodeXML2(NewHTMLSource, platform)
+						Case "Twitch":						NewRSSdata := Str_ExtHTMLcodeTwitch(NewHTMLSource, Sources[Spot]["channel"])
+						Case "Instagram", "Instagram2": 	NewRSSdata := Str_ExtHTMLcodeInstagram(NewHTMLSource, platform)
+					}
+					If NewRSSdata["TITLE"] OR (r > 1) 
+						Break
 				}
 				If !NewRSSdata["TITLE"] OR !NewRSSdata["URL"] OR (NewRSSdata["TITLE"] == "Titel konnte nicht geladen werden.") {
 					Throw Exception("error", -1)
 				}
 			} Catch e 
 				Continue
+			; NewRSSdata["TITLE"] := uURL . " : " . NewRSSdata["TITLE"]
 			tMBL := (platform == "Twitch") ? MBL + TWITCHADD : MBL
 			NewRSSdata["sTITLE"] := Menu_GetShortMenuTitle(NewRSSdata["TITLE"])
 			ExistInHistory := History_IsIn(NewRSSdata["URL"], platform, NewRSSdata["sTITLE"])
@@ -195,20 +207,30 @@ App_MainProcess(Opt = 0) {
                     Menu, Tray, Icon
 					Menu, Tray, Icon, % Sources[Spot]["currentbuttontitle"], %TF%n%platform%.png,, 0
 					TrayTip, %platform%, % NewRSSdata["TITLE"], 20
-					App_Voice(platform . ": " . Menu_GetShortMenuTitle(NewRSSdata["TITLE"], Floor(MBL*1.5)))
+					App_Voice(platform . ": " . Menu_GetShortMenuTitle(NewRSSdata["TITLE"], Floor(MBL*1.8))) 
 				}
 				Sources[Spot]["currenttitle"] := NewRSSdata["TITLE"]
 				Sources[Spot]["currenturl"] := NewRSSdata["URL"]
-				NewShortButtonTitle := Sources[Spot]["platform"] . ": " . Menu_GetShortMenuTitle(Sources[Spot]["currenttitle"], tMBL)
+				NewShortButtonTitle := StrReplace(Sources[Spot]["platform"] . ": " . Menu_GetShortMenuTitle(Sources[Spot]["currenttitle"], tMBL), "&", "&&")
 				Menu, Tray, Rename, % Sources[Spot]["currentbuttontitle"], %NewShortButtonTitle%
 				Sources[Spot]["currentbuttontitle"] := NewShortButtonTitle
 				Tray_CheckNewPostings()
 			}
+			TryElapsedTime := A_TickCount - TryStartTime
+			TryElapsedTime := TryElapsedTime / 1000
+			tetrow .= TryElapsedTime . "s`n"
 		}
+		ElapsedTime := A_TickCount - StartTime
+		ElapsedTime := ElapsedTime / 1000
+		tetrow .= ElapsedTime . "s`n"
 		If !a {
 			SetTimer, %fnMainProcess%, 300000
 			a := True
 		}
+		ElapsedTime := A_TickCount - StartTime
+		ElapsedTime := ElapsedTime / 1000
+		tetrow .= ElapsedTime . "s`n"
+		;MsgBox, %tetrow%
 	}
 	If (!ONLINE AND (a OR (Opt = 1))) OR (e.Message = "error") {
 		SetTimer, %fnMainProcess%, 5000
@@ -511,31 +533,41 @@ Str_ExtHTMLcodeTwitch(html, channel) {
 	wt := StrReplace(wt, "&lt;", "<")
 	online := InStr(html, "live-indicator-container") ? "LIVE!"	
 	If !wt {
+		TitleArray := []
+		narr := []
 		Array := StrSplit(Str_FoundFirstPos(html, "<script type=""application/ld+json"">[{", "}]</script>"), ",")
 		title := StrSplit(Array[3], ":")
-		wt1 := title[2]
-		wt2 := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
-		wt3 := Str_FoundFirstPos(html, "<meta name=""twitter:description"" content=""", """/>")
-		If InStr(wt1, wt2) AND InStr(wt1, wt3) 
-			wt := wt1
-		Else If InStr(wt2, wt3)
-			wt := wt2
-		Else If InStr(wt3, wt1)
-			wt := wt3
-		Else
-			wt := ""
-		/*
-		wt := StrReplace(wt,"â¬", "€")
-		wt := RegExReplace(wt, "i)[^0-9a-zA-Z!.<>: &;€]")
-		wt := StrReplace(wt, "&amp;", "&")
-		wt := StrReplace(StrReplace(wt, ">", "]"), "<", " [")
-		wt := StrReplace(StrReplace(wt, "  ", " "), "  ", " ")
-		*/
+		TitleArray[1] := Str_FoundFirstPos(title[2], """", """")
+		TitleArray[2] := Str_FoundFirstPos(html, "<meta name=""description"" content=""", """/>")
+		TitleArray[3] := Str_FoundFirstPos(html, "<meta name=""twitter:description"" content=""", """/>")
+		TitleArray[4] := Str_FoundFirstPos(html, "<meta property=""og:description"" content=""", """/>")
+		arrmax := TitleArray.Count()
+		Loop, %arrmax%
+		{
+			narr[A_Index] := []
+			narr[A_Index]["title"] := TitleArray[A_Index]
+			C_Index := A_Index
+			hits := 0
+			Loop, %arrmax%
+				(C_Index != A_Index) AND (TitleArray[C_Index] == TitleArray[A_Index]) ? hits++
+			narr[A_Index]["hits"] := hits
+			C_Title .= hits . ","
+		}
+		Sort, C_Title, F Str_ReverseDirection D,
+		CT := StrSplit(C_Title, ",")
+		res := CT[1]
+		Loop % narr.Count()
+		{
+			If (narr[A_Index]["hits"] == res) {
+				wt := narr[A_Index]["title"]
+				Break
+			}
+		}
 		online := StrSplit(StrReplace(Array[13], "}"), ":")
 		online := (online[2]) ? "LIVE!"
-	}
+	} Else
+		wt := StrReplace(wt, "&amp;", "&")
 	(wt) ? wt := online . " " . wt 
-
 	Return {TITLE: (wt), URL: (channel)}
 }
 
@@ -573,6 +605,9 @@ Str_ExtHTMLcodeXML2(html, platform) {
 
 Str_FoundFirstPos(Page, beforeString1, afterString1) {
 	RegExMatch(Page, "s)\Q" . beforeString1 . "\E(.*?)\Q" . afterString1 . "\E", res)
+	res1 := StrReplace(res1, "&amp;", "&")
+	res1 := StrReplace(res1, "\u0026", "&")
+	res1 := Trim(res1)
 	Return res1
 }
 
@@ -583,7 +618,6 @@ Str_GetWebData(url) {
 		Page.WaitForResponse()
 		Return Page.ResponseText
 	} Else {
-		
 		Page := ComObjCreate("WinHttp.WinHttpRequest.5.1")
 		Page.Open("GET", url, true)
 		Page.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
@@ -596,6 +630,10 @@ Str_GetWebData(url) {
 		response := StrGet(pData, length, "utf-8")
 		Return %response%
 	}
+}
+
+Str_ReverseDirection(a1, a2, offset) {
+    return offset  ; Offset is positive if a2 came after a1 in the original list; negative otherwise.
 }
 
 Tray_CheckNewPostings() {
