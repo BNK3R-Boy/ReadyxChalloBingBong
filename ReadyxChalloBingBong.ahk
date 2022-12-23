@@ -121,7 +121,7 @@ App_Inizial() {
 	FileInstall, IG.png, %TF%IG.png, 1
 	App_AddPartner("Just Legends", "https://justlegends.link/Readyx-Twitch-Panel", "JL.png", True)
 	FileInstall, JL.png, %TF%JL.png, 1
-	App_AddPartner("ReadyX - StreamerMerch", "https://www.streamermerch.de/readyx", "ST.png", True)
+	App_AddPartner("StreamerMerch", "https://www.streamermerch.de/readyx", "ST.png", True)
 	FileInstall, ST.png, %TF%ST.png, 1
 	; App_AddSource(streamer, platform, channel, rss, status)
 	App_AddSource("Readyx", "Twitch", "https://www.twitch.tv/readyx",, True)
