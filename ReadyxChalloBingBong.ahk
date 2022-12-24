@@ -22,7 +22,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20221224145814
+Global AppVersion := 20221224205157
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -50,7 +50,7 @@ Global UPDATEBUTTONTITLE := "Auf App Update prüfen"
 Global REFRESHDATAMENU := "Auf neue Beiträge prüfen"
 Global MBL := 5
 Global TWITCHADD := 2
-Global HISTORYLENGTH := 1
+Global HISTORYLENGTH := 5
 Global fnMainProcess := Func("App_MainProcess")
 FileEncoding, UTF-8
 
@@ -427,7 +427,6 @@ Menu_OpenLink(bt, bno, sm, url="") {
 
 Menu_Setup() {
 	Menu, Tray, NoStandard
-	Menu, Tray, Icon, %ICO%, 0
 	Menu, Tray, Tip, %AppTooltip%	
 	Loop, % Partner.Count() {
 		Spot := A_Index
@@ -475,6 +474,7 @@ Menu_Setup() {
 	Menu, Tray, Add
 	Menu, Tray, Add, %ROSSUB%, :menu
     Menu, Tray, Add, Exit, %fnOpenLink%
+	Menu, Tray, Default, %MENUTITELNAMEnews%
 	Menu, Tray, Icon, %ICO%, 0
 }
 
@@ -530,7 +530,6 @@ Str_ExtHTMLcodeInstagram(html, platform) {
 
 Str_ExtHTMLcodeTwitch(html, channel) {
 	wt := Str_FoundFirstPos(Str_FoundFirstPos(html, "<div id=""channel-streams"">", "</div>"), "title=""", """ data-toggle=")
-	wt := StrReplace(wt, "&lt;", "<")
 	online := InStr(html, "live-indicator-container") ? "LIVE!"	
 	If !wt {
 		TitleArray := []
@@ -565,8 +564,11 @@ Str_ExtHTMLcodeTwitch(html, channel) {
 		}
 		online := StrSplit(StrReplace(Array[13], "}"), ":")
 		online := (online[2]) ? "LIVE!"
-	} Else
-		wt := StrReplace(wt, "&amp;", "&")
+	} 
+	wt := StrReplace(wt, "&amp;", "&")
+	wt := StrReplace(wt, "\u0026", "&")
+	wt := StrReplace(wt, "\u003c", "<")
+	wt := StrReplace(wt, "&lt;", "<")
 	(wt) ? wt := online . " " . wt 
 	Return {TITLE: (wt), URL: (channel)}
 }
@@ -605,8 +607,6 @@ Str_ExtHTMLcodeXML2(html, platform) {
 
 Str_FoundFirstPos(Page, beforeString1, afterString1) {
 	RegExMatch(Page, "s)\Q" . beforeString1 . "\E(.*?)\Q" . afterString1 . "\E", res)
-	res1 := StrReplace(res1, "&amp;", "&")
-	res1 := StrReplace(res1, "\u0026", "&")
 	res1 := Trim(res1)
 	Return res1
 }
