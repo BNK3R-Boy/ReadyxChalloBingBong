@@ -22,7 +22,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20221223193204
+Global AppVersion := 20221224145814
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -186,7 +186,7 @@ App_MainProcess(Opt = 0) {
 						Case "Twitch":						NewRSSdata := Str_ExtHTMLcodeTwitch(NewHTMLSource, Sources[Spot]["channel"])
 						Case "Instagram", "Instagram2": 	NewRSSdata := Str_ExtHTMLcodeInstagram(NewHTMLSource, platform)
 					}
-					If NewRSSdata["TITLE"] OR (r > 1) 
+					If (NewRSSdata["TITLE"] OR (r > 1)) AND (!InStr(NewRSSdata["TITLE"], "Willkommen auf meinem Kanal"))
 						Break
 				}
 				If !NewRSSdata["TITLE"] OR !NewRSSdata["URL"] OR (NewRSSdata["TITLE"] == "Titel konnte nicht geladen werden.") {
