@@ -22,7 +22,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20221224205157
+Global AppVersion := 20221229181943
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -211,7 +211,7 @@ App_MainProcess(Opt = 0) {
 				}
 				Sources[Spot]["currenttitle"] := NewRSSdata["TITLE"]
 				Sources[Spot]["currenturl"] := NewRSSdata["URL"]
-				NewShortButtonTitle := StrReplace(Sources[Spot]["platform"] . ": " . Menu_GetShortMenuTitle(Sources[Spot]["currenttitle"], tMBL), "&", "&&")
+				NewShortButtonTitle := StrReplace(Sources[Spot]["platform"] . ": " . Trim(Menu_GetShortMenuTitle(Sources[Spot]["currenttitle"], tMBL)), "&", "&&")
 				Menu, Tray, Rename, % Sources[Spot]["currentbuttontitle"], %NewShortButtonTitle%
 				Sources[Spot]["currentbuttontitle"] := NewShortButtonTitle
 				Tray_CheckNewPostings()
@@ -267,7 +267,7 @@ App_Voice(msg) {
 	If (Voice && msg)
 		ComObjCreate("SAPI.SpVoice").Speak(msg)
 	Else If ToolTipToken {
-		ToolTip, ReadyxChalloBingBong: %msg%
+		ToolTip, %AppName%: %msg%
 		Sleep, 3000
 		ToolTip,
 	}
@@ -420,8 +420,11 @@ Menu_OpenLink(bt, bno, sm, url="") {
 		Case "Exit":
 			ExitApp
 	}
-	If url
+	If url {
+		aug := (InStr(url, "?")) ? "&" :  "?" 
+		url := url . aug . "ref=ChalloBingBong"
 		Run, %url%
+	}
     Tray_CheckNewPostings()
 }
 
