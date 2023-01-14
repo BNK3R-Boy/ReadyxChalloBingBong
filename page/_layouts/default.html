@@ -40,12 +40,12 @@
     <div class="wrapper">
       <nav>
 	    <ul></ul>
-	  </nav>
-	  <ul>
+	  <ul class="no-menu">
 		{% for link in site.data.navigation %}
 		  <li><a href="{{ link.link }}">{{ link.name }}</a></li>
 		{% endfor %}
 	  </ul>
+	  </nav>
       <section>
         {{ content }}
 
