@@ -23,7 +23,7 @@ We reserve the right to make changes to these terms of service at any time. Your
 If you have any questions about these terms of service, please contact us.
 
 
-
+---
 
 1. Einleitung  
 Diese Nutzungsbedingungen regeln Ihre Nutzung der Windows-Desktop-Anwendung „RSS Reader“ (das „ReadyxChalloBingBong“). Durch die Nutzung der Anwendung stimmen Sie zu, an diese Bedingungen gebunden zu sein. Wenn Sie diesen Bedingungen nicht zustimmen, verwenden Sie die Anwendung nicht.
