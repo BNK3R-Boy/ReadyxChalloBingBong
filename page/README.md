@@ -1,9 +1,11 @@
 # ReadyxChalloBingBong  
-## Vorwort  
+
+
 <a href="{{ site.baseurl }}/terms_of_service/">Terms of service</a> | <a href="{{ site.baseurl }}/privacy_policy/">Privacy Policy</a>
   
   
-  
+
+## Vorwort    
 Ihr bekommt nicht genug von unserem Lieblingstiroler und/oder habt Angst etwas zu verpassen?  
   
   
