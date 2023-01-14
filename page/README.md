@@ -54,13 +54,13 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 
 ### Bekannte Störungen  
 
-| seit: 20221219144020 | Datenquellen Temporär nicht erreichbar. |
+| seit:&nbsp;20221219144020 | Datenquellen Temporär nicht erreichbar. |
 
   
   
 ### Behobene Fehler  
 
-| seit: 20221224205157 | Twitch doppelte Titel Meldung durch Sonderzeichen behoben. |
+| seit:&nbsp;20221224205157 | Twitch doppelte Titel Meldung durch Sonderzeichen behoben. |
 | seit: 20221224145814 | Twitch Modul meldete Kanal Willkommensnachricht als Titel |
 | | Frohe Weihnachten! |
 | seit: 20221223193204 | Menü Schreibfehler behoben (ungewolltes amp;) |
