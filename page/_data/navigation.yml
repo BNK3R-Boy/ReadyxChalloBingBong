@@ -1,8 +1,8 @@
 - name: "ChalloBingBong"
   link: "./"
 - name: "Terms of service"
-  link: "./terms_of_service"
+  link: "./terms_of_service#terms_of_service"
 - name: "Privacy Policy"
-  link: "./privacy_policy"
+  link: "./privacy_policy#privacy_policy"
 
 
