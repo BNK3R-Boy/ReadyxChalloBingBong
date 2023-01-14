@@ -64,8 +64,10 @@ Solltet Ihr die Autostartoption im Menü verwenden und im Nachhinein den Speiche
 | seit: 20221224205157 | - Twitch doppelte Titel Meldung durch Sonderzeichen behoben. |
 | seit: 20221224145814 | - Twitch Modul meldete Kanal Willkommensnachricht als Titel  - Frohe Weihnachten! |
 | seit: 20221223193204 | - Menü Schreibfehler behoben (ungewolltes amp;) |
-| seit: 20221222045253 | - ChalloBingBong generierte eine html.html im Appverzeichnis, kann manuell und wird nun automatisch entfernt. - Neue Twitch Datenquellen hinzugefügt und fallback Funktion eingerichtet. |
-| seit: 20221219144020 | - TikTok blockiert das externe auslesen. - Instagram blockiert das externe auslesen. |
+| seit: 20221222045253 | - ChalloBingBong generierte eine html.html im Appverzeichnis, kann manuell und wird nun automatisch entfernt. |
+| | - Neue Twitch Datenquellen hinzugefügt und fallback Funktion eingerichtet. |
+| seit: 20221219144020 | - TikTok blockiert das externe auslesen. |
+| | - Instagram blockiert das externe auslesen. |
 | seit: 20221218134300 | - Fehler beim öffnen der Kanäle behoben. |
 | seit: 20221217030844 | - Fehler beim TikTok "neue Beiträge Markierung entfernen" behoben. |
 | seit: 20221215184417 | - TikTok nur noch im Kanäle Menü, TikTok blockiert das externe auslesen. |
