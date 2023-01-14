@@ -1,7 +1,5 @@
 ---
 layout: default
----
----
 title: Terms of Service
 permalink: ./terms_of_service
 ---
