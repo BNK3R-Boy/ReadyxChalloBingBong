@@ -1,12 +1,4 @@
-- name: "Home"
-  link: "/ReadyxChalloBingBong/"
-- name: "Download"
-  link: "/ReadyxChalloBingBong/#download"
-- name: "Abschließende Worte"
-  link: "/ReadyxChalloBingBong/#abschlieende-worte"
 - name: "Terms of service"
   link: "/ReadyxChalloBingBong/terms_of_service/"
 - name: "Privacy Policy"
   link: "/ReadyxChalloBingBong/privacy_policy/"
-
-
