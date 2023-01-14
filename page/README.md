@@ -102,11 +102,13 @@ seit: 20221121062958
 
 ### FAQ  
   
----  
-|F: Warum sind die Links der Nutzungsbedingungen und Datenschutz-Bestimmungen in Englisch bzw. Englisch / Deutsch?  |  A: Die erhebung der Daten findet nicht in Deutschland statt. Twitch, Meta, YouTube und Twitter sind US-amerikanische- und TikTok ein chinesisches Unternehmen. Erleichter die Kommunikation und zwischen den Platform Admins und mir Developer.  |  
-|F: Kostet mich oder dich das etwas?  |  A: Nix, nur etwas gedult das Readyx online kommt. Meine Kosten sind mein Support für Readyx.  |  
-|F: Schläfst du auch mal?  |  A: Niemals wenn du es erwartest und immer dann wenn du es nicht brauchst. Kappa.  |  
----  
+---
+| F: Warum sind die Links der Nutzungsbedingungen und Datenschutz-Bestimmungen in Englisch bzw. Englisch / Deutsch? | A: Die erhebung der Daten findet nicht in Deutschland statt. Twitch, Meta, YouTube und Twitter sind US-amerikanische- und TikTok ein chinesisches Unternehmen. Erleichter die Kommunikation und zwischen den Platform Admins und mir Developer. |  
+---
+| F: Kostet mich oder dich das etwas? | A: Nix, nur etwas gedult das Readyx online kommt. Meine Kosten sind mein Support für Readyx. |  
+---
+| F: Schläfst du auch mal? | A: Niemals wenn du es erwartest und immer dann wenn du es nicht brauchst. Kappa. |  
+---
   
   
   
