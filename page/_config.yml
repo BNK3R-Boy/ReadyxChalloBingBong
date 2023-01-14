@@ -4,3 +4,10 @@ plugins:
 show_downloads: false
 permalink: /terms_of_service/
 permalink: /privacy_policy/
+nav:
+  - { name: "Home", link: "/" }
+  - { name: "Downloads", link: "/#download" }
+  - { name: "Installation", link: "/#installation" }
+  - { name: "Abschließende Worte", link: "/#abschlieende-worte" }
+  - { name: "Terms of Service", link: "/terms_of_service" }
+  - { name: "Privacy Policy", link: "/privacy_policy" }
