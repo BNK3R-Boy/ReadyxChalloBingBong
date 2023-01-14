@@ -3,7 +3,8 @@ layout: default
 title: Privacy Policy
 permalink: ./privacy_policy
 ---
-# 1. Introduction  
+# Privacy Policy  
+## 1. Introduction  
 We take the protection of your personal data very seriously and strictly adhere to the rules of the German Data Protection Act (BDSG). The following policy explains what information we collect, how it is used, and how it is protected.
 
 ### 2. Collection and Processing of Personal Data  
@@ -28,7 +29,8 @@ We reserve the right to make changes to our privacy policy at any time. Your con
 ---
 
 
-# 1. Einleitung  
+# Datenschutz-Bestimmungen  
+## 1. Einleitung  
 Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns strikt an die Regeln des Bundesdatenschutzgesetzes (BDSG). Die folgende Richtlinie erläutert, welche Informationen wir sammeln, wie sie verwendet und wie sie geschützt werden.
 
 ### 2. Erhebung und Verarbeitung personenbezogener Daten  
