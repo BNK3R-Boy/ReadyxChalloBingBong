@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-mainnav ul{list-style:none;list-style-image:none;font-size:14px;line-height:24px}
+mainnav ul{list-style:none;list-style-image:none;font-size:14px;line-height:24px;display:block;}
 mainnav ul li{padding:5px 0px;line-height:16px}
 mainnav ul li.tag-h1{font-size:1.2em}
 mainnav ul li.tag-h1 a{font-weight:bold;color:#333}
