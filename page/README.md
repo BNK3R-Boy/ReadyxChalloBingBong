@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Privacy Policy
+title: default
 permalink: ./
 ---
 # ReadyxChalloBingBong  
