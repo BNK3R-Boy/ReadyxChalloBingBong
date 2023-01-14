@@ -1,10 +1,4 @@
 # ReadyxChalloBingBong  
-
-
-<a href="{{ site.baseurl }}/terms_of_service/">Terms of service</a> | <a href="{{ site.baseurl }}/privacy_policy/">Privacy Policy</a>
-  
-  
-
 ## Vorwort    
 Ihr bekommt nicht genug von unserem Lieblingstiroler und/oder habt Angst etwas zu verpassen?  
   
@@ -19,6 +13,12 @@ TikTok blockiert leider das externe auslesen und ich Arbeite an einer Lösung.
   
 Mit einem weiteren Klick auf ein Titel öffnet Ihr den entsprechenden Link in Eurem Browser.  
 Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag.  
+
+
+
+<a href="{{ site.baseurl }}/terms_of_service/">Terms of service</a> | <a href="{{ site.baseurl }}/privacy_policy/">Privacy Policy</a>
+  
+  
 
 
 ## Download  
