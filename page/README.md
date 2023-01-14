@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy
+permalink: ./
+---
 # ReadyxChalloBingBong  
 ## Vorwort    
 Ihr bekommt nicht genug von unserem Lieblingstiroler und/oder habt Angst etwas zu verpassen?  
