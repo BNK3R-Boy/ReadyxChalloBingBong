@@ -3,4 +3,13 @@ ul#nav2 {
     list-style-image: none;
     font-size: 14px;
     line-height: 24px;
+    -webkit-text-size-adjust: 100%;
+    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2b2b2b;
+    font-weight: 300;
+    text-align: right;
+    line-height: 16px;
+    padding: 0 0 0 40px;
+    margin: 0 0 20px;
+    list-style-image: url("../images/bullet.png");
 }
