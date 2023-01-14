@@ -22,8 +22,6 @@ Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag
 
 
 
-<a href="{{ site.baseurl }}/terms_of_service/">Terms of service</a> | <a href="{{ site.baseurl }}/privacy_policy/">Privacy Policy</a>
-  
   
 
 
