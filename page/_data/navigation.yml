@@ -1,5 +1,7 @@
 - name: "Home"
   link: "./"
+- name: "Download"
+  link: "#download"
 - name: "Abschließende Worte"
   link: "#abschlieende-worte"
 - name: "Terms of service"
