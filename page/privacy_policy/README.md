@@ -1,3 +1,7 @@
+---
+title: Privacy Policy
+permalink: /privacy_policy/
+---
 1. Introduction  
 We take the protection of your personal data very seriously and strictly adhere to the rules of the German Data Protection Act (BDSG). The following policy explains what information we collect, how it is used, and how it is protected.
 
