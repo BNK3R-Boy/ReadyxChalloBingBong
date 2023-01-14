@@ -3,7 +3,7 @@ layout: default
 ---
 ---
 title: Terms of Service
-permalink: /ReadyxChalloBingBong/terms_of_service.md
+permalink: ./terms_of_service.md
 ---
 1. Introduction  
 These Terms of Service govern your use of the "RSS Reader" Windows desktop application (the "ReadyxChalloBingBong"). By using the Application, you agree to be bound by these terms and conditions. If you do not agree to these terms, do not use the Application.
