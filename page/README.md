@@ -1,7 +1,6 @@
 # ReadyxChalloBingBong  
 ## Vorwort  
-Ich wünsche Euch allen frohe Weihnachten und einen guten Rutsch ins neue Jahr.  
-  
+<a href="{{ site.baseurl }}/terms_of_service/">Terms of service</a> | <a href="{{ site.baseurl }}/privacy_policy/">Privacy Policy</a>
   
   
   
@@ -106,7 +105,6 @@ Natürlich kann ich Euch aber nicht davon abhalten, Readyx mit einem Geschenkabo
 
 BNK3Rboy  
 
-<a href="{{ site.baseurl }}/terms_of_service/">Terms of service</a> | <a href="{{ site.baseurl }}/privacy_policy/">Privacy Policy</a>
 
 ![1](https://user-images.githubusercontent.com/17516608/202868225-ae6a42fb-6cbb-4050-975b-436de6feab6c.png)  
 ![1](https://user-images.githubusercontent.com/17516608/202868225-ae6a42fb-6cbb-4050-975b-436de6feab6c.png)  
