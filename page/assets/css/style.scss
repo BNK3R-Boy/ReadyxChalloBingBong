@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+nav div{display:block !important;}
 mainnav div{display:block !important;}
 mainnav div ul{list-style:none;list-style-image:none;font-size:14px;line-height:24px;}
 mainnav div ul li{padding:5px 0px;line-height:16px}
