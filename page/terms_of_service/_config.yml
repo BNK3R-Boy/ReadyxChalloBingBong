@@ -11,3 +11,4 @@ nav:
   - { name: "Abschließende Worte", link: "/#abschlieende-worte" }
   - { name: "Terms of Service", link: "/terms_of_service" }
   - { name: "Privacy Policy", link: "/privacy_policy" }
+include: _includes/navigation.html
