@@ -46,6 +46,11 @@
 		    <li><a href="{{ link.link }}">{{ link.name }}</a></li>
 		  {% endfor %}
 	    </ul>
+	  </nav>
+      <section>
+        {{ content }}
+
+      </section>
 	  <navbot>
 		<ul>
 		  <li></li>
@@ -54,11 +59,6 @@
 		  <li><a href="./privacy_policy">Privacy Policy</a></li>
 		</ul>
 	  </navbot>
-	  </nav>
-      <section>
-        {{ content }}
-
-      </section>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
