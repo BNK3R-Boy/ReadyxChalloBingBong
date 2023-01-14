@@ -1,9 +1,9 @@
 ---
 layout: default
-title: ReadyxChalloBingBong
+title: ChalloBingBong
 permalink: ./
 ---
-# ReadyxChalloBingBong  
+# ChalloBingBong  
 
 ## Vorwort    
 Ihr bekommt nicht genug von unserem Lieblingstiroler und/oder habt Angst etwas zu verpassen?  
