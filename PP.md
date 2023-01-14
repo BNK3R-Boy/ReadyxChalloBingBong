@@ -20,7 +20,7 @@ You have the right to request information about the personal data we hold about 
 We reserve the right to make changes to our privacy policy at any time. Your continued use of the Application after any changes have been made will constitute your acceptance of the new privacy policy.
 
 
-
+---
 
 
 1. Einleitung  
