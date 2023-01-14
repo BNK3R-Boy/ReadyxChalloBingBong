@@ -39,11 +39,12 @@
 
     <div class="wrapper">
       <nav>
-		<b>Navigation:</b>
 	    <ul></ul>
+		<ul>
 		  {% for link in site.data.navigation %}
 		    <li><a href="{{ link.link }}">{{ link.name }}</a></li>
 		  {% endfor %}
+		 </ul>
 	  </nav>
       <section>
         {{ content }}
