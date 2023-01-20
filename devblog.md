@@ -17,10 +17,15 @@ ChalloBingBong - stabilisiert
 - ChalloBingBong Server Script für Data Mining - AUT Streamer Datensatzprüfungs Webseite (Vollautomatisiert).
 
 = Telegram Bot für ChalloBingBong
+
 = WhatsApp Bot für ChalloBingBong
+
 = Webseite mit allen Wichtigen Informationen auf einem Blick
+
 = Andoid App - In Planung
+
 = Apple iOS App - In Planung (wegen fehlender Hardware, letzte anzugehende Projekt)
+
 
 Wie Ihr sehen könnt, erwartet mich eine mege Arbeit, auf die ich mich wirklich sehr freue.  
 Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach viel zuviel Zeit und sonst nix zu tun.
