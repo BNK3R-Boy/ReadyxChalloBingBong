@@ -33,4 +33,5 @@ Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach vi
 
 ---
 
+[GitHub Page](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/blob/main/devblog.md)  
 BNK3Rboy  
