@@ -29,6 +29,8 @@ In Planung:
 Wie Ihr sehen könnt, erwartet mich eine menge Arbeit, auf die ich mich wirklich sehr freue.
 Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach viel zuviel Zeit und sonst nix zu tun.
 
+Für heute bin ich fertig und werde mich nun dem Abbau von Mineralien in einem Asteroiden widmen. "Rock and Stone!"
+
 ---
 
 BNK3Rboy 
