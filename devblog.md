@@ -1,3 +1,4 @@
+[Quelle: GitHub Markdown Page](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/blob/main/devblog.md)   
 # Dev Blog
 
 ---
@@ -32,6 +33,5 @@ Wie Ihr sehen könnt, erwartet mich eine mege Arbeit, auf die ich mich wirklich 
 Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach viel zuviel Zeit und sonst nix zu tun.
 
 ---
-
-[GitHub Page](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/blob/main/devblog.md)  
+ 
 BNK3Rboy  
