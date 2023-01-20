@@ -1,6 +1,7 @@
 # Dev Blog
 
-20.01.2023  
+#### 20.01.2023
+
 Ich habe mir mal eine kleine Möglichkeit geschaffen, um schnell und einfach ein paar Zeilen zu meinen Coding Aktivitäten nieder zu schreiben.  
 Da das Projekt förmlich, mit der Anschaffung des Raspberry Pi, in alle richtungen Explodiert ist, möchte ich das hier an dieser stelle mal in Kurzen Worten zusammen fassen.
 Aus einem kleinen Community Tool, wurde schnell ein stabiles Projekt mit Ecken und Kanten.
@@ -27,5 +28,7 @@ In Planung:
 
 Wie Ihr sehen könnt, erwartet mich eine mege Arbeit, auf die ich mich wirklich sehr freue.  
 Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach viel zuviel Zeit und sonst nix zu tun.
+
+---
 
 BNK3Rboy  
