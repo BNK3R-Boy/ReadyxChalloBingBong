@@ -28,6 +28,4 @@ In Planung:
 Wie Ihr sehen könnt, erwartet mich eine mege Arbeit, auf die ich mich wirklich sehr freue.  
 Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach viel zuviel Zeit und sonst nix zu tun.
 
-![1](https://user-images.githubusercontent.com/17516608/202868431-b2ffc3e0-7ca6-40c7-962a-d288b73a5f51.png)  
-
 BNK3Rboy  
