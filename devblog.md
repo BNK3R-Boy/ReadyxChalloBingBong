@@ -1,5 +1,7 @@
 # Dev Blog
 
+---
+
 #### 20.01.2023
 
 Ich habe mir mal eine kleine Möglichkeit geschaffen, um schnell und einfach ein paar Zeilen zu meinen Coding Aktivitäten nieder zu schreiben.  
