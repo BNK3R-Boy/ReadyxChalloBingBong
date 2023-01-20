@@ -10,18 +10,24 @@ Da das Projekt nicht mehr nur für mich ist, viel mehr meine Art mich bei Readyx
 
 Ich versuche mal in kurzen Schlagworten zu demonstrieren, was Passiert ist und wird.
 
-ChalloBingBong - stabilisiert
-- Raspberry Pi - Server Einrichtung Konfiguration 
+Fertig und in Prüfung:
+- ChalloBingBong - stabilisiert
+- Raspberry Pi - Server Einrichtung / Konfiguration 
 - Server - Einbindung in bestehende Netzwerk Infrastruktur 
 - ChalloBingBong Server Script - Sammel erste Daten von Twitch und YouTube - Stellt die Daten für ChalloBingBong Clients aller Platformen bereit.
 - ChalloBingBong Server Script für Data Mining - AUT Streamer Datensatzprüfungs Webseite (Vollautomatisiert).
 
--- Telegram Bot für ChalloBingBong
--- WhatsApp Bot für ChalloBingBong
--- Webseite mit allen Wichtigen Informationen auf einem Blick
--- Andoid App - In Planung
--- Apple iOS App - In Planung (wegen fehlender Hardware, letzte anzugehende Projekt)
+In Planung:
+- Telegram Bot für ChalloBingBong  
+- WhatsApp Bot für ChalloBingBong  
+- Webseite mit allen Wichtigen Informationen auf einem Blick  
+- Andoid App - In Planung  
+- Apple iOS App - In Planung (wegen fehlender Hardware, letzte anzugehende Projekt)  
 
 
 Wie Ihr sehen könnt, erwartet mich eine mege Arbeit, auf die ich mich wirklich sehr freue.  
 Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach viel zuviel Zeit und sonst nix zu tun.
+
+![1](https://user-images.githubusercontent.com/17516608/202868431-b2ffc3e0-7ca6-40c7-962a-d288b73a5f51.png)  
+
+BNK3Rboy  
