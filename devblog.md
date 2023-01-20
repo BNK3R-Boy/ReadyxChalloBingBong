@@ -29,6 +29,9 @@ In Planung:
 Wie Ihr sehen könnt, erwartet mich eine menge Arbeit, auf die ich mich wirklich sehr freue.
 Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach viel zuviel Zeit und sonst nix zu tun.
 
+Am Ende passieren immer Dinge, die nicht geplant sind. Wie heute Nacht, und ich bin mir immer noch nicht ganz sicher warum es gerade jetzt passiert ist und nicht gleich nach der Umstellung.
+Ich hatte eine DNS-Endlosschleife 🔂 in meinem Netzwerk und in der letzte Nacht fehlen 8 Datensätze, da der Server eine DNS-Anfrage an die Fritzbox sendete und diese wiederum die Anfrage zurück an den Server schickte, war die Endlosschleife komplett. Grüße an DBD🔁. Ich konnte Fehler recht schnell beheben, aber es gibt eine Lücke von 8 Stunden. Zum Glück gleich nach dem Aufstehen bemerkt, gefunden und gefixt.
+
 Für heute bin ich fertig und werde mich nun dem Abbau von Mineralien in einem Asteroiden widmen. "Rock and Stone!"
 
 ---
