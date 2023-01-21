@@ -1,29 +1,20 @@
-name: Python TT script
-
+name: TikTok Webhook
 on:
   push:
-    branches: [ master ]
+    paths:
+      - '.github/workflows/tiktok-webhook.yml'
 
 jobs:
-  build:
+  tiktok-webhook:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Setup Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-    - name: Install dependencies
+    - name: Respond to TikTok webhook
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    - name: Run script
-      run: python whttic.py
-    - name: Commit and push
+        echo "Received TikTok webhook request"
+        # Do something with the received data (e.g. parse, save to file, etc.)
+    - name: Save received data to JSON file
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add data.json
-        git commit -m "Automated commit"
-        git push
+        # Code to save received data to a JSON file
+        echo "Saved received data to JSON file"
