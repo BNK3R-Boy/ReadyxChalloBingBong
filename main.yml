@@ -14,6 +14,8 @@ jobs:
       run: |
         echo "Received TikTok webhook request"
         # Do something with the received data (e.g. parse, save to file, etc.)
+    - name: Run whttic.py script
+      run: python whttic.py
     - name: Save received data to JSON file
       run: |
         # Code to save received data to a JSON file
