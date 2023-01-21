@@ -1,0 +1,22 @@
+name: TikTok Webhook
+on:
+  push:
+    paths:
+      - '.github/workflows/tiktok-webhook.yml'
+
+jobs:
+  tiktok-webhook:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Respond to TikTok webhook
+      run: |
+        echo "Received TikTok webhook request"
+        # Do something with the received data (e.g. parse, save to file, etc.)
+    - name: Run whttic.py script
+      run: python whttic.py
+    - name: Save received data to JSON file
+      run: |
+        # Code to save received data to a JSON file
+        echo "Saved received data to JSON file"
