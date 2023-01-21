@@ -1,4 +1,3 @@
-
 name: TikTok Webhook
 on:
   push:
