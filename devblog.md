@@ -3,6 +3,11 @@
 
 ---
 
+#### 24.01.2023
+Telegram Bot läuft stabil seine 5 min durch, wird dann beendet und neu gestartet, dauert weniger als 100ms. Somit läuft er 24/7 stabil. Bisherige Commands zum Testen. ChalloBingBong, YouTube, Twitch, roll, time. Ob wir # ! / als Anführendes Commando Symbol verwenden, können wir dem Twitch Chat anpassen. Ich bastele nun noch die neue Twitter API hinzu, dann fehlen nur noch 2 und ChalloBingBongX kann an den Start. 
+
+---
+
 #### 20.01.2023
 Ich habe mir mal eine kleine Möglichkeit geschaffen, um schnell und einfach ein paar Zeilen zu meinen Coding Aktivitäten nieder zu schreiben.  
 Da das Projekt förmlich, mit der Anschaffung des Raspberry Pi, in alle Richtungen Explodiert ist, möchte ich das hier an dieser stelle mal in Kurzen Worten zusammen fassen. Aus einem kleinen Community Tool, wurde schnell ein stabiles Projekt mit Ecken und Kanten. ReadyxChalloBingBong.exe ist nun seit kurz nach Weihnachten in einer recht guten Verfassung, bis auf die Quellen woher es seine Daten bezieht. Dieses ist der Grund, warum ich mich entschließen musste, entweder das Projekt so weiter zu führen und bei einem Ausfall einer Quelle entweder zu scheitern oder endlos viel Zeit für Workarounds zu verschwenden oder eine Lösung zu finden die Verfügbarkeit der Quellen sicherzustellen.  
