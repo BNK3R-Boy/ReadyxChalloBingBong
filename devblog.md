@@ -4,7 +4,7 @@
 ---
 
 #### 24.01.2023
-Telegram Bot läuft stabil seine 5 min durch, wird dann beendet und neu gestartet, dauert weniger als 100ms. Somit läuft er 24/7 stabil. Bisherige Commands zum Testen. ChalloBingBong, YouTube, Twitch, roll, time. Ob wir # ! / als Anführendes Commando Symbol verwenden, können wir dem Twitch Chat anpassen. Ich bastele nun noch die neue Twitter API hinzu, dann fehlen nur noch 2 und ChalloBingBongX kann an den Start. 
+Telegram Bot läuft stabil seine 5 min durch, wird dann beendet und neu gestartet, dauert weniger als 100ms. Somit läuft er 24/7 stabil. Bisherige Commands zum Testen. ChalloBingBong, YouTube, Twitch, witz, roll und time. Ob wir # ! / als Anführendes Commando Symbol verwenden, können wir dem Twitch Chat anpassen. Ich bastele nun noch die neue Twitter API hinzu, dann fehlen nur noch 2 und ChalloBingBongX kann an den Start. 
 
 ---
 
