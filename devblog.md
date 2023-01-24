@@ -23,14 +23,14 @@ Fertig und/oder in Prüfung:
 - Server - Einbindung in bestehende Netzwerk Infrastruktur ✔
 - ChalloBingBong Server Script - Sammelt erste Daten von Twitch und YouTube - Stellt die Daten für ChalloBingBong Clients aller Plattformen bereit. ✔
 - ChalloBingBong Server Script für Data Mining - AUT Streamer Datensatzprüfungswebseite (Vollautomatisiert). ✔
+- Telegram Bot für ChalloBingBong ✔
 
 In Planung:
 
-- Telegram Bot für ChalloBingBong ➰
-- WhatsApp Bot für ChalloBingBong ➰
 - Webseite mit allen Wichtigen Informationen auf einem Blick ➰
-- Android App - In Planung ➰ 
-- Apple iOS App - In Planung (wegen fehlender Hardware, letzte anzugehende Projekt) ⚠
+- WhatsApp Bot für ChalloBingBong ⚠➰⚠
+- Android App - In Planung ⚠➰⚠
+- Apple iOS App - In Planung (wegen fehlender Hardware, letzte anzugehende Projekt) ⚠➰⚠
 
 Wie Ihr sehen könnt, erwartet mich eine menge Arbeit, auf die ich mich wirklich sehr freue.
 Ihr fragt Euch ob ich irre bin, ja vielleicht, aber ich habe wirklich einfach viel zuviel Zeit und sonst nix zu tun.
@@ -42,4 +42,4 @@ Für heute bin ich fertig und werde mich nun dem Abbau von Mineralien in einem A
 
 ---
 
-BηƘ3яᏰ๏𝓎 
+BηƘ3яᏰ๏𝓎⚡unchained
