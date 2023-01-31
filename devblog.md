@@ -1,11 +1,11 @@
-[Quelle: GitHub Markdown Page](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/blob/main/devblog.md)   
+[[Quelle: GitHub Markdown Page](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/blob/main/devblog.md)]  
 # Dev Blog
 
 #### 31.01.2023
 Und es lebt!  
 ![discordawakening](https://user-images.githubusercontent.com/17516608/215745474-4c88183f-6c0a-44ed-9ecc-75284820b99a.png)  
 Erste Schritte des Discord Bots.  
-[Der Puls schlägt schneller](https://www.google.com/search?q=du+puls+schl%C3%A4g+schneller+h%C3%B6rst+du+unsere&rlz=1C1CHBF_deDE981DE981&oq=du+puls+schl%C3%A4g+schneller+h%C3%B6rst+du+unsere+&aqs=chrome..69i57j69i64.15195j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:52bb0cde,vid:gUsmfvZe024)  
+[[Der Puls schlägt schneller](https://www.google.com/search?q=du+puls+schl%C3%A4g+schneller+h%C3%B6rst+du+unsere&rlz=1C1CHBF_deDE981DE981&oq=du+puls+schl%C3%A4g+schneller+h%C3%B6rst+du+unsere+&aqs=chrome..69i57j69i64.15195j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:52bb0cde,vid:gUsmfvZe024)]  
 
 ---
 
