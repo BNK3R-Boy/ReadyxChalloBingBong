@@ -1,11 +1,10 @@
 [Quelle: GitHub Markdown Page](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/blob/main/devblog.md)   
 # Dev Blog
 
----
-
 #### 31.01.2023
-![discordawakening](https://user-images.githubusercontent.com/17516608/215745474-4c88183f-6c0a-44ed-9ecc-75284820b99a.png)
-
+Und es lebt!  
+![discordawakening](https://user-images.githubusercontent.com/17516608/215745474-4c88183f-6c0a-44ed-9ecc-75284820b99a.png)  
+Erste Schritte des Discord Bots. 
 
 ---
 
