@@ -24,6 +24,9 @@ A: Schwierige Frage. Nein und Ja. Nein, weil ich es als Support Readyx gebe, wie
 F: ChalloBingBong Server Kaufen/Mieten?  
 A: Nein, keine Chance.  
 
+F: Mein ChalloBingBong sieht nicht so aus wie dieses auf dem Bild. Ist das richtig so?  
+A: Vollkommen richtig, dies ist nur eine Preview. Ich Teste die neue Version noch, bis Readyx sein OK in Instagram gibt. Ihr könnt auf dem Bild ja noch sehen, dass der 3 Menüpunkt von oben, noch mein Instagramlink bekommt.  
+
 ---
 
 #### 31.01.2023
