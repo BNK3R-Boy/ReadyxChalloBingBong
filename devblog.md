@@ -4,6 +4,8 @@
 #### 14.02.2023
 Die neue Menüaufteilung.
 
+![image](https://user-images.githubusercontent.com/17516608/218749247-4ea60f5b-f6cf-4596-8c9f-f9afee43809b.png)
+
 F: Was ist anders?  
 A: Durch die Überarbeitung der Quelle für Information der Menüpunkte ist es mir gelungen diese sehr viel Flexibler zu gestallten. Dadurch entfallen die Plattformnamen, die bereits durch die Plattformlogos dargestellt werden.  
   
