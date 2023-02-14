@@ -3,24 +3,26 @@
 
 #### 14.02.2023
 Die neue Menüaufteilung.
-F: Was ist anders?
-A: Durch die Überarbeitung der Quelle für Information der Menüpunkte ist es mir gelungen diese sehr viel Flexibler zu gestallten. Dadurch entfallen die Plattformnamen, die bereits durch die Plattformlogos dargestellt werden.
 
-F: Muss ich einen neuen ChalloBingBong Client runterladen?
-A: Die Update Funktion deines ChalloBingBong sollte, insofern schon vorhanden, auf diese Version Updaten. Ein Download ist dennoch nötig, diesen könnt ihr Manuell oder per Update Funktion vornehmen. 
-
-F: Bist du vielleicht etwas Verrückt?
+F: Was ist anders?  
+A: Durch die Überarbeitung der Quelle für Information der Menüpunkte ist es mir gelungen diese sehr viel Flexibler zu gestallten. Dadurch entfallen die Plattformnamen, die bereits durch die Plattformlogos dargestellt werden.  
+  
+F: Muss ich einen neuen ChalloBingBong Client runterladen?  
+A: Die Update Funktion deines ChalloBingBong sollte, insofern schon vorhanden, auf diese Version Updaten. Ein Download ist dennoch nötig, diesen könnt ihr Manuell oder per Update Funktion vornehmen.  
+  
+F: Bist du vielleicht etwas Verrückt?  
 A: Ja, vielleicht... Aber nur mit diesem Haarshampo...  
+  
+F: Verdienst du damit Geld?  
+A: Klares Nein. Im Gegenteil. Es entstehen sogar geringe zusätzliche Stromkosten, die ich allerdings sehr gern dafür aufbringe.  
+  
+F: Möchtest du damit Geld verdienen?  
+A: Schwierige Frage. Nein und Ja. Nein, weil ich es als Support Readyx gebe, wie andere Bits und/oder Abos. Dazu habe ich ChalloBingBong zu Readyxclusive ernannt und somit passieren keine "Kostenlosen Server Script Kopien" ohne seiner und meiner Zustimmung.  
+  
+F: ChalloBingBong Server Kaufen/Mieten?  
+A: Nein, keine Chance.  
 
-F: Verdienst du damit Geld?
-A: Klares Nein. Im Gegenteil. Es entstehen sogar geringe zusätzliche Stromkosten, die ich allerdings sehr gern dafür aufbringe.
-
-F: Möchtest du damit Geld verdienen?
-A: Schwierige Frage. Nein und Ja. Nein, weil ich es als Support Readyx gebe, wie andere Bits und/oder Abos. Dazu habe ich ChalloBingBong zu Readyxclusive ernannt und somit passieren keine "Kostenlosen Server Script Kopien" ohne seiner und meiner Zustimmung.
-
-F: ChalloBingBong Server Kaufen/Mieten?
-A: Nein, keine Chance.   
-
+---
 
 #### 31.01.2023
 Und es lebt!  
