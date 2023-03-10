@@ -8,7 +8,7 @@ ChalloBingBong Serverscript 2.0
 Ja da ist ein Schreibfehler in der Animation!  
 Schon entfernt, nur noch mal die Animation aufnehmen, hatte ich grade keine große Lust. :D
 
-![image](https://user-images.githubusercontent.com/17516608/224349785-086484af-f5e1-4211-bc13-f43688ba7f48.png)
+![image](https://user-images.githubusercontent.com/17516608/224359328-b3d818e6-6bfb-45e9-ac87-61bbedfac062.png)  
 Bunte Logs machen das Leben schöner! 
 
 #### 14.02.2023
