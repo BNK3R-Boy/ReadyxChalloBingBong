@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20230214044714
+Global AppVersion := 20230317035219
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -76,13 +76,17 @@ App_UpdateSource() {
 		Try {
 			jstr := Str_GetWebData("https://raw.githubusercontent.com/BNK3R-Boy/ReadyxChalloBingBong/main/ChalloBingBong.json")
 			jsondata := JSON.Load(jstr)
+			i := 0
 			For k In jsondata {
+				i++
 				If !Sources[k]["name"]
 					Sources[k] := Array()
-				Sources[k]["title"] := StrReplace(Trim(Menu_GetShortMenuTitle(jsondata[k]["title"], MBL)), "`n", " ")
+				Sources[k]["title"] := StrReplace(Trim(Menu_GetShortMenuTitle(jsondata[k]["title"], MBL+i)), "`n", " ")
 				Sources[k]["url"] := jsondata[k]["url"]
 				Sources[k]["name"] := jsondata[k]["name"]
 				Sources[k]["channelurl"] := jsondata[k]["channel"]
+				If (k == "Twitch") And (Sources[k]["title"] == "off")
+					Sources[k]["title"] := "Stream Offline"
 			}
 			Break
 		} Catch e {
@@ -172,28 +176,34 @@ App_MainProcess(Opt = 0) {
 		} Catch e {
 			return
 		}
+		i := 0
 		For k In jsondata {
+			i++
 			TryStartTime := A_TickCount
 			pdata := jsondata[k]
 			tMBL := (k == "Twitch") ? MBL + TWITCHADD : MBL
 			NewBTNdata := Array()
-			NewBTNdata["TITLE"] :=  StrReplace(Trim(Menu_GetShortMenuTitle(pdata["title"], MBL)), "`n", " ")	
+			NewBTNdata["TITLE"] :=  StrReplace(Trim(Menu_GetShortMenuTitle(pdata["title"], MBL+i)), "`n", " ")	
 			NewBTNdata["URL"] := pdata["url"]
-			ExistInHistory := History_IsIn(NewBTNdata["URL"], k, StrReplace(Trim(Menu_GetShortMenuTitle(pdata["title"], MBL)), "`n", " "))
+			ExistInHistory := History_IsIn(NewBTNdata["URL"], k, NewBTNdata["TITLE"])
 			If (!ExistInHistory) || (Opt = 1) || (OptRem && !Opt) {
 				(!Opt && OptRem && k = jsondata.Count()) ? OptRem := False
-				If (!ExistInHistory) And !((k == "Twitch") And (pdata["title"] == "off")) {
-					History_Add(NewBTNdata["URL"], k, NewBTNdata["TITLE"])
-					Sources[k]["new"] := 1
-					App_SplashTimeout()
-                    Menu, Tray, Icon
-					Menu, Tray, Icon, % Sources[k]["title"], %TF%n%k%.png,, 0
-					TrayTip, %k%, % NewBTNdata["TITLE"], 20
-					App_Voice(k . ": " . Menu_GetShortMenuTitle(pdata["title"], Floor(MBL*1.8))) 
+				If (!ExistInHistory) { ; And !((k == "Twitch") And (pdata["title"] == "off"))
+					If (k == "Twitch") And (pdata["title"] == "off")
+						NewBTNdata["TITLE"] := "Stream Offline"
+					Else {
+						History_Add(NewBTNdata["URL"], k, NewBTNdata["TITLE"])
+						Sources[k]["new"] := 1
+						App_SplashTimeout()
+						Menu, Tray, Icon
+						Menu, Tray, Icon, % Sources[k]["title"], %TF%n%k%.png,, 0
+						TrayTip, %k%, % NewBTNdata["TITLE"], 20
+						App_Voice(k . ": " . Menu_GetShortMenuTitle(pdata["title"], Floor(MBL*1.8))) 
+						Tray_CheckNewPostings()
+					}
 					Menu, Tray, Rename, % Sources[k]["title"], % NewBTNdata["TITLE"]
 					Sources[k]["title"] := NewBTNdata["TITLE"]
 					Sources[k]["url"] := NewBTNdata["URL"]
-					Tray_CheckNewPostings()
 				}
 			}
 			TryElapsedTime := A_TickCount - TryStartTime
