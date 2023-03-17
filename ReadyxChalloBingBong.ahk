@@ -109,7 +109,7 @@ App_CheckUpdate(m = 0) {
 		Return
 	} Else If nv && (nv > AppVersion) {
 		App_SplashTimeout()
-        MsgBox, 4, %AppName% - Ein neues Update ist verfügbar, %AppVersion% aktuelle Version`n%nv% neue Version`n`nVon Github donwloaded und ReadyxChalloBingbong schließen?
+        MsgBox, 4, %AppName% - Ein neues Update ist verfügbar, %AppVersion% aktuelle Version`n%nv% neue Version`n`nVon Github donwloaden und ReadyxChalloBingbong schließen?
 		IfMsgBox Yes
 		{
 		    Menu_OpenLink("", "", "", dlGitHub)
