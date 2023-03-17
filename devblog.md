@@ -1,6 +1,16 @@
 [[Quelle: GitHub Markdown Page](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/blob/main/devblog.md)]  
 # Dev Blog
 
+#### 10.03.2023
+ChalloBingBong Serverscript 2.0
+
+![projekt2 0](https://user-images.githubusercontent.com/17516608/224299025-82b5d5ba-9695-4fe3-bdbe-bc102514d333.gif)  
+Ja da ist ein Schreibfehler in der Animation!  
+Schon entfernt, nur noch mal die Animation aufnehmen, hatte ich grade keine große Lust. :D
+
+![image](https://user-images.githubusercontent.com/17516608/224359328-b3d818e6-6bfb-45e9-ac87-61bbedfac062.png)  
+Bunte Logs machen das Leben schöner! 
+
 #### 14.02.2023
 Die neue Menüaufteilung.
 

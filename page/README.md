@@ -27,8 +27,7 @@ Unter Kanäle kommt Ihr auch direkt zum Kanal ohne über einen aktuellen Beitrag
 
 ### Download  
 
-| Datei:&nbsp;ReadyxChalloBingBong.exe Version:&nbsp;20230317035219&nbsp;(RC-3.6) | [[Download](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe)] [[Virus&nbsp;Total&nbsp;Prüfergebnis](https://www.virustotal.com/gui/url/2f8660f49b11201aeb0e3bb22d7048b18e3fb1b67b9e8e2aae1a4c229c3085cf?nocache=1)] |
-
+| Datei:&nbsp;ReadyxChalloBingBong.exe Version:&nbsp;20230317035219&nbsp;(RC-3.7) | [[Download](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe)] [[Virus&nbsp;Total&nbsp;Prüfergebnis](https://www.virustotal.com/gui/url/2f8660f49b11201aeb0e3bb22d7048b18e3fb1b67b9e8e2aae1a4c229c3085cf?nocache=1)] |
 
 
 
