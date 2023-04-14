@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20230317040749
+Global AppVersion := 20230413195633
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -45,14 +45,14 @@ Global Partner := Array()
 Global Voice
 Global ToolTipToken := True
 Global MENUTITELNAMEchannels := "Kanäle"
-global MENUTITELNAMEnews := "Neueste Beiträge:"
+global MENUTITELNAMEnews := ":·._.··._.··._.··._.·: Neueste Beiträge :·._.··._.··._.··._.·:"
 Global ROSSUB := "Menü"
 Global VOICEMENU := "Sprachausgabe"
 Global RUNONSTARTUP := "Autostart"
 Global UNTAGNEWPOST := "neue Beiträge Markierung entfernen"
 Global UPDATEBUTTONTITLE := "Auf App Update prüfen"
 Global REFRESHDATAMENU := "Auf neue Beiträge prüfen"
-Global MBL := 5
+Global MBL := 45
 Global TWITCHADD := 2
 Global HISTORYLENGTH := 5
 Global fnMainProcess := Func("App_MainProcess")
@@ -352,17 +352,25 @@ Menu_AutoStartSetup() {
 	Menu_UpdateMenuCheckmarks()
 }
 
-Menu_GetShortMenuTitle(t, l = "") {
-	cl := (!l) ? MBL : l
-	t := StrReplace(t, t . " - ", "")
-	sarray := StrSplit(t," ")
-    If (sarray.length() >= cl) {
-		str := ""
-		Loop, %cl%
-			str .= sarray[A_Index] . " "
-		t := trim(str) . "..."
-	}
-	Return t
+Menu_GetShortMenuTitle(t, l = "%MBL%") {
+    if (StrLen(t) <= l) {
+        return t ; Wenn die Länge des Strings kleiner oder gleich der maximalen Länge ist, wird der Originalstring zurückgegeben
+    } else {
+        words := StrSplit(t, " ") ; String in ein Array von Wörtern aufteilen
+        result := "" ; Neuen String für den gekürzten Titel initialisieren
+        currentLength := 0 ; Aktuelle Länge des gekürzten Titels auf 0 setzen
+
+        for i, word in words {
+            if (currentLength + StrLen(word) + 1 <= l) {
+                result .= (i > 1 ? " " : "") . word ; Wort zum Ergebnis hinzufügen, mit Leerzeichen als Trennzeichen zwischen den Wörtern
+                currentLength += (i > 1 ? 1 : 0) + StrLen(word) ; Aktuelle Länge aktualisieren, einschließlich des Leerzeichens zwischen den Wörtern
+            } else {
+                break ; Schleife abbrechen, wenn die maximale Länge erreicht ist
+            }
+        }
+
+        return result
+    }
 }
 
 Menu_OpenLink(bt, bno, sm, url="") {
@@ -433,7 +441,9 @@ Menu_Setup() {
 		Menu, Tray, Icon, %channelno%, %TF%%k%.png,, 0
 	}
 	Menu, Tray, Add
-	Menu, Tray, Add, Social-Media-Kanäle:, %fnOpenLink%
+	
+	Menu, Tray, Add, :·._.··._.··._.··._.··._.·: ⓈⓄⒸⒾⒶⓁⓈ :·._.··._.··._.··._.··._.·:, %fnOpenLink%
+	;Menu, Tray, Add, Social-Media-Kanäle:, %fnOpenLink%
 	;Menu, Tray, Icon, Social-Media-Kanäle:, %ICO%,, 0
 	Loop, % SRow.Count() {
 		k := SRow[A_Index]
@@ -441,7 +451,7 @@ Menu_Setup() {
 		Menu, Tray, Icon, %k%, %TF%%k%.png,, 0
 	}
 	Menu, Tray, Add
-	Menu, Tray, Add, Partner:, %fnOpenLink%
+	Menu, Tray, Add, :·._.··._.··._.··._.··._.··._.·: Partner :·._.··._.··._.··._.··._.··._.·:, %fnOpenLink%
 	;Menu, Tray, Icon, Partner:, %ICO%,, 0
 	Loop, % Partner.Count() {
 		Spot := A_Index
