@@ -1,6 +1,13 @@
 [[Quelle: GitHub Markdown Page](https://github.com/BNK3R-Boy/ReadyxChalloBingBong/blob/main/devblog.md)]  
 # Dev Blog
 
+
+#### 30.03.2023
+ChalloBingBong ist nun Kraken 3.0
+
+![image](https://user-images.githubusercontent.com/17516608/228743735-0a98f62b-7b55-41d0-ab3a-f5e8aaba9a0b.png)  
+Mein Kraken Frisst und Pups! Erste Nacht mit v3 ohne fehler.
+
 #### 10.03.2023
 ChalloBingBong Serverscript 2.0
 
