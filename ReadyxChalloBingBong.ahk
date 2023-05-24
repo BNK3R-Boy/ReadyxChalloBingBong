@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20230413195633
+Global AppVersion := 20230524100450
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -40,7 +40,7 @@ Global fnSplashTimeout := Func("App_SplashTimeout")
 Global fnOpenLink := Func("Menu_OpenLink")
 Global ReadedPosting := Array()
 Global Sources := Array()
-Global SRow := ["Twitch", "Instagram", "YouTube", "Twitter", "TikTok"]
+Global SRow := Array()
 Global Partner := Array()
 Global Voice
 Global ToolTipToken := True
@@ -79,6 +79,7 @@ App_UpdateSource() {
 			i := 0
 			For k In jsondata {
 				i++
+				SRow[i] := k
 				If !Sources[k]["name"]
 					Sources[k] := Array()
 				Sources[k]["title"] := StrReplace(Trim(Menu_GetShortMenuTitle(jsondata[k]["title"], MBL+i)), "`n", " ")
@@ -155,9 +156,6 @@ App_Inizial() {
 	App_MainProcess(1)
 	Menu, Tray, Icon
 	App_SplashTimeout()
-	
-	If FileExist("html.html")
-		FileDelete, html.html
 }
 
 App_IsOnline() {
@@ -179,6 +177,7 @@ App_MainProcess(Opt = 0) {
 		i := 0
 		For k In jsondata {
 			i++
+			SRow[i] := k
 			TryStartTime := A_TickCount
 			pdata := jsondata[k]
 			tMBL := (k == "Twitch") ? MBL + TWITCHADD : MBL
