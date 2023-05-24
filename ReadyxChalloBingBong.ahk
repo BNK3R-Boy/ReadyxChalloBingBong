@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20230524100450
+Global AppVersion := 20230524191241
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -136,6 +136,8 @@ App_Inizial() {
 	FileInstall, JL.png, %TF%JL.png, 1
 	App_AddPartner("StreamerMerch", "https://www.streamermerch.de/readyx", "ST.png", True)
 	FileInstall, ST.png, %TF%ST.png, 1
+	App_AddPartner("Saturo", "https://www.Saturo.com/readyx", "SO.png", True)
+	FileInstall, SO.png, %TF%SO.png, 1
 	; App_AddSource(streamer, platform, channel, rss, status)
 	FileInstall, Twitch.png, %TF%Twitch.png, 1
 	FileInstall, nTwitch.png, %TF%nTwitch.png, 1
