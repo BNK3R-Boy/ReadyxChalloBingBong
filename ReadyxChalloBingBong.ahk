@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20230605191253
+Global AppVersion := 20230815162639
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -56,6 +56,7 @@ Global MBL := 45
 Global TWITCHADD := 2
 Global HISTORYLENGTH := 5
 Global fnMainProcess := Func("App_MainProcess")
+Global MENUORDER := ["Twitch", "Instagram", "YouTube", "TikTok"]
 FileEncoding, UTF-8
 
 App_Inizial()
@@ -72,6 +73,37 @@ App_AddPartner(pStr, url, ico, stat = True) {
 }
 
 App_UpdateSource() {
+	while true {
+		Try {
+			jstr := Str_GetWebData("https://raw.githubusercontent.com/BNK3R-Boy/ReadyxChalloBingBong/main/ChalloBingBong.json")
+			jsondata := JSON.Load(jstr)
+			i := 0
+			Loop, % MENUORDER.Count() {
+				mo := MENUORDER[A_Index]
+				For k In jsondata {
+					if (k == mo) {
+						i++
+						SRow[i] := k
+						If !Sources[k]["name"]
+							Sources[k] := Array()
+						Sources[k]["title"] := StrReplace(Trim(Menu_GetShortMenuTitle(jsondata[k]["title"], MBL+i)), "`n", " ")
+						Sources[k]["url"] := jsondata[k]["url"]
+						Sources[k]["name"] := jsondata[k]["name"]
+						Sources[k]["channelurl"] := jsondata[k]["channel"]
+						If (k == "Twitch") And (Sources[k]["title"] == "off")
+							Sources[k]["title"] := "Stream Offline"
+					}
+				}
+			}
+			Break
+		} Catch e {
+			Sleep, 333
+			Continue
+		}
+	}
+}
+
+App_UpdateSourceOLD() {
 	while true {
 		Try {
 			jstr := Str_GetWebData("https://raw.githubusercontent.com/BNK3R-Boy/ReadyxChalloBingBong/main/ChalloBingBong.json")
