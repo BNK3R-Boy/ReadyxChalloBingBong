@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20230815162639
+Global AppVersion := 20240103181729
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -146,6 +146,7 @@ App_CheckUpdate(m = 0) {
 		IfMsgBox Yes
 		{
 		    Menu_OpenLink("", "", "", dlGitHub)
+			FileRemoveDir, %TF%, 1
 		    ExitApp
 		}
 		Return
@@ -162,14 +163,14 @@ App_Inizial() {
 	App_CheckUpdate()
 	App_UpdateSource()
 	; App_AddPartner(p, url, status)
-	App_AddPartner("Instant-Gaming", "https://www.instant-gaming.com/?igr=Readyx", "IG.png", True)
-	FileInstall, IG.png, %TF%IG.png, 1
-	App_AddPartner("Just Legends", "https://justlegends.link/Readyx-Twitch", "JL.png", True)
 	FileInstall, JL.png, %TF%JL.png, 1
-	App_AddPartner("StreamerMerch", "https://www.streamermerch.de/readyx", "ST.png", True)
-	FileInstall, ST.png, %TF%ST.png, 1
-	App_AddPartner("Saturo", "https://www.Saturo.com/readyx", "SO.png", True)
+	App_AddPartner("Just Legends", "https://justlegends.link/Readyx-Twitch", "JL.png", True)
+	FileInstall, LA.png, %TF%LA.png, 1
+	App_AddPartner("Löwenanteil", "https://go.pingup.de/LoeweReadyX", "LA.png", True)
 	FileInstall, SO.png, %TF%SO.png, 1
+	App_AddPartner("Saturo", "https://www.Saturo.com/readyx", "SO.png", True)
+	FileInstall, ST.png, %TF%ST.png, 1
+	App_AddPartner("StreamerMerch", "https://www.streamermerch.de/readyx", "ST.png", True)
 	; App_AddSource(streamer, platform, channel, rss, status)
 	FileInstall, Twitch.png, %TF%Twitch.png, 1
 	FileInstall, nTwitch.png, %TF%nTwitch.png, 1
