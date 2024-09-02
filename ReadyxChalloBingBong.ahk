@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20240114180047
+Global AppVersion := 20240902181017
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -162,11 +162,11 @@ App_Inizial() {
 	(!DEV) ? App_SplashScreen()
 	App_CheckUpdate()
 	App_UpdateSource()
-	; App_AddPartner(p, url, status)
-	FileInstall, JL.png, %TF%JL.png, 1
-	App_AddPartner("Just Legends", "https://justlegends.link/Readyx-Twitch", "JL.png", True)
+	App_AddPartner(p, url, status)
+	FileInstall, H.png, %TF%H.png, 1
+	App_AddPartner("Holy", "https://weareholy.com/Readyx", "H.png", True)
 	FileInstall, LA.png, %TF%LA.png, 1
-	App_AddPartner("Löwenanteil", "https://go.pingup.de/LoeweReadyX", "LA.png", True)
+	App_AddPartner("Löwenanteil", "https://go.pingup.de/LoeweReadyX", "LA.png", False)
 	FileInstall, MS.png, %TF%MS.png, 1
 	App_AddPartner("Memo´s Stickerei", "https://www.memos-stickerei.de/collections/readyx", "MS.png", True)
 	FileInstall, SO.png, %TF%SO.png, 1
