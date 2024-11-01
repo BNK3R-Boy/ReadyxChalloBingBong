@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20241003145038
+Global AppVersion := 20241101150801
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -169,10 +169,15 @@ App_Inizial() {
 	App_AddPartner("Koro", "https://go.pingup.de/KoRoxReadyx", "KR.png", True)
 	FileInstall, MS.png, %TF%MS.png, 1
 	App_AddPartner("Memo´s Stickerei", "https://www.memos-stickerei.de/collections/readyx", "MS.png", True)
+	FileInstall, PCHM.png, %TF%PCHM.png, 1
+	App_AddPartner("PCHM", "https://pchm.de/ReadyX", "PCHM.png", True)
 	FileInstall, SO.png, %TF%SO.png, 1
 	App_AddPartner("Saturo", "https://www.Saturo.com/readyx", "SO.png", True)
 	FileInstall, ST.png, %TF%ST.png, 1
 	App_AddPartner("StreamerMerch", "https://www.streamermerch.de/readyx", "ST.png", True)
+	; FileInstall, HK.png, %TF%HK.png, 1
+	; App_AddPartner("Holz", "https://pchm.de/ReadyX", "PCHM.png", false)
+	
 	; App_AddSource(streamer, platform, channel, rss, status)
 	FileInstall, Twitch.png, %TF%Twitch.png, 1
 	FileInstall, nTwitch.png, %TF%nTwitch.png, 1
