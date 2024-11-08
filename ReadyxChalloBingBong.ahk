@@ -146,6 +146,7 @@ App_CheckUpdate(m = 0) {
 		IfMsgBox Yes
 		{
 		    Menu_OpenLink("", "", "", dlGitHub)
+			Sleep, 333
 			FileRemoveDir, %TF%, 1
 		    ExitApp
 		}
@@ -163,6 +164,8 @@ App_Inizial() {
 	App_CheckUpdate()
 	App_UpdateSource()
 	App_AddPartner(p, url, status)
+	FileInstall, Hk.png, %TF%Hk.png, 1
+	App_AddPartner("Holzkern", "https://go.pingup.de/ReadyxHolzkern", "Hk.png", True)
 	FileInstall, H.png, %TF%H.png, 1
 	App_AddPartner("Holy", "https://weareholy.com/Readyx", "H.png", True)
 	FileInstall, KR.png, %TF%KR.png, 1
@@ -175,8 +178,6 @@ App_Inizial() {
 	App_AddPartner("Saturo", "https://www.Saturo.com/readyx", "SO.png", True)
 	FileInstall, ST.png, %TF%ST.png, 1
 	App_AddPartner("StreamerMerch", "https://www.streamermerch.de/readyx", "ST.png", True)
-	FileInstall, Hk.png, %TF%Hk.png, 1
-	App_AddPartner("Holzkern", "https://go.pingup.de/ReadyxHolzkern", "Hk.png", True)
 	
 	; App_AddSource(streamer, platform, channel, rss, status)
 	FileInstall, Twitch.png, %TF%Twitch.png, 1
