@@ -23,7 +23,7 @@ InfoText =
 Global AppName := "ReadyxChalloBingBong"
 Global pgGitHub := "https://bnk3r-boy.github.io/" . AppName . "/"
 Global dlGitHub := "https://github.com/BNK3R-Boy/ReadyxChalloBingBong/raw/main/ReadyxChalloBingBong.exe"
-Global AppVersion := 20241108224421
+Global AppVersion := 20241110223436
 Global AppTooltip := AppName
 Global TF := A_Temp . "\" . AppName . "\"
 Global DEV := !A_Iscompiled
@@ -146,8 +146,8 @@ App_CheckUpdate(m = 0) {
 		IfMsgBox Yes
 		{
 		    Menu_OpenLink("", "", "", dlGitHub)
-			Sleep, 333
 			FileRemoveDir, %TF%, 1
+			Sleep, 333
 		    ExitApp
 		}
 		Return
@@ -164,10 +164,10 @@ App_Inizial() {
 	App_CheckUpdate()
 	App_UpdateSource()
 	App_AddPartner(p, url, status)
-	FileInstall, Hk.png, %TF%Hk.png, 1
-	App_AddPartner("Holzkern", "https://go.pingup.de/ReadyxHolzkern", "Hk.png", True)
 	FileInstall, H.png, %TF%H.png, 1
 	App_AddPartner("Holy", "https://weareholy.com/Readyx", "H.png", True)
+	FileInstall, Hk.png, %TF%Hk.png, 1
+	App_AddPartner("Holzkern", "https://go.pingup.de/ReadyxHolzkern", "Hk.png", True)
 	FileInstall, KR.png, %TF%KR.png, 1
 	App_AddPartner("Koro", "https://go.pingup.de/KoRoxReadyx", "KR.png", True)
 	FileInstall, MS.png, %TF%MS.png, 1
