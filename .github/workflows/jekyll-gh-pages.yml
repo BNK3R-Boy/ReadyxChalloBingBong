@@ -37,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4  # Using the correct version
         with:
-          name: jekyll-site-artifact  # This is the name of the uploaded artifact
+          name: jekyll-site-artifact  # Name of the artifact
           path: ./_site  # Path to the folder containing the built site
 
   # Deployment job
@@ -46,7 +46,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build  # Ensures that the build job is completed before deployment
+    needs: build  # Ensures the build job is completed before deployment
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4  # Using the correct version
@@ -56,4 +56,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          artifact_name: jekyll-site-artifact  # Correct artifact name to use during deployment
+          artifact_path: ./_site  # Explicit path to the artifact folder
+
