@@ -49,7 +49,7 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v2  # Download the artifact for deployment
+        uses: actions/download-artifact@v3  # Updated to v3
         with:
           name: jekyll-site-artifact  # Must match the artifact name from the build step
       - name: Deploy to GitHub Pages
