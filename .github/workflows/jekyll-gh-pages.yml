@@ -36,6 +36,9 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-artifact@v4  # Updated to v4
+        with:
+          name: jekyll-site-artifact  # Name for the artifact
+          path: ./_site  # Path to the folder containing the built site
 
   # Deployment job
   deploy:
