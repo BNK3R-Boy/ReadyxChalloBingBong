@@ -35,11 +35,11 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Upload static files as artifact
-        id: deployment
-        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: build_outputs_folder/
+          name: github-pages
+          path: ./_site
 
   deploy:
     environment:
