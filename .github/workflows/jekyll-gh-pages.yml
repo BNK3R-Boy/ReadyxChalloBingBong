@@ -48,6 +48,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2  # Download the artifact for deployment
+        with:
+          name: jekyll-site-artifact  # Must match the artifact name from the build step
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
