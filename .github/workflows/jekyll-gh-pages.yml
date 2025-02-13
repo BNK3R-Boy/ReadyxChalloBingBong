@@ -35,9 +35,9 @@ jobs:
           source: ./page/
           destination: ./_site
       - name: Upload artifact
-        uses: actions/upload-artifact@v4  # Updated to v4
+        uses: actions/upload-artifact@v4  # Using the correct version
         with:
-          name: jekyll-site-artifact  # Name for the artifact
+          name: jekyll-site-artifact  # This is the name of the uploaded artifact
           path: ./_site  # Path to the folder containing the built site
 
   # Deployment job
@@ -49,9 +49,9 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v4  # Updated to v4
+        uses: actions/download-artifact@v4  # Using the correct version
         with:
-          name: jekyll-site-artifact  # Must match the artifact name from the build step
+          name: jekyll-site-artifact  # The name of the artifact uploaded in the build step
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
